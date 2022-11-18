@@ -11,11 +11,12 @@
 
 
 
-
 # options overview:
 
-
 # -s -> product output with an appropriate header and footer
+
+
+mkdir -p output
 # enabled by default for pdf,epub,epub3,fb2,docx,odt
 pandoc md/test-format.md --pdf-engine=weasyprint -o output/test-format.pdf
 # pandoc [file-name].md --pdf-engine=weasyprint -o [file-name].pdf

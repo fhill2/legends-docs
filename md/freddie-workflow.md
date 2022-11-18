@@ -1,25 +1,3 @@
-this document tool must
-
-TODO:
-
-- [] be able to convert to pdf and html from markdown, with all the features listed in this todo section.
-
-allows this formatting:
-
-- tables
-- [] footnotes
-- image - with citation and description below
-
-other additional helpful features:
-image with footer and citation note below it
-colored headings
-table of contents - with clickable links
-automatically generated footnote list for footer
-
-live updating html renderer view while writing - annoying having to convert to see results.
-
-Discuss with team: do we need anything more advanced than footnotes?
-
 ## Here is an example of a citation
 
 Why not use rST?
