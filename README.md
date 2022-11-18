@@ -46,21 +46,21 @@ weasyprint
 
 ## TODO
 
-- [] be able to convert to pdf and html from markdown, with all the features listed in this section.
+- [ ] be able to convert to pdf and html from markdown, with all the features listed in this section.
 
 tests if this formatting is working:
 
-- [] tables
-- [] footnotes
-- [] image - with citation and description below
+- [ ] tables
+- [ ] footnotes
+- [ ] image - with citation and description below
 
 other additional helpful features:
 
-- [] image with footer and
-- [] colored headings - css styling working
-- [] auto generated table of contents - with clickable links
-- [] automatically generated footnote list for footer
-- [] live updating html renderer view while writing - annoying having to convert to see results. This is possible by changing the renderer in markdown editors settings (have not checked vscode previewer).
+- [ ] image with footer and
+- [ ] colored headings - css styling working
+- [ ] auto generated table of contents - with clickable links
+- [ ] automatically generated footnote list for footer
+- [ ] live updating html renderer view while writing - annoying having to convert to see results. This is possible by changing the renderer in markdown editors settings (have not checked vscode previewer).
 
 ## Other stuff
 
