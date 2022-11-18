@@ -13,11 +13,13 @@
 #
 # ============================================================================
 
-SOURCES := $(shell find src -type f -name '*.md')
-TARGETS := $(patsubst src/%.md,docs/%.html,$(SOURCES))
+STARTERS_SOURCES := $(shell find src/starters -type f -name '*.md')
+STARTERS_TARGETS := $(patsubst src/%.md,docs/%.html,$(STARTERS_SOURCES))
 
 .PHONY: all
-all: docs/.nojekyll $(TARGETS)
+all: $(STARTERS_SOURCES)
+	tools/build_report.sh "docs/report.html"
+	mkdir -p docs && cp -vr public/* docs
 
 .PHONY: clean
 clean:
@@ -27,11 +29,11 @@ clean:
 watch:
 	./tools/serve.sh --watch
 
-docs/.nojekyll: $(wildcard public/*) public/.nojekyll
-	rm -vrf docs && mkdir -p docs && cp -vr public/.nojekyll public/* docs
-
-.PHONY: docs
-docs: docs/.nojekyll
+# docs/.nojekyll: $(wildcard public/*) public/.nojekyll
+# 	rm -vrf docs && mkdir -p docs && cp -vr public/.nojekyll public/* docs
+#
+# .PHONY: docs
+# docs: docs/.nojekyll
 
 # Generalized rule: how to build a .html file from each .md
 # Note: you will need pandoc 2 or greater for this to work

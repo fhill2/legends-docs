@@ -20,10 +20,19 @@ the document generation will not touch / look inside the folder.
 
 all these markdown files will be merged before pandoc is executed and the HTML is generated.
 
-`tests/`
+`public/`
+assets used in / for the documentation
+`make` copies these to docs folder
 
-Im making sure the conversion to HTML & PDF works correctly here.
-Once i've tested the features, I make changes to the conversion scripts.
+`docs/`
+read only - dont modify anything in here
+
+`src/`
+all markdown files for pandoc to process into docs/
+
+## Usage
+
+run `make` - all generated files are under `docs/starter` `docs/report` `docs/pdf`
 
 ## Conversion Process
 
