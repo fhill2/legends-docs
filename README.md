@@ -26,3 +26,8 @@ I found it is easier to keep the documentation as a docs-as-code approach, in th
 
 I'm going to write out all improvements to this workflow as I make them, incase we want to include it in the project planning section of the midterm writeup.
 Further notes here: doc/freddie-workflow.md
+
+
+dependency list so far:
+pandoc
+wkhtmltopdf

@@ -1,11 +1,18 @@
-This file needs to include:
-tables
-image with footer and citation note below it
-citations inline with the text, linking to a footer
-colored headings
-table of contents - with clickable links
-automatically generated citation list for footer
 
 
 
-Here is an example of a citation
+# Footnotes
+
+footnotes are simple citations.
+
+Here is a footnote reference,[^1]
+
+clicking the reference should navigate the pdf reader to the reference.
+
+all footnotes should be automatically added into the appendix as list-style footnotes.
+
+---
+
+### References
+
+[^1]: Here is the footnote.
