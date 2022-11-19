@@ -13,13 +13,12 @@ fi
 dest_dir="$(dirname "$dest")"
 mkdir -p "$dest_dir"
 css_rel_path="$(realpath docs/css/ --relative-to $dest_dir)"
-
-
 PANDOC_COMMON_ARGS=(
   --template=template
-  --css="$css_rel_path/theme.css"
-  --css="$css_rel_path/skylighting-solarized-theme.css"
   --to html5+smart
   --toc
   --wrap=none
+  --css="$css_rel_path/report.css"
+  # --css="$css_rel_path/theme.css"
+  # --css="$css_rel_path/skylighting-solarized-theme.css"
 )
