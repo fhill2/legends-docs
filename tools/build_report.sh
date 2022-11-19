@@ -1,16 +1,22 @@
 #!/usr/bin/env bash
 
-dest="${1:-}"
+# dest="${1:-}"
 
-source $PWD/tools/build_shared.sh
+echo "=== GENERATING REPORT ==="
 
-files=(
-src/report/requirements.md
-src/report/specifications.md
-)
+# put me at git root
+cd "$(git rev-parse --show-toplevel)" || exit 1
 
-cat "${files[@]}" | pandoc \
+source "$PWD/tools/build_shared.sh"
+
+# files=(
+# src/report/requirements.md
+# src/report/specifications.md
+# )
+
+
+cat "$@" | pandoc \
     "${PANDOC_COMMON_ARGS[@]}" \
-    --output "$dest"
+    --output "docs/report.html"
 
 

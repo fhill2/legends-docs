@@ -1,43 +1,41 @@
-#
-# Author: Jake Zimmerman <jake@zimmerman.io>
-#
-# ===== Usage ================================================================
-#
-# make                  Prepare docs/ folder (all markdown & assets)
-# make docs/index.html  Recompile just docs/index.html
-#
-# make watch            Start a local HTTP server and rebuild on changes
-# PORT=4242 make watch  Like above, but use port 4242
-#
-# make clean            Delete all generated files
-#
-# ============================================================================
-
 STARTERS_SOURCES := $(shell find src/starters -type f -name '*.md')
-STARTERS_TARGETS := $(patsubst src/%.md,docs/%.html,$(STARTERS_SOURCES))
+STARTERS_TARGETS := $(patsubst src/starters/%.md,docs/starters/%.html,$(STARTERS_SOURCES))
 
-.PHONY: all
-all: $(STARTERS_SOURCES)
-	tools/build_report.sh "docs/report.html"
-	mkdir -p docs && cp -vr public/* docs
+# $(error   STARTERS_SOURCES is $(STARTERS_SOURCES))
+# $(error   STARTERS_TARGETS is $(STARTERS_TARGETS))
+
+all: assets docs/report.html $(STARTERS_TARGETS)
+
+
+SRC_ASSETS := $(shell find assets -type f)
+DST_ASSETS := $(patsubst assets/%,docs/%,$(SRC_ASSETS))
+docs/% : assets/%
+		@mkdir -p "$(dir $@)"
+		cp "$<" "$@"
+# .PHONY: assets
+assets: $(DST_ASSETS)
+
+
+
+SRC_REPORT := $(shell find src/report -type f -name '*.md')
+# DST_REPORT := $(patsubst assets/%,docs/%,$(SRC_ASSETS))
+# .PHONY: docs/report.html
+docs/report.html: $(SRC_REPORT)
+	tools/build_report.sh $(SRC_REPORT)
+
 
 .PHONY: clean
 clean:
 	rm -rf docs
 
-.PHONY: watch
-watch:
-	./tools/serve.sh --watch
 
-# docs/.nojekyll: $(wildcard public/*) public/.nojekyll
-# 	rm -vrf docs && mkdir -p docs && cp -vr public/.nojekyll public/* docs
-#
-# .PHONY: docs
-# docs: docs/.nojekyll
+IN = $(wildcard src/starters/*.md)
+OUT = $(subst src/starters/,docs/starters,$(IN))
 
-# Generalized rule: how to build a .html file from each .md
-# Note: you will need pandoc 2 or greater for this to work
-docs/%.html: src/%.md template.html5 Makefile tools/build.sh
+docs/starters/%.html: src/starters/%.md
+	# cp $< $@
 	tools/build.sh "$<" "$@"
+
+default:  $(OUT)
 
 
