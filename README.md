@@ -62,3 +62,24 @@ codebrain export command:
 ```bash
 pandoc --defaults _codebraid_preview.yml -o market-research.html market-research.md
 ```
+
+#### Codebrain Standalone
+
+pandoc outputs the html file next to the markdown file in docs/
+
+```bash
+npm install # installs live-server
+
+# executes `node tools/server.js`
+# watches all markdown files inside docs/ for changes and executes pandoc if changed
+npm run dev
+```
+
+after running `npm run dev` the browser will open and you can open any .html file inside the folder
+when editing docs/file.md in vscode and saving, docs/file.html should update immediately showing the changes.
+let me know if this is not the case.
+
+#### Codebrain Standlone Considerations
+
+all images, tables are set to center on the page for now.
+

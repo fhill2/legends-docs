@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>tests_codebrain</title>
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <link rel="stylesheet" href="assets/css/theme.css" />
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<h1 id="images-tables-and-captioned-code-blocks">Images, tables, and
+captioned code blocks</h1>
+<p>Pandoc Markdown has special syntax for images and tables, and their
+captions. For example:</p>
+<figure>
+<img src="assets/surveys-jupyter/11501/league-reddit.svg"
+style="color: red; margin: auto; object-position: left top;"
+alt="Figure X: When did you start playing League / using r/leagueoflegends? - Reddit Survey 11501 Participants" />
+<figcaption aria-hidden="true"><strong>Figure X:</strong> When did you
+start playing League / using r/leagueoflegends? - <a
+href="#surveys">Reddit Survey 11501 Participants</a></figcaption>
+</figure>
+<p>Note how the image’s <code>alt</code> text became the caption. With
+tables, the syntax is slightly different:</p>
+<table>
+<caption>This is the caption.</caption>
+<thead>
+<tr class="header">
+<th><strong>Column 1</strong></th>
+<th><strong>Column 2</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>This is some text.</td>
+<td>This is some text.</td>
+</tr>
+<tr class="even">
+<td>This is some text.</td>
+<td>This is some text.</td>
+</tr>
+</tbody>
+</table>
+<p>On top of the syntax Pandoc Markdown provides, this theme supports
+attaching captions to code blocks by wrapping the code block in a
+<code>&lt;figure&gt;</code> tag.</p>
+</body>
+</html>

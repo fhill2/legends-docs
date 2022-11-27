@@ -1,120 +1,146 @@
-html, body {
-font-family: 'Liberation Serif';
-  font-size: var(--markdown-font-size, 14px);
-  padding: 0 26px;
-  line-height: var(--markdown-line-height, 22px);
-  word-wrap: break-word;
+:root {
+
+  --figcaption-code-font-size: 13px;
+  --line-height: 26px;
+  --color-text-secondary: #637282;
+  --color-table-heading: #f3f3fb;
+  --color-border-heavy: #ccccd4;
+  --figcaption-gap: 6px;
+  --captioned-figure-gap: 10px;
+  --figcaption-line-height: 21px;
+  --figcaption-font-size: 15px;
+}
+
+
+/* https://dev.to/bowmanjd/python-pdf-generation-from-html-with-weasyprint-538h */
+
+@media print {
+  a::after {
+    content: " (" attr(href) ") ";
+  }
+  pre {
+    white-space: pre-wrap;
+  }
+  @page {
+    margin: 0.75in;
+    size: Letter;
+    @top-right {
+      content: counter(page);
+    }
+  }
+  @page :first {
+    @top-right {
+      content: "";
+    }
+  }
+}
+
+/* not sure why this does not apply if below body{} */
+
+figure {
+  text-align: center;
+}
+
+/* figcaption { */
+/*   font-size: var(--figcaption-font-size); */
+/*   line-height: var(--figcaption-line-height); */
+/*   font-style: italic; */
+/*   text-align: center; */
+/* } */
+
+/* figcaption = image captions, caption = table captions */
+figcaption, caption {
+  caption-side: bottom;
+  /* margin-top: var(--figcaption-gap); */
+  /* margin-bottom: calc(var(--captioned-figure-gap) - var(--line-height)); */
+  /* margin-bottom: 40px; */
+  /* margin-bottom: 25px; */
+  font-size: var(--figcaption-font-size);
+  line-height: var(--figcaption-line-height);
+  font-style: italic;
+  text-align: center;
+
+  /* color: var(--color-text-secondary); */
+}
+
+caption {
+  margin-top: 7px;
+  margin-bottom: 5px;
 }
 
 body {
-  padding-top: 1em;
+  font-family: 'Arial';
+  font-size: 17px;
+  /* fixed width for pdf output*/
+  width: 960px;
+  margin: auto;
 }
 
-/* Reset margin top for elements */
-h1, h2, h3, h4, h5, h6,
-p, ol, ul, pre {
-  margin-top: 0;
-}
+/* Use to create ful width images */
+/* img { */
+/*   width: 100%; */
+/*   display: block; */
+/* } */
 
-h2, h3, h4, h5, h6 {
-  font-weight: normal;
-  margin-bottom: 0.2em;
-}
-ul ul,
-ul ol,
-ol ul,
-ol ol {
-	margin-bottom: 0;
-}
 
-img {
-	max-width: 100%;
-	max-height: 100%;
-}
 
-a {
-	text-decoration: none;
-}
 
-a:hover {
-	text-decoration: underline;
-}
 
-a:focus,
-input:focus,
-select:focus,
-textarea:focus {
-	outline: 1px solid -webkit-focus-ring-color;
-	outline-offset: -1px;
-}
 
-p {
-	margin-bottom: 0.7em;
-}
 
-ul,
-ol {
-	margin-bottom: 0.7em;
-}
-
-hr {
-	border: 0;
-	height: 2px;
-	border-bottom: 2px solid;
-}
-
-h1 {
-	padding-bottom: 0.3em;
-	line-height: 1.2;
-	border-bottom-width: 1px;
-	border-bottom-style: solid;
-	font-weight: normal;
-}
-
+/* ----- Tables -------------------------------------------------------- */
 table {
-	border-collapse: collapse;
-	margin-bottom: 0.7em;
+  -webkit-font-feature-settings: "tnum" 1;
+  font-feature-settings: "tnum" 1;
+
+  font-size: var(--table-font-size);
+  line-height: var(--table-line-height);
+
+  border-spacing: 0;
+  border-collapse: collapse;
+  border: 1px solid var(--color-border-heavy);
+
+  width: 100%;
+
+  /* Solid background to occlude table of contents */
+  background-color: var(--background-color);
 }
 
-th {
-	text-align: left;
-	border-bottom: 1px solid;
+@media print {
+  table {
+    background-color: initial;
+  }
 }
 
-th,
-td {
-	padding: 5px 10px;
+table pre code {
+  font-size: inherit;
 }
 
-table > tbody > tr + tr > td {
-	border-top: 1px solid;
+.wide table {
+  /* Put this in front of the table of contents */
+  transform: translateZ(0px);
 }
 
-blockquote {
-	margin: 0 7px 0 5px;
-	padding: 0 16px 0 10px;
-	border-left-width: 5px;
-	border-left-style: solid;
+table td, table th {
+  border: 1px solid var(--color-border-heavy);
+  padding: 5px 8px;
+  min-width: 100px;
 }
+table th {
+  background-color: var(--color-table-heading);
+}
+/**/
 
-code {
-	font-family: var(--vscode-editor-font-family, "SF Mono", Monaco, Menlo, Consolas, "Ubuntu Mono", "Liberation Mono", "DejaVu Sans Mono", "Courier New", monospace);
-	font-size: 1em;
-	line-height: 1.357em;
-}
 
-body.wordWrap pre {
-	white-space: pre-wrap;
-}
+/* .left-align-caption table > caption { */
+/*   text-align: left; */
+/* } */
 
-pre:not(.hljs),
-pre.hljs code > div {
-	padding: 16px;
-	border-radius: 3px;
-	overflow: auto;
-}
+/* table > caption code { */
+/*   font-size: var(--figcaption-code-font-size); */
+/* } */
 
-pre code {
-	color: var(--vscode-editor-foreground);
-	tab-size: 4;
-}
+
+
+
+
