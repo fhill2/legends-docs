@@ -196,8 +196,6 @@ If we charged, th
 
 This really shows the profitability of free to play games such as League of Legends.
 
-Also,
-
 Also worth mentioning is that League of Legends
 
 . So providing that actually provides a competitive advantage to
