@@ -13,12 +13,6 @@ You can also filter this information by Region. Here is the website : https://ww
 
 Also I found this article with more generic stats that may be useful https://activeplayer.io/league-of-legends/
 
-### TODO
-
-write2345689
-
-In my opinion most of the graphs take up too much space and can be recreated to show the same data in a condensed version.
-
 #### 2022 Survey List
 
 ### ========== REPORT BELOW HERE =========
@@ -39,30 +33,26 @@ This is due to a time period whereby a player has started playing but hasn't dis
 
 Unfortunately Riot Games does not publish this data without it...
 
-@import "assets/surveys-jupyter/11501/league-reddit.svg" { alt="**Figure X:** When did you start playing League / using r/leagueoflegends? - [Reddit Survey 11501 Participants](#surveys)", width="491", height="369"}
+![**Figure X:** When did you start playing League / using r/leagueoflegends?[^1]](assets/surveys-jupyter/11501/league-reddit.svg)
 
-![**Figure X:** When did you start playing League / using r/leagueoflegends? - [Reddit Survey 11501 Participants](#surveys)](assets/surveys-jupyter/11501/league-reddit.svg){style="color: red; margin: auto; object-position: left top;"}
-
-Also, this survey does not take China into account, as a large playerbase
+Also, this survey does not take China into account, as a large playerbase.
 
 ## General Demographics
 
-@import "assets/surveys-jupyter/11501/age.svg" {title="Gender" alt="[June 2022 League of Legends Reddit Survey - 5190 Sample Size](#surveys)", width="491", height="369" }
+![**Figure X:** Age range of League of Legends playerbase[^2]](assets/surveys-jupyter/11501/age.svg)
 
-@import "assets/surveys-jupyter/11501/gender.svg" {title="Gender" alt="[June 2022 League of Legends Reddit Survey - 5190 Sample Size](#surveys)", width="491", height="369"}
+![**Figure X:** What is your gender?[^3]](assets/surveys-jupyter/11501/gender.svg)
 
-@import "assets/surveys-jupyter/11501/region.svg" { alt="**Figure X:** What country are you from? - [Reddit Survey 11501 Participants](#surveys)", width="491", height="369"}
+![**Figure X:** What country are you from?[^4]](assets/surveys-jupyter/11501/region.svg)
 
-@import "assets/surveys-jupyter/11501/language.svg" {alt="[November 2022 League of Legends Reddit Survey - 11501 Sample Size](#surveys)", width="491", height="369"}
+![**Figure X:** What is your native language?[^5]](assets/surveys-jupyter/11501/language.svg)
 
 - guages what languages to support first for the app
 
 Note this chart is most likely affected by the reddit server mainly being an english speaking server.
 Asian countries will be using their own networks to communicate.
 
-@import "assets/surveys-jupyter/11501/servers.svg" {alt="[November 2022 League of Legends Reddit Survey - 11501 Sample Size](#surveys)", width="491", height="369" }
-
-![Figure X: linking to a footnote[^1]](assets/surveys-jupyter/11501/servers.svg){width=60% height=60%}
+![**Figure X:** What server do you mainly play on?[^6]](assets/surveys-jupyter/11501/servers.svg)
 
 ## Player & User Skill
 
@@ -71,17 +61,15 @@ the ratio of beginner players to professional / experienced players.
 
 - we dont need to provide game specific knowledge in our "walkthrough" feature of our app, as only x amount of players have 1% of experience.
 
-Figure X shows when most league of legends players started playing 10 years ago, and new players have gradually decreased since then.
-
-@import "assets/surveys-jupyter/11501/playtime-history.svg" {alt="[November 2022 League of Legends Reddit Survey - 11501 Sample Size](#surveys)", width="491", height="369"}
+as shwon in Figure X when most league of legends players started playing 10 years ago, and new players have gradually decreased since then.
 
 Figure X shows most League of Legends players play only 1-2 games a week, with only 12% playing more than 5 games a day (2 hours playtime)
 
-@import "assets/surveys-jupyter/6500/games-played-daily.svg" {alt="[June 2022 League of Legends Reddit Survey - 6500 Sample Size](#surveys)", width="491", height="369"}
+![**Figure X:** The amount of games played daily by each survey participant[^7]](assets/surveys-jupyter/6500/games-played-daily.svg)
 
 ## Community
 
-@import "assets/surveys-jupyter/11501/friends.svg" {alt="[November 2022 League of Legends Reddit Survey - 11501 Sample Size](#surveys)", width="491", height="369"}
+![**Figure X:** Do you mostly play League with friends?[^8]](assets/surveys-jupyter/11501/friends.svg)
 
 Community influences:
 how effective a marketing strategy will be that focuses on people sharing with friends. (10% off recommend a friend).
@@ -99,13 +87,15 @@ a fully dedicated player plays league of legends and no other games.
 
 Figure X shows almost 50% of League of Legends players do not play any other games from Riot.
 
-@import "assets/surveys-jupyter/11501/exclusivity-riot.svg" {alt="[November 2022 League of Legends Reddit Survey - 11501 Sample Size](#surveys)", width="491", height="369"}
+![**Figure X:** Do you mostly play League with friends?[^8]](assets/surveys-jupyter/11501/friends.svg)
+
+![**Figure X:** What other games from Riot do you play regularly?[^9]](assets/surveys-jupyter/11501/exclusivity-riot.svg)
 
 If a player is exclusive to a game, it means once we have , they are more likely
 
 Figure Y shows 30% of players do not play any other non riot games.
 
-@import "assets/surveys-jupyter/11501/exclusivity-noriot.svg" {alt="[November 2022 League of Legends Reddit Survey - 11501 Sample Size](#surveys)", width="491", height="369"}
+![**Figure X:** What other non-Riot games do you play regularly?[^10]](assets/surveys-jupyter/11501/exclusivity-noriot.svg)
 
 As there are a lot of players who also play other games...
 
@@ -113,7 +103,7 @@ As there are a lot of players who also play other games...
 
 Figure X shows 38% of reddit play on another console/platform than PC.
 
-@import "assets/surveys-jupyter/11501/platform.svg" { alt="[November 2022 League of Legends Reddit Survey - 11501 Sample Size](#surveys)", width="491", height="369"}
+![**Figure X:** What other consoles do you play on?[^11]](assets/surveys-jupyter/11501/platform.svg)
 
 ### Platform Considerations
 
@@ -158,7 +148,7 @@ These metrics quantify game health (get metricsfor this):
 
 #### How optimistic are you about the future of League of Legends?
 
-@import "assets/surveys-jupyter/136/game-satisfaction-optimism.svg" {alt="[September 2022 League of Legends Reddit Survey - 136 Sample Size](#surveys)", width="491", height="369"}
+![**Figure X:** How optimistic are you about the future of League of Legends?[^12]](assets/surveys-jupyter/136/game-satisfaction-optimism.svg)
 
 Despite not playing as much, people still enjoy it very much.
 
@@ -166,9 +156,9 @@ Figure X shows players, when players were asked how much they agreed with the st
 
 Most users either enjoy it only slightly or a lot more, while the overall agreement is marginally positive with an average score of 5.2.
 
-@import "assets/surveys-jupyter/11501/satisfaction.svg" {alt="[November 2022 League of Legends Reddit Survey - 11501 Sample Size](#surveys)", width="491", height="369"}
+![**Figure X:**I enjoy playing vs enjoying playing more than a few years ago?[^13]](assets/surveys-jupyter/11501/satisfaction.svg)
 
-@import "assets/surveys-jupyter/11501/satisfaction-balanced.svg" {alt="[November 2022 League of Legends Reddit Survey - 11501 Sample Size](#surveys)", width="491", height="369"}
+![**Figure X:**LoL players asked - How happy are you with the balancing of the game?[^14]](assets/surveys-jupyter/11501/satisfaction-balanced.svg)
 
 ## Advertising / Marketing Strategy
 
@@ -186,7 +176,7 @@ Figure X shows League of Legends engagement across social media platforms.
 
 If running paid ads or campaigns on social media platforms. Twitter and Discord will be the best platforms to start.
 
-@import "assets/surveys-jupyter/11501/social-media.svg" {alt="[November 2022 League of Legends Reddit Survey - 11501 Sample Size](#surveys)", width="491", height="369"}
+![**Figure X:**What social media platforms do you use to follow and discuss League?[^15]](assets/surveys-jupyter/11501/social-media.svg)
 
 ## Monetisation Strategy
 
@@ -212,6 +202,8 @@ Also worth mentioning is that League of Legends
 
 . So providing that actually provides a competitive advantage to
 
+![**Figure X:**How much money have you approximately spent on League?[^16]](assets/surveys-jupyter/11501/player-money-investment.svg)
+
 @import "assets/surveys-jupyter/11501/player-money-investment.svg" {alt="[November 2022 League of Legends Reddit Survey - 11501 Sample Size](#surveys)", width="491", height="369"}
 
 ## Competitor Analysis
@@ -220,9 +212,11 @@ Also worth mentioning is that League of Legends
 
 ## Champion Popularity
 
-@import "assets/surveys/11501/champion-popularity.png" {alt="[November 2022 League of Legends Reddit Survey - 11501 Sample Size](#surveys)"}
+The app will initially support calculations for 3 out of the 162 playable champions in the game, Kai’sa, Ezreal and Ahri. These are the most popular champions played according to a r/league survey^[17]. Support for the rest will be gradually implemented, but not initially supported.
 
 ## Data Sources
+
+#### Surveys
 
 All data surveys are from the [League Of Legends Reddit forums](https://www.reddit.com/r/league/).
 
@@ -232,3 +226,21 @@ All data surveys are from the [League Of Legends Reddit forums](https://www.redd
 | June 2022      | 5190        | [Reddit Post](https://www.reddit.com/r/leagueoflegends/comments/vjq47h/who_is_the_most_popular_champion_take_the/) - [GDocs Results](https://docs.google.com/forms/d/e/1FAIpQLSe-9ihTaKFpSoL_rapmvj9cHzRtnJPpJ7jrNco-lHHXvr6hRQ/viewanalytics)                                 |
 | September 2022 | 136         | [Reddit Post](https://www.reddit.com/r/leagueoflegends/comments/xpqvvk/results_of_league_of_legends_survey/) - [GDocs Results](https://docs.google.com/presentation/d/13W1MWgd7RT9RGkmwYr7_zsP1W2p1ParS/edit#slide=id.p1)                                                      |
 | June 2022      | 6500        | [Reddit](https://www.reddit.com/r/lux/comments/v9l0eh/help_me_please_with_a_school_project_40_seconds/) - [Reddit](https://www.reddit.com/r/leagueoflegends/comments/vc79xr/here_are_the_results_of_the_survey_i_asked_you_to/) - [Imgur Results](https://imgur.com/a/CpmLG7Y) |
+
+[^1]: When did you start playing League / using r/leagueoflegends? - [r/league Reddit Survey - 11501 Participants](https://imgur.com/a/faxtpHx)
+[^2]: How old are you? - [r/league Reddit Survey - 11501 Participants](https://imgur.com/a/faxtpHx)
+[^3]: What is your gender? - [r/league Reddit Survey - 11501 Participants](https://imgur.com/a/faxtpHx)
+[^4]: What country are you from? - [r/league Reddit Survey - 11501 Participants](https://imgur.com/a/faxtpHx)
+[^5]: What is your native language? - [r/league Reddit Survey - 11501 Participants](https://imgur.com/a/faxtpHx)
+[^6]: What server do you mainly play on? - [r/league Reddit Survey - 11501 Participants](https://imgur.com/a/faxtpHx)
+[^7]: Amount of games played - [r/league Reddit Survey - 11501 Participants](https://imgur.com/a/faxtpHx)
+[^8]: I mostly play League with friends - [r/league Reddit Survey - 11501 Participants](https://imgur.com/a/faxtpHx)
+[^9]: What other games from Riot do you play regularly? - [r/league Reddit Survey - 11501 Participants](https://imgur.com/a/faxtpHx)
+[^10]: What other non-Riot games do you play regularly? - [r/league Reddit Survey - 11501 Participants](https://imgur.com/a/faxtpHx)
+[^11]: What other consoles do you play on? - [r/league Reddit Survey - 11501 Participants](https://imgur.com/a/faxtpHx)
+[^12]: How optimistic are you about the future of League of Legends? - [r/league Reddit Survey - 136 Participants](https://imgur.com/a/faxtpHx)
+[^13]: I enjoy playing League / I enjoy playing League more than a few years ago - [r/league Reddit Survey - 11501 Participants](https://imgur.com/a/faxtpHx)
+[^14]: On a scale from 1 to 10: How happy are you with the balancing of the game? - [r/league Reddit Survey - 11501 Participants](https://imgur.com/a/faxtpHx)
+[^15]: What social media platforms do you use to follow and discuss League? - [r/league Reddit Survey - 11501 Participants](https://imgur.com/a/faxtpHx)
+[^16]: How much money have you approximately spent on League? - [r/league Reddit Survey - 11501 Participants](https://imgur.com/a/faxtpHx)
+[^17]: What is your main champion? - [r/league Reddit Survey - 11501 Participants](https://imgur.com/a/faxtpHx)
