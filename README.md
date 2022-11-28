@@ -29,6 +29,8 @@ let me know if you encounter any errors when using it :)
 #### Codebrain Standlone Considerations
 
 all images, tables are set to center on the page for now.
+page breaks before every h1 heading.
+no page breaks before h2 headings so you can decide if you want a page break there.
 
 ### TODO:
 

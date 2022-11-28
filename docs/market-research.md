@@ -45,7 +45,7 @@ Asian countries will be using their own networks to communicate.
 
 ![**Figure X:** What server do you mainly play on?[^6]](assets/surveys-jupyter/11501/servers.svg){ width=70% height=70% }
 
-## Player & User Skill
+## Player & User Skill { style="break-before:always;"}
 
 This data on the player's skills:
 the ratio of beginner players to professional / experienced players.
@@ -90,7 +90,7 @@ Figure Y shows 30% of players do not play any other non riot games.
 
 As there are a lot of players who also play other games.
 
-## Platform
+## Platform { style="break-before:always;"}
 
 Figure X shows 38% of reddit play on another console/platform than PC.
 
@@ -106,23 +106,7 @@ For players playing on Mobile, they will use our app with the mobile interface l
 
 For players playing on PC, they will use our app with the desktop interface layout...
 
----
-
-## The average League of Legend Player
-
-Below summarizes the average League of Legend player:
-
-- male, young, single, employed and educated.
-
-- has been playing for 10 years or longer
-
-- plays less than 2 hours per week
-
-Note, these summarisations have
-
-## Surveyers Summarry
-
-## Game Health
+## Game Health { style="break-before:always;"}
 
 get historic player count metrics and profits
 
@@ -151,7 +135,7 @@ Most users either enjoy it only slightly or a lot more, while the overall agreem
 
 ![**Figure X:**LoL players asked - How happy are you with the balancing of the game?[^14]](assets/surveys-jupyter/11501/satisfaction-balanced.svg){ width=70% height=70% }
 
-## Advertising / Marketing Strategy
+## Advertising / Marketing Strategy { style="break-before:always;"}
 
 By researching into the
 This data can be used when first advertising and placing ads, and in SEO, after the app has been developed, to more precisely target
@@ -169,7 +153,7 @@ If running paid ads or campaigns on social media platforms. Twitter and Discord 
 
 ![**Figure X:**What social media platforms do you use to follow and discuss League?[^15]](assets/surveys-jupyter/11501/social-media.svg){ width=70% height=70% }
 
-## Monetisation Strategy
+## Monetisation Strategy { style="break-before:always;"}
 
 to recoup the costs of the development of the project, we can monetise the completed version of the app in 2 different ways:
 
@@ -193,11 +177,21 @@ Also worth mentioning is that League of Legends.
 
 ![**Figure X:**How much money have you approximately spent on League?[^16]](assets/surveys-jupyter/11501/player-money-investment.svg){ width=70% height=70% }
 
-## Competitor Analysis
+## Conclusion
 
-## In Game Research
+### The average League of Legend Player
 
-## Champion Popularity
+Below summarizes the average League of Legend player:
+
+- male, young, single, employed and educated.
+
+- has been playing for 10 years or longer
+
+- plays less than 2 hours per week
+
+Note, these summarisations have
+
+### Champion Popularity
 
 The app will initially support calculations for 3 out of the 162 playable champions in the game, Kai’sa, Ezreal and Ahri. These are the most popular champions played according to a r/league survey^[17]. Support for the rest will be gradually implemented, but not initially supported.
 
