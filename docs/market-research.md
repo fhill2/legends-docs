@@ -24,26 +24,26 @@ This is due to a time period whereby a player has started playing but hasn't dis
 
 Unfortunately Riot Games does not publish this data without it...
 
-![**Figure X:** When did you start playing League / using r/leagueoflegends?[^1]](assets/surveys-jupyter/11501/league-reddit.svg)
+![**Figure X:** When did you start playing League / using r/leagueoflegends?[^1]](assets/surveys-jupyter/11501/league-reddit.svg){ width=80% height=80% }
 
 Also, this survey does not take China into account, as a large playerbase.
 
 ## General Demographics
 
-![**Figure X:** Age range of League of Legends playerbase[^2]](assets/surveys-jupyter/11501/age.svg)
+![**Figure X:** Age range of League of Legends playerbase[^2]](assets/surveys-jupyter/11501/age.svg){ width=70% height=70% }
 
-![**Figure X:** What is your gender?[^3]](assets/surveys-jupyter/11501/gender.svg)
+![**Figure X:** What is your gender?[^3]](assets/surveys-jupyter/11501/gender.svg){ width=70% height=70% }
 
-![**Figure X:** What country are you from?[^4]](assets/surveys-jupyter/11501/region.svg)
+![**Figure X:** What country are you from?[^4]](assets/surveys-jupyter/11501/region.svg){ width=70% height=70% }
 
-![**Figure X:** What is your native language?[^5]](assets/surveys-jupyter/11501/language.svg)
+![**Figure X:** What is your native language?[^5]](assets/surveys-jupyter/11501/language.svg){ width=70% height=70% }
 
 - guages what languages to support first for the app
 
 Note this chart is most likely affected by the reddit server mainly being an english speaking server.
 Asian countries will be using their own networks to communicate.
 
-![**Figure X:** What server do you mainly play on?[^6]](assets/surveys-jupyter/11501/servers.svg)
+![**Figure X:** What server do you mainly play on?[^6]](assets/surveys-jupyter/11501/servers.svg){ width=70% height=70% }
 
 ## Player & User Skill
 
@@ -56,11 +56,11 @@ as shwon in Figure X when most league of legends players started playing 10 year
 
 Figure X shows most League of Legends players play only 1-2 games a week, with only 12% playing more than 5 games a day (2 hours playtime)
 
-![**Figure X:** The amount of games played daily by each survey participant[^7]](assets/surveys-jupyter/6500/games-played-daily.svg)
+![**Figure X:** The amount of games played daily by each survey participant[^7]](assets/surveys-jupyter/6500/games-played-daily.svg){ width=70% height=70% }
 
 ## Community
 
-![**Figure X:** Do you mostly play League with friends?[^8]](assets/surveys-jupyter/11501/friends.svg)
+![**Figure X:** Do you mostly play League with friends?[^8]](assets/surveys-jupyter/11501/friends.svg){ width=70% height=70% }
 
 Community influences:
 how effective a marketing strategy will be that focuses on people sharing with friends. (10% off recommend a friend).
@@ -78,15 +78,15 @@ a fully dedicated player plays league of legends and no other games.
 
 Figure X shows almost 50% of League of Legends players do not play any other games from Riot.
 
-![**Figure X:** Do you mostly play League with friends?[^8]](assets/surveys-jupyter/11501/friends.svg)
+![**Figure X:** Do you mostly play League with friends?[^8]](assets/surveys-jupyter/11501/friends.svg){ width=70% height=70% }
 
-![**Figure X:** What other games from Riot do you play regularly?[^9]](assets/surveys-jupyter/11501/exclusivity-riot.svg)
+![**Figure X:** What other games from Riot do you play regularly?[^9]](assets/surveys-jupyter/11501/exclusivity-riot.svg){ width=70% height=70% }
 
 If a player is exclusive to a game, it means once we have , they are more likely
 
 Figure Y shows 30% of players do not play any other non riot games.
 
-![**Figure X:** What other non-Riot games do you play regularly?[^10]](assets/surveys-jupyter/11501/exclusivity-noriot.svg)
+![**Figure X:** What other non-Riot games do you play regularly?[^10]](assets/surveys-jupyter/11501/exclusivity-noriot.svg){ width=70% height=70% }
 
 As there are a lot of players who also play other games.
 
@@ -94,7 +94,7 @@ As there are a lot of players who also play other games.
 
 Figure X shows 38% of reddit play on another console/platform than PC.
 
-![**Figure X:** What other consoles do you play on?[^11]](assets/surveys-jupyter/11501/platform.svg)
+![**Figure X:** What other consoles do you play on?[^11]](assets/surveys-jupyter/11501/platform.svg){ width=70% height=70% }
 
 ### Platform Considerations
 
@@ -139,7 +139,7 @@ These metrics quantify game health (get metricsfor this):
 
 #### How optimistic are you about the future of League of Legends?
 
-![**Figure X:** How optimistic are you about the future of League of Legends?[^12]](assets/surveys-jupyter/136/game-satisfaction-optimism.svg)
+![**Figure X:** How optimistic are you about the future of League of Legends?[^12]](assets/surveys-jupyter/136/game-satisfaction-optimism.svg){ width=70% height=70% }
 
 Despite not playing as much, people still enjoy it very much.
 
@@ -147,9 +147,9 @@ Figure X shows players, when players were asked how much they agreed with the st
 
 Most users either enjoy it only slightly or a lot more, while the overall agreement is marginally positive with an average score of 5.2.
 
-![**Figure X:**I enjoy playing vs enjoying playing more than a few years ago?[^13]](assets/surveys-jupyter/11501/satisfaction.svg)
+![**Figure X:**I enjoy playing vs enjoying playing more than a few years ago?[^13]](assets/surveys-jupyter/11501/satisfaction.svg){ width=80% height=80% }
 
-![**Figure X:**LoL players asked - How happy are you with the balancing of the game?[^14]](assets/surveys-jupyter/11501/satisfaction-balanced.svg)
+![**Figure X:**LoL players asked - How happy are you with the balancing of the game?[^14]](assets/surveys-jupyter/11501/satisfaction-balanced.svg){ width=70% height=70% }
 
 ## Advertising / Marketing Strategy
 
@@ -167,7 +167,7 @@ Figure X shows League of Legends engagement across social media platforms.
 
 If running paid ads or campaigns on social media platforms. Twitter and Discord will be the best platforms to start.
 
-![**Figure X:**What social media platforms do you use to follow and discuss League?[^15]](assets/surveys-jupyter/11501/social-media.svg)
+![**Figure X:**What social media platforms do you use to follow and discuss League?[^15]](assets/surveys-jupyter/11501/social-media.svg){ width=70% height=70% }
 
 ## Monetisation Strategy
 
@@ -191,7 +191,7 @@ Also worth mentioning is that League of Legends.
 
 . So providing that actually provides a competitive advantage to
 
-![**Figure X:**How much money have you approximately spent on League?[^16]](assets/surveys-jupyter/11501/player-money-investment.svg)
+![**Figure X:**How much money have you approximately spent on League?[^16]](assets/surveys-jupyter/11501/player-money-investment.svg){ width=70% height=70% }
 
 ## Competitor Analysis
 
