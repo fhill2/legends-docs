@@ -202,8 +202,6 @@ Also worth mentioning is that League of Legends
 
 ![**Figure X:**How much money have you approximately spent on League?[^16]](assets/surveys-jupyter/11501/player-money-investment.svg)
 
-@import "assets/surveys-jupyter/11501/player-money-investment.svg" {alt="[November 2022 League of Legends Reddit Survey - 11501 Sample Size](#surveys)", width="491", height="369"}
-
 ## Competitor Analysis
 
 ## In Game Research

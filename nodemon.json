@@ -1,6 +1,0 @@
-{
-  "events": {
-    "restart": "./tools/build.sh && cd docs/ && npm exec http-server"
-  }
-  "watch": ["docs/*.md"]
-}

@@ -1,71 +1,12 @@
-https://github.com/shd101wyy/vscode-markdown-preview-enhanced
+#### Standalone Markdown -> PDF+HTML Converter
 
-https://shd101wyy.github.io/markdown-preview-enhanced/#/
+## Lets do this for now
 
-https://marketplace.visualstudio.com/items?itemName=shd101wyy.markdown-preview-enhanced
+For now, lets collect all the files we have been working on into the `upload` folder. google docs, docx etc..
 
-mume is the markdown library powering the above vscode extension:
+Then, we can reformat them into markdown and move them over to `md` folder so they are included in the generation of the report.
 
-https://github.com/shd101wyy/mume
-
-# Documentation History - Changes
-
-bugs:
-
-- [] not fixed
-- [x] fixed
-- [?] workaround
-
-#### Try 1: Markdown Preview Enhanced vscode Extension
-
-- [x] if exporting to HTML it does not export unsaved changes to the HTML (reads from disk)
-
-- [x] if you get a laggy renderer viewport and the scrollbar is jittering, save the document.
-
-You can turn auto save on in vscode so you dont have to deal with the above
-
-- [?] exporting to pdf with pandoc through the markdown preview UI in vscode causes pandoc to error. this might be a linux only bug. im exporting in the terminal as a workaround.
-
-- [] decreasing image size and keeping alt text -> preview enhanced vscode renderer is only showing 1 or the other.
-
-- [] title as text with css instead of embedded -> setting preview enhanced to use the pandoc previewer. probably have to enabled some extensions.
-
-- [] adding pdf chapter page breaks with latex -> havent looked into this.
-
-- [?] - I probably can work around this - havent looked into it.
-
-#### Try 2: Codebrain vscode extension
-
-Im trying this instead because it is a live updating pandoc previewer - no other features included that might be causes all the issues above.
-
-- [x] - images alt text does not show as figure text in HTML output
-    pandoc extension 'implicit_figures' enables this. unfortunately this does not work with commonmark_x parser, therefore we have to use pandoc markdown parser which disables codebrain vscode preview renderers html scroll syncing.
-
-- [?] - cannot set font
-  relative font urls are not working without running a web server. this means the fonts defined in the stylesheets have to be installed if we want the same styling as the report in the codebrain vscode markdown renderer viewport.
-  another option is to use a web server + nodemon and not use this extension.
-
-Check Codebrain vscode extension:
-
-- [] auto toc generation
-- [] all footnotes at bottom
-- [] numbered sections
-- [] pdf page breaks
-
-```json
-// user-settings.json
-"codebraid.preview.pandoc.fromFormat": "markdown",
-```
-
-codebrain export command:
-
-```bash
-pandoc --defaults _codebraid_preview.yml -o market-research.html market-research.md
-```
-
-#### Codebrain Standalone
-
-pandoc outputs the html file next to the markdown file in docs/
+## Usage
 
 ```bash
 npm install # installs live-server
@@ -75,11 +16,43 @@ npm install # installs live-server
 npm run dev
 ```
 
-after running `npm run dev` the browser will open and you can open any .html file inside the folder
-when editing docs/file.md in vscode and saving, docs/file.html should update immediately showing the changes.
-let me know if this is not the case.
+after running `npm run dev` the browser should open
+
+when saving docs/file.md after editing, docs/file.html is generated and browser shows changes immediately (live-server)
+
+when saving docs/file.md after editing, docs/file.pdf is generated and browser has to be manually refreshed (if using the browsers built in pdf viewer)
+
+On every edit of a markdown file inside `docs/`, the doc generator will generate a master version of the report (final submission) `docs/report.html` and `docs/report.pdf` (not yet implemented)
+
+let me know if you encounter any errors when using it :)
 
 #### Codebrain Standlone Considerations
 
 all images, tables are set to center on the page for now.
 
+### TODO:
+
+create pandoc master:
+[] - auto build master html in addition to the individual md
+[] - numbered sections
+[] - auto generated toc
+[] - auto generated footnotes list (bottom of file)
+[] - correct pdf page breaks
+
+to fix:
+margin incorrect on pdf
+pdf not rendering footnotes
+
+## Repo Overview - Directories
+
+### `upload/`
+
+we store our files here so we can share them and add them to the report.
+
+the documentation generator does not touch or edit any files inside this folder.
+
+### `docs/`
+
+this folder is for the final content we are going to use in the report.
+
+the documentation generator outputs HTML and PDF files (for the file being edited) in the same directory as the markdown files.
