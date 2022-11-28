@@ -6,18 +6,9 @@ output:
 
 # Market Research
 
-#### Freddie Notes
-
-Pablo:
+add:
 You can also filter this information by Region. Here is the website : https://www.leagueofgraphs.com/rankings/rank-distribution
-
 Also I found this article with more generic stats that may be useful https://activeplayer.io/league-of-legends/
-
-#### 2022 Survey List
-
-### ========== REPORT BELOW HERE =========
-
-## Introduction
 
 ### Survey Data Processing
 
@@ -97,7 +88,7 @@ Figure Y shows 30% of players do not play any other non riot games.
 
 ![**Figure X:** What other non-Riot games do you play regularly?[^10]](assets/surveys-jupyter/11501/exclusivity-noriot.svg)
 
-As there are a lot of players who also play other games...
+As there are a lot of players who also play other games.
 
 ## Platform
 
@@ -113,7 +104,7 @@ For players playing on Playstation, Nintendo Switch, they might use our app thro
 
 For players playing on Mobile, they will use our app with the mobile interface layout.
 
-For players playing on PC, they will use our app with the desktop interface layout.
+For players playing on PC, they will use our app with the desktop interface layout...
 
 ---
 
@@ -196,7 +187,7 @@ If we charged, th
 
 This really shows the profitability of free to play games such as League of Legends.
 
-Also worth mentioning is that League of Legends
+Also worth mentioning is that League of Legends.
 
 . So providing that actually provides a competitive advantage to
 

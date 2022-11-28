@@ -22,9 +22,9 @@
     white-space: pre-wrap;
   }
   @page {
-    margin: 0.75in;
-    size: Letter;
-    @top-right {
+    size: A4 portrait; /* can use also 'landscape' for orientation */
+    margin: 100px 1cm 150px 1cm;
+    @bottom-right {
       content: counter(page);
     }
   }
@@ -33,6 +33,11 @@
       content: "";
     }
   }
+}
+
+html {
+  /* 62.5% font size trick */
+font-size: 62.5%;
 }
 
 /* not sure why this does not apply if below body{} */
@@ -70,11 +75,31 @@ caption {
 
 body {
   font-family: 'Arial';
-  font-size: 17px;
-  /* fixed width for pdf output*/
-  width: 960px;
-  margin: auto;
+  font-size: 1.5rem;
 }
+
+
+@media screen {
+  body {
+    margin: auto;
+    width: 960px;
+  }
+}
+
+
+h1 {
+  font-size: 2.9rem;
+}
+h2 {
+  font-size: 2.5rem;
+}
+h3 {
+  font-size: 2.1rem;
+}
+h4 {
+  font-size: 1.9rem;
+}
+
 
 /* Use to create ful width images */
 /* img { */
