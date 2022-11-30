@@ -13,3 +13,7 @@ to: html
 
 # tells pandoc to generate the header, otherwise css does not get applied to html document
 standalone: true
+
+
+# using wkhtmltopdf for page numbers in toc
+# pdf-engine: 'wkhtmltopdf'

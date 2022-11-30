@@ -8,7 +8,7 @@ input-files:
 
 
 # adds preface.md before the table of contents, and removes the headings of this file from the index
-include-before-body: header.html
+# include-before-body: header.html
 
 table-of-contents: true
 toc-depth: 3
@@ -16,5 +16,3 @@ toc-depth: 3
 variables:
   toc-title: "Table of Contents"
 
-# pdf-engine-opts:
-#   toc:
