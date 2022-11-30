@@ -38,29 +38,34 @@ function buildExec(cmd) {
   );
 }
 
+pandocCmd = "pandoc --verbose --defaults .gen_shared.yml";
+
 function build_markdown_file(path) {
   // Generate Individual File - HTML
   console.log(
     `========== Converting ${path.base} --> ${path.name}.html ==========`
   );
-  buildExec(
-    `pandoc --verbose --defaults .gen_shared.yml -o ${path.name}.html ${path.base}`
-  );
+  buildExec(`${pandocCmd} -o ${path.name}.html ${path.base}`);
 
   // Generate Individual File PDF
   console.log(
     `========== Converting ${path.name}.html --> ${path.name}.pdf ==========`
   );
-  buildExec(`weasyprint ${path.name}.html ${path.name}.pdf`);
+  buildExec(`prince ${path.name}.html ${path.name}.pdf`);
 
-  console.log(`========== Generating Report.html ==========`);
-  buildExec(
-    `pandoc --defaults .gen_shared.yml --defaults .gen_master.yml -o report.html`
+  // as --include-before-body inputs an HTML file and not MD, ensure the header file exists as HTML
+  console.log(`========== Generating Header for Report.html ==========`);
+  buildExec(`${pandocCmd} -o header.html header.md`);
+
+  // Generate master Report HTML
+  console.log(
+    `========== Generating Report.html. Converting report.html -> report.pdf ==========`
   );
+  buildExec(`${pandocCmd} --defaults .gen_master.yml -o report.html`);
 
+  // Generate master Report PDF
   console.log(`========= Converting report.html --> report.pdf =========`);
-  buildExec(`weasyprint report.html report.pdf`)
-
+  buildExec(`prince -o report.pdf report.html`);
 }
 
 liveServer.start();

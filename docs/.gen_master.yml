@@ -6,6 +6,9 @@ input-files:
 - market-research.md
 - user-requirements.md
 
+# page consting of an h1 header - due to pandoc not supporting an option to title the References it auto generates
+- references.md
+
 
 # adds preface.md before the table of contents, and removes the headings of this file from the index
 include-before-body: header.html
@@ -15,6 +18,9 @@ toc-depth: 3
 #
 variables:
   toc-title: "Table of Contents"
+
+
+number-sections: true
 
 # pdf-engine-opts:
 #   toc:

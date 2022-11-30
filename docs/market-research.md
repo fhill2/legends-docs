@@ -12,15 +12,11 @@ Also I found this article with more generic stats that may be useful https://act
 
 ### Survey Data Processing
 
-The posted surveys were heavily compressed and hard to read once added to the pdf, therefore the graphs have been manually reconstructed in jupyter / matplotlib and exported.
-
-Because of this, all values shown on the Y axis of the bar charts (X axis for horizontal bar charts) are within 0-1% of the original data values.
+The posted surveys were heavily compressed and hard to read once added to the pdf, therefore the graphs have been manually reconstructed in jupyter / matplotlib and exported. Because of this, all values shown on the Y axis of the bar charts (X axis for horizontal bar charts) are within 0-1% of the original data values.
 
 ### Survey Bias
 
-Figure X shows hows this survey has bias towards experienced players, due to the participants all being members of the League of Legends Reddit forum.
-
-This is due to a time period whereby a player has started playing but hasn't discovered the reddit forum yet, meaning less beginner players will be included in these results.
+Figure X shows hows this survey has bias towards experienced players, due to the participants all being members of the League of Legends Reddit forum. This is due to a time period whereby a player has started playing but hasn't discovered the reddit forum yet, meaning less beginner players will be included in these results.
 
 Unfortunately Riot Games does not publish this data without it...
 
@@ -28,7 +24,7 @@ Unfortunately Riot Games does not publish this data without it...
 
 Also, this survey does not take China into account, as a large playerbase.
 
-## General Demographics
+## General Demographics { style="page-break-before:always;"}
 
 ![**Figure X:** Age range of League of Legends playerbase[^2]](assets/surveys-jupyter/11501/age.svg){ width=70% height=70% }
 
@@ -45,7 +41,7 @@ Asian countries will be using their own networks to communicate.
 
 ![**Figure X:** What server do you mainly play on?[^6]](assets/surveys-jupyter/11501/servers.svg){ width=70% height=70% }
 
-## Player & User Skill { style="break-before:always;"}
+## Player & User Skill { style="page-break-before:always;"}
 
 This data on the player's skills:
 the ratio of beginner players to professional / experienced players.
@@ -58,7 +54,7 @@ Figure X shows most League of Legends players play only 1-2 games a week, with o
 
 ![**Figure X:** The amount of games played daily by each survey participant[^7]](assets/surveys-jupyter/6500/games-played-daily.svg){ width=70% height=70% }
 
-## Community
+## Community { style="page-break-before:always;"}
 
 ![**Figure X:** Do you mostly play League with friends?[^8]](assets/surveys-jupyter/11501/friends.svg){ width=70% height=70% }
 
@@ -68,7 +64,7 @@ If none are sharing with friends, a promotion like this will be pointless.
 
 should we prioritise building features that allow sharing into the app?
 
-## Player Exclusivity
+## Player Exclusivity { style="page-break-before:always;"}
 
 these metrics measure how dedicated a typical player is to league of legends.
 
@@ -90,7 +86,7 @@ Figure Y shows 30% of players do not play any other non riot games.
 
 As there are a lot of players who also play other games.
 
-## Platform { style="break-before:always;"}
+## Platform { style="page-break-before:always;"}
 
 Figure X shows 38% of reddit play on another console/platform than PC.
 
@@ -106,7 +102,7 @@ For players playing on Mobile, they will use our app with the mobile interface l
 
 For players playing on PC, they will use our app with the desktop interface layout...
 
-## Game Health { style="break-before:always;"}
+## Game Health { style="page-break-before:always;"}
 
 get historic player count metrics and profits
 
@@ -135,7 +131,7 @@ Most users either enjoy it only slightly or a lot more, while the overall agreem
 
 ![**Figure X:**LoL players asked - How happy are you with the balancing of the game?[^14]](assets/surveys-jupyter/11501/satisfaction-balanced.svg){ width=70% height=70% }
 
-## Advertising / Marketing Strategy { style="break-before:always;"}
+## Advertising / Marketing Strategy { style="page-break-before:always;"}
 
 By researching into the
 This data can be used when first advertising and placing ads, and in SEO, after the app has been developed, to more precisely target
@@ -153,7 +149,7 @@ If running paid ads or campaigns on social media platforms. Twitter and Discord 
 
 ![**Figure X:**What social media platforms do you use to follow and discuss League?[^15]](assets/surveys-jupyter/11501/social-media.svg){ width=70% height=70% }
 
-## Monetisation Strategy { style="break-before:always;"}
+## Monetisation Strategy { style="page-break-before:always;"}
 
 to recoup the costs of the development of the project, we can monetise the completed version of the app in 2 different ways:
 

@@ -1,4 +1,4 @@
-# Midterm Report for <our team here>
+# Midterm Report for our team here
 
 ## Authors
 

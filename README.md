@@ -36,10 +36,11 @@ no page breaks before h2 headings so you can decide if you want a page break the
 
 create pandoc master:
 [x] - auto build master html in addition to the individual md
-[] - numbered sections
-[] - auto generated toc
-[] - auto generated footnotes list (bottom of file)
+[x] - numbered sections
+[x] - auto generated toc
+[x] - auto generated footnotes list (bottom of file)
 [x] - correct pdf page breaks
+[] - test repeated footnote anchors and `--file-scope`
 
 to fix:
 margin incorrect on pdf
