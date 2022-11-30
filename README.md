@@ -6,6 +6,15 @@ For now, lets collect all the files we have been working on into the `upload` fo
 
 Then, we can reformat them into markdown and move them over to `md` folder so they are included in the generation of the report.
 
+## Dependency Installation
+
+#### using chocolatey package manager
+
+```powershell
+choco install prince
+choco install pandoc
+```
+
 ## Usage
 
 ```bash
