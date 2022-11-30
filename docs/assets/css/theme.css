@@ -15,9 +15,6 @@
 /* https://dev.to/bowmanjd/python-pdf-generation-from-html-with-weasyprint-538h */
 
 @media print {
-  a::after {
-    content: " (" attr(href) ") ";
-  }
   pre {
     white-space: pre-wrap;
   }
@@ -29,6 +26,7 @@
     }
   }
 }
+
 
 html {
   /* 62.5% font size trick */
@@ -64,31 +62,26 @@ h1 {
 
 
 
+/* Use to create ful width images */
+/* img { */
+/*   width: 100%; */
+/*   display: block; */
+/* } */
+
+
+
 
 figure {
   text-align: center;
 }
 
-/* figcaption { */
-/*   font-size: var(--figcaption-font-size); */
-/*   line-height: var(--figcaption-line-height); */
-/*   font-style: italic; */
-/*   text-align: center; */
-/* } */
-
 /* figcaption = image captions, caption = table captions */
 figcaption, caption {
   caption-side: bottom;
-  /* margin-top: var(--figcaption-gap); */
-  /* margin-bottom: calc(var(--captioned-figure-gap) - var(--line-height)); */
-  /* margin-bottom: 40px; */
-  /* margin-bottom: 25px; */
   font-size: var(--figcaption-font-size);
   line-height: var(--figcaption-line-height);
   font-style: italic;
   text-align: center;
-
-  /* color: var(--color-text-secondary); */
 }
 
 caption {
@@ -122,19 +115,6 @@ h3 {
 h4 {
   font-size: 1.9rem;
 }
-
-
-/* Use to create ful width images */
-/* img { */
-/*   width: 100%; */
-/*   display: block; */
-/* } */
-
-
-
-
-
-
 
 /* ----- Tables -------------------------------------------------------- */
 table {
@@ -177,18 +157,3 @@ table td, table th {
 table th {
   background-color: var(--color-table-heading);
 }
-/**/
-
-
-/* .left-align-caption table > caption { */
-/*   text-align: left; */
-/* } */
-
-/* table > caption code { */
-/*   font-size: var(--figcaption-code-font-size); */
-/* } */
-
-
-
-
-

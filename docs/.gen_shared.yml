@@ -2,6 +2,7 @@
 # used so standalone export looks trhe same as browser
 css: assets/css/theme.css
 
+
 # https://garrettgman.github.io/rmarkdown/authoring_pandoc_markdown.html#images
 
 # implicit_figures -> render alt text of an embedded image as a caption / figure text <p> tag below the image
