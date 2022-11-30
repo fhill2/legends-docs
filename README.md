@@ -35,11 +35,11 @@ no page breaks before h2 headings so you can decide if you want a page break the
 ### TODO:
 
 create pandoc master:
-[] - auto build master html in addition to the individual md
+[x] - auto build master html in addition to the individual md
 [] - numbered sections
 [] - auto generated toc
 [] - auto generated footnotes list (bottom of file)
-[] - correct pdf page breaks
+[x] - correct pdf page breaks
 
 to fix:
 margin incorrect on pdf
@@ -58,3 +58,9 @@ the documentation generator does not touch or edit any files inside this folder.
 this folder is for the final content we are going to use in the report.
 
 the documentation generator outputs HTML and PDF files (for the file being edited) in the same directory as the markdown files.
+
+### More Usage
+
+To add a markdown page to the generated report.html / report.pdf:
+
+add the name of the page to `docs/.gen_master.yml` `input-files`

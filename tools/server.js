@@ -44,7 +44,7 @@ function build_markdown_file(path) {
     `========== Converting ${path.base} --> ${path.name}.html ==========`
   );
   buildExec(
-    `pandoc --verbose --defaults _codebraid_preview.yml -o ${path.name}.html ${path.base}`
+    `pandoc --verbose --defaults .gen_shared.yml -o ${path.name}.html ${path.base}`
   );
 
   // Generate Individual File PDF
@@ -52,6 +52,15 @@ function build_markdown_file(path) {
     `========== Converting ${path.name}.html --> ${path.name}.pdf ==========`
   );
   buildExec(`weasyprint ${path.name}.html ${path.name}.pdf`);
+
+  console.log(`========== Generating Report.html ==========`);
+  buildExec(
+    `pandoc --defaults .gen_shared.yml --defaults .gen_master.yml -o report.html`
+  );
+
+  console.log(`========= Converting report.html --> report.pdf =========`);
+  buildExec(`weasyprint report.html report.pdf`)
+
 }
 
 liveServer.start();
