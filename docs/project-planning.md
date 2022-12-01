@@ -1,6 +1,5 @@
 # Project Planning
 
-
 freddie from slack:
 
 we use issue labels (tags) to link low level goals to high level goals (For example an issue named "Create Frontend Mockup" to "Midterm"), if this this has to be done before the midterm.
@@ -13,3 +12,5 @@ we dont have to learn a new software such as content management system, jira.
 edits to source files can be tracked within our management notes for that task. in jira, this would have to be implemented with a jira "github" plugin, more setup..
 keeps everything in 1 place in the repo, and keeps things simple.
 we can link to PRs, parts of the source code easier.
+
+talk about collaborative editing with pull requests after the initial report content is put together

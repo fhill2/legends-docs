@@ -1,0 +1,1092 @@
++7 attack damage
++3 health on-hit
++15 ability power
++40 health
++8 attack damage
++80 health
++15 ability power
++70 health
++80 health
++6 health per 5 seconds
++30 attack damage
++15 ability haste
++150 health
++25 attack damage
++150 health
++7% life steal
++150 health
++20 health per 5 seconds
++50 ability power
++150 health
++20% damage against monsters
++20% damage against monsters
++5 ability power
++30 health
++25% base health regeneration
++ 2 per 10 seconds
++20% damage against monsters
++5 attack damage
++10 health
++25% base mana regeneration
++ 2 per 10 seconds
++8 ability power
++10 health
++50% base mana regeneration
++ 2 per 10 seconds
++3 attack damage
++30 health
++25% base health regeneration
++ 2 per 10 seconds
++240 mana
+Duration
+240
+Source
+ Rift Herald
+Affect
+Holder only
++25 movement speed
++35% attack speed
++45 movement speed
++25 movement speed
++60 movement speed
++25% slow resist
++20 ability haste
++45 movement speed
++12 summoner spell haste
++25 magic resistance
++45 movement speed
++30% tenacity
++115 movement speed
++20 armor
++45 movement speed
++45 movement speed
++18 magic penetration
++20 ability power
++40 attack damage
++300 health
++40 ability power
++225 health
++300 mana
++15% critical strike chance
++15 armor
++12% attack speed
++50% base mana regeneration
++10 attack damage
++60 ability power
++25 magic resistance
++25 attack damage
++100% base health regeneration
++150 health
++250 mana
++10 ability haste
++30 armor
++30 magic resistance
++30 ability power
++20 ability power
++10 ability haste
++50% base mana regeneration
++25 ability power
++13% magic penetration
++30 armor
++25 attack damage
++10 ability haste
++40 armor
++200 health
++100% base health regeneration
++20 attack damage
++35 ability power
++10 ability haste
++50% base mana regeneration
++8% heal and shield power
++15 ability power
++70 health
++75% base mana regeneration
++ 3 per 10 seconds
++350 health
++10 ability haste
++250 mana
++20 armor
++10 attack damage
++60 health
++50% base mana regeneration
++ 3 per 10 seconds
++15 attack damage
++15% attack speed
++25 attack damage
++35 magic resistance
++25 ability power
++150 health
++30 attack damage
++10 ability haste
++200 health
++15% attack speed
++20 attack damage
++18% armor penetration
++20 ability power
++250 health
++5% omnivamp
++40 ability power
++10 ability haste
++300 mana
++50 magic resistance
++30 attack damage
++15% attack speed
++35 ability power
++15 attack damage
++200 health
++30 magic resistance
++25% attack speed
++25% attack speed
++6 attack damage
++100 health
++50% base health regeneration
++ 3 per 10 seconds
++30 ability power
++15 armor
++30 attack damage
++250 health
++25 magic resistance
++10 ability power
++100 health
++50% base health regeneration
++ 3 per 10 seconds
++25 attack damage
++15 attack damage
++7% life steal
++20 ability power
++25 magic resistance
++40 armor
++10 ability haste
++150 health
++150 health
++18% attack speed
++15% critical strike chance
++10 ability haste
++500 health
++300 mana
++40 magic resistance
++20 ability haste
++650 health
++60 ability power
++200 health
++500 mana
++60 ability power
++100% base mana regeneration
++8% heal and shield power
++55 attack damage
++25 ability haste
++10 Lethality (6.22 − 10 (based on level) armor penetration)
++80 ability power
++10 ability haste
++45 magic resistance
++45 attack damage
++30 ability haste
++350 health
++20 attack damage
++75 health
++100% base mana regeneration
++ 3 per 10 seconds
++40 attack damage
++25% attack speed
++8% life steal
++55 attack damage
++20% critical strike chance
++18% life steal
++20 ability power
++250 health
++100% base health regeneration
++ 3 per 10 seconds
++55 attack damage
++25 ability haste
++250 health
++60 ability power
++20 ability haste
++100% base mana regeneration
++65 ability power
++30 ability haste
++200 health
++5% movement speed
++300 health
++45 armor
++5% movement speed
++55 attack damage
++15 ability haste
++45 armor
++75 ability power
++350 health
++50 attack damage
++325 health
++10 Lethality (6.22 − 10 (based on level) armor penetration)
++45 attack damage
++20 ability haste
++20% critical strike chance
++15 ability haste
++350 health
++860 mana
++350 health
++70 magic resistance
++5% movement speed
++20 ability haste
++400 mana
++90 armor
++15 ability haste
++60 armor
++60 magic resistance
++45 attack damage
++40 armor
++45% attack speed
++20% critical strike chance
++85 ability power
++15 ability haste
++150 health
++50 attack damage
++400 health
++150% base health regeneration
++70 attack damage
++20% critical strike chance
++20 ability haste
++400 health
++200% base health regeneration
++75 ability power
++15 ability haste
++8% movement speed
++30 attack damage
++20% critical strike chance
++30% armor penetration
++35 attack damage
++15 ability haste
++500 mana
++55 attack damage
++20 ability haste
++50 magic resistance
++20 ability power
++100 health
++40 attack damage
++20% critical strike chance
++40 magic resistance
++15 ability haste
++100% base mana regeneration
++50 magic resistance
++16% heal and shield power
++90 ability power
++300 health
++35 attack damage
++20% attack speed
++20% critical strike chance
++7% movement speed
++35 attack damage
++15 ability haste
++860 mana
++100 ability power
++50% attack speed
++60 attack damage
++20 ability haste
++20% critical strike chance
++15 attack damage
++250 health
++100% base health regeneration
++ 3 per 10 seconds
++20 attack damage
++25% attack speed
++20% critical strike chance
++7% movement speed
++120 ability power
++400 health
++60 armor
++35% attack speed
++20% critical strike chance
++7% movement speed
++65 attack damage
++20 ability haste
++9% omnivamp
++15 ability haste
++200 health
++100% base mana regeneration
++16% heal and shield power
++45% attack speed
++20% critical strike chance
++7% movement speed
++75 ability power
++400 health
++80 ability power
++250 health
++860 mana
++55 attack damage
++12 Lethality (7.47 − 12 (based on level) armor penetration)
++45 attack damage
++20 ability haste
++30% armor penetration
++100 ability power
++200 health
++40 ability power
++75 health
++115% base mana regeneration
++ 3 per 10 seconds
++40 attack damage
++300 health
++40 magic resistance
++65 attack damage
++20 ability haste
++300 health
++10 ability haste
++450 health
++100% base health regeneration
++50 magic resistance
++50 ability power
++100% base mana regeneration
++8% heal and shield power
++400 health
++40 attack damage
++15% attack speed
++20% critical strike chance
++400 health
++50 armor
++55 attack damage
++20% critical strike chance
++12 Lethality (7.47 − 12 (based on level) armor penetration)
++350 health
++60 armor
++30 attack damage
++500 health
++10 ability haste
++500 health
++50 magic resistance
++50 attack damage
++15 ability haste
++10 Lethality (6.22 − 10 (based on level) armor penetration)
++15 ability haste
++150 health
++65 ability power
++40% magic penetration
++10 ability haste
++800 health
++200% base health regeneration
++15 ability haste
++350 health
++500 mana
++40 attack damage
++40% attack speed
++40 magic resistance
++55 attack damage
++15 ability haste
++18 Lethality (11.2 − 18 (based on level) armor penetration)
++20 ability haste
++250 health
++250 mana
++35 armor
++80 ability power
++15 ability haste
++45 armor
++70 ability power
++20 ability haste
++250 health
++600 mana
++40 attack damage
++20 ability haste
++300 health
++60 attack damage
++20 ability haste
++18 Lethality (11.2 − 18 (based on level) armor penetration)
++60 attack damage
++12 Lethality (7.47 − 12 (based on level) armor penetration)
++7% omnivamp
++20 ability haste
++200 health
++30 armor
++30 magic resistance
++70 ability power
++20 ability haste
++250 health
++600 mana
++60 attack damage
++20% attack speed
++20% critical strike chance
++55 attack damage
++20 ability haste
++300 health
++8% omnivamp
++20 ability haste
++800 health
++200% base health regeneration
++90 ability power
++15 ability haste
++250 health
++6 magic penetration
++20 ability haste
++400 health
++50 armor
++50 attack damage
++20% attack speed
++20% critical strike chance
++7% life steal
++40 ability power
++20 ability haste
++200 health
++100% base mana regeneration
++20 ability haste
++400 health
++30 armor
++30 magic resistance
++65 attack damage
++25% attack speed
++20% critical strike chance
++80 ability power
++20 ability haste
++600 mana
++20 ability haste
++200 health
++30 armor
++30 magic resistance
++80 ability power
++20 ability haste
++600 mana
++6 magic penetration
++40 ability power
++20 ability haste
++200 health
++100% base mana regeneration
++90 ability power
++25 ability haste
++300 health
++60 attack damage
++20 ability haste
++18 Lethality (11.2 − 18 (based on level) armor penetration)
++20 ability haste
++400 health
++30 armor
++30 magic resistance
++70 ability power
++15 ability haste
++300 health
++7% omnivamp
++60 ability power
++300 health
++400 mana
++40 ability power
++20 ability haste
++200 health
++100% base mana regeneration
++50 attack damage
++20 ability haste
++20% attack speed
++300 health
++35 attack damage
++20 ability haste
++30% attack speed
++300 health
++50 attack damage
++20% attack speed
++20% critical strike chance
++7% life steal
++70 ability power
++20 ability haste
++250 health
++600 mana
++55 attack damage
++20 ability haste
++300 health
++8% omnivamp
++40 attack damage
++20 ability haste
++300 health
++60 attack damage
++20 ability haste
++18 Lethality (11.2 − 18 (based on level) armor penetration)
++50 attack damage
++20 ability haste
++20% attack speed
++300 health
++20 ability haste
++200 health
++30 armor
++30 magic resistance
++70 ability power
++20 ability haste
++250 health
++600 mana
++80 ability power
++20 ability haste
++600 mana
++6 magic penetration
++20 ability haste
++400 health
++50 armor
++70 ability power
++15 ability haste
++300 health
++7% omnivamp
++60 ability power
++300 health
++400 mana
++35 attack damage
++20 ability haste
++30% attack speed
++300 health
++20 ability haste
++800 health
++200% base health regeneration
++80 ability power
++20 ability haste
++600 mana
++20 ability haste
++400 health
++30 armor
++30 magic resistance
++20 ability haste
++200 health
++30 armor
++30 magic resistance
++60 attack damage
++20 ability haste
++18 Lethality (11.2 − 18 (based on level) armor penetration)
++40 ability power
++20 ability haste
++200 health
++100% base mana regeneration
++40 ability power
++20 ability haste
++200 health
++100% base mana regeneration
++40 ability power
++20 ability haste
++200 health
++100% base mana regeneration
++60 attack damage
++12 Lethality (7.47 − 12 (based on level) armor penetration)
++7% omnivamp
++20 ability haste
++400 health
++30 armor
++30 magic resistance
++60 attack damage
++20% attack speed
++20% critical strike chance
++90 ability power
++15 ability haste
++250 health
++6 magic penetration
++90 ability power
++25 ability haste
++300 health
++65 attack damage
++25% attack speed
++20% critical strike chance
++10% cooldown reduction
++300 health
++100% base health regeneration
++65 magic resistance
++10% cooldown reduction
++350 health
++100% base health regeneration
++55 magic resistance
++5% cooldown reduction
++5 movement speed
++ 2 per 10 seconds
++5 movement speed
++10% cooldown reduction
++400 health
++300 mana
++20% cooldown reduction
++225 health
++250 mana
++25 armor
++60 ability power
++200 health
++500 mana
++30 ability power
++10% cooldown reduction
++100% base mana regeneration
++30 magic resistance
++15% critical strike chance
++45 armor
++25 attack damage
++30 armor
++30 magic resistance
++45 ability power
++10% cooldown reduction
++200 mana
++5 mana per 5 seconds
++220 health
++6 health per 5 seconds
++10% critical strike chance
++125% base health regeneration
++60 armor
++30 magic resistance
++25 attack damage
++10% life steal
++80 ability power
++10% cooldown reduction
++75 ability power
++350 health
++50% attack speed
++10% critical strike chance
++95 ability power
++70 armor
++225 health
++300 mana
++125 health
++50% base health regeneration
++ 1 per 10 seconds
++50% base mana regeneration
++30 magic resistance
++300 health
++45 armor
++75 magic resistance
++20% attack speed
++20% critical strike chance
++35% tenacity
++120 ability power
++10% cooldown reduction
++10% cooldown reduction
++50% attack speed
++45 magic resistance
++40% attack speed
++30 on-hit magic damage
++8 attack damage
++80 health
++8% life steal
++10 ability power
++75% base mana regeneration
++5% heal and shield power
++15 ability power
++60 health
++10 mana per 5 seconds
++100 health
++15 health per 5 seconds
++10 health per 5 seconds
++15 mana per 5 seconds
++7% omnivamp against monsters
++20 armor
++55 attack damage
++275 health
++70 ability power
++30% magic penetration
++40 ability power
++12% cooldown reduction
++12% movement speed
++40 ability power
++30 armor
++30 magic resistance
++35% Tenacity
++10% cooldown reduction
++200 health
++125% base health regeneration
++10 movement speed
++ 2 per 10 seconds
++15 ability power
++70 health
++75% base mana regeneration
++ 3 per 10 seconds
++10% cooldown reduction
++350 health
++200% base health regeneration
++ 1 per 10 seconds
++10% cooldown reduction
++500 health
++200% base health regeneration
++ 2 per 10 seconds
++10% cooldown reduction
++200 health
++125% base health regeneration
++ 2 per 10 seconds
++35 ability power
++10% cooldown reduction
++200 health
++50% base mana regeneration
++ 2 per 10 seconds
++10% cooldown reduction
++450 health
++100% base health regeneration
++ 2 per 10 seconds
++12 attack damage
++30% attack speed
++20 attack damage
++10% life steal
++425 health
++60 armor
++25 ability haste
++600 health
++50 armor
++50 magic resistance
++60 ability power
++10% cooldown reduction
++50% base mana regeneration
++ 2 per 10 seconds
++20 ability haste
++450 health
++25 armor
++25 magic resistance
++30 attack damage
++700 health
++10 attack damage
++250 mana
++20 armor
++20% cooldown reduction
++150% base mana regeneration
++25% attack speed
++25 health per 5 seconds
++15 attack damage
++30% attack speed
++7% omnivamp against monsters
++35 ability power
++200 health
++200 health
++60 health
++50% base health regeneration
++ 5 per 10 seconds
++25 attack damage
++35 magic resistance
++80 ability power
++10% cooldown reduction
++600 mana
++80 ability power
++40 attack damage
++60 ability power
++10% cooldown reduction
++300 health
++40 ability power
++10% life steal vs. monsters
++10% cooldown reduction
++750 health
++300 mana
++100 magic resistance
++30 attack damage
++10% cooldown reduction
++400 health
++300 mana
++50% attack speed
++250 health
++15 attack damage
++200 health
++10% cooldown reduction
++500 health
++25 ability power
++30 attack damage
++40% attack speed
++180 health
++75 ability power
++300 health
++20 attack damage
++30 attack damage
++30% critical strike chance
++50 attack damage
++10% cooldown reduction
++300 health
++90 ability power
++10% cooldown reduction
++600 mana
++90 ability power
++10% cooldown reduction
++600 mana
++90 ability power
++10% cooldown reduction
++600 mana
++40 attack damage
++40% attack speed
++25 armor
++15% attack speed
++80 ability power
++20% cooldown reduction
++25 ability power
++45% attack speed
++35 attack damage
++15 ability haste
++500 mana
++45 attack damage
++40 armor
++35 attack damage
++20% critical strike chance
++10% cooldown reduction
++400 health
++100% base health regeneration
++7 mana per 5 seconds
++55 attack damage
++40% attack speed
++12% life steal
++10% cooldown reduction
++100% base mana regeneration
++40 magic resistance
++60 attack damage
++15% critical strike chance
++12% life steal
++110 attack damage
++25% critical strike chance
++50 ability power
++50 armor
++50 magic resistance
++35 attack damage
++15 ability haste
++860 mana
++5% cooldown reduction
++25% base mana regeneration
++100 ability power
++20% cooldown reduction
++100% base mana regeneration
++20 armor
++10% cooldown reduction
++50% base health regeneration
++10 movement speed
++ 2 per 10 seconds
++10% cooldown reduction
++50% base health regeneration
++10 movement speed
++ 2 per 10 seconds
++60 attack damage
++20% cooldown reduction
++550 health
++8% omnivamp against monsters
++350 health
++350 mana
++50 magic resistance
++10% cooldown reduction
++300 health
++150% base health regeneration
++50 armor
++40% attack speed
++15% life steal
++25% critical strike chance
++500 mana
++100% base health regeneration
++70 magic resistance
++800 health
++100% base health regeneration
++10% life steal against monsters
++10% cooldown reduction
++50% base health regeneration
++ 5 per 10 seconds
++7 health per 5 seconds
++9 mana per 5 seconds
++10 attack damage
++ 30 on large monster kill.
++100 ability power
++20% cooldown reduction
++100% base mana regeneration
++25 health per 5 seconds
++16 attack damage
++15% attack speed
++35 ability power
++20% cooldown reduction
++250 health
++50% base health regeneration
++25 magic resistance
++20 armor
++175 ability power
++ 30 on large monster kill.
++125% base health regeneration
++30 armor
++15 health per 5 seconds
++10% cooldown reduction
++200 health
++125% base health regeneration
++10 movement speed
++ 2 per 10 seconds
++10% cooldown reduction
++350 health
++200% base health regeneration
++ 1 per 10 seconds
++35 ability power
++10% cooldown reduction
++200 health
++50% base mana regeneration
++ 2 per 10 seconds
++10 health per 5 seconds
++24 armor
++10% cooldown reduction
++400 health
++300 mana
++100% base health regeneration
++30 armor
++25 ability haste
++600 health
++40 armor
++40 magic resistance
++100 ability power
++20% cooldown reduction
++100% base mana regeneration
++500 health
++40 ability power
++10% cooldown reduction
++250 mana
++50 attack damage
++40 magic resistance
++16% life steal
++300 health
++20 armor
++30 magic resistance
++80 ability power
++10% cooldown reduction
++300 mana
++500 mana
++10% cooldown reduction
++300 health
++150% base health regeneration
++200% base mana regeneration
++50 attack damage
++10 Lethality (6.22 − 10 (based on level) armor penetration)
++12% physical vamp
++40% attack speed
++60 on-hit magic damage
++80 ability power
++250 health
++860 mana
++10% cooldown reduction
++300 health
++100% base health regeneration
++100% base mana regeneration
++150 health
++10% life steal against monsters
++520 health
++20 attack damage
++10% life steal
++70 attack damage
++120 ability power
++10% movement speed
++40 attack damage
++20% critical strike chance
++25 magic resistance
++10% cooldown reduction
++200 health
++20 armor
++30 attack damage
++10% cooldown reduction
++50 ability power
++10% cooldown reduction
++10% life steal against monsters
++20% attack speed
++120 ability power
++70 attack damage
++20% cooldown reduction
++50% attack speed
++30% critical strike chance
++250 health
++250 mana
++100% base health regeneration
++100% base mana regeneration
++30 armor
++30 magic resistance
++10% movement speed
++10% life steal
++40% attack speed
++25% critical strike chance
++7% movement speed
++35% attack speed
++425 health
++60 armor
++10% cooldown reduction
++50% base mana regeneration
++25 attack damage
++25% attack speed
++10 attack damage
++10% cooldown reduction
++175% base health regeneration
++45 armor
++ 2 per 10 seconds
++125 health
++50% base health regeneration
++ 1 per 10 seconds
++240 mana
++25 attack damage
++120 ability power
++70 attack damage
++20 ability haste
++50% attack speed
++30% critical strike chance
++250 health
++250 mana
++100% base health regeneration
++100% base mana regeneration
++30 armor
++30 magic resistance
++10% movement speed
++10% life steal
++52 ability power
++64 armor
++5% cooldown reduction
++5 movement speed
++ 2 per 10 seconds
++10% cooldown reduction
++300 health
++100% base health regeneration
++ 4 per 10 seconds
++60 ability power
++10% cooldown reduction
++50% base mana regeneration
++ 2 per 10 seconds
++20 ability power
++10% cooldown reduction
++50% base mana regeneration
++ 2 per 10 seconds
++10% cooldown reduction
++50% base health regeneration
++10 movement speed
++ 2 per 10 seconds
++50 health
++ 2 per 10 seconds
++10 ability power
++25% base mana regeneration
++ 2 per 10 seconds
++10% cooldown reduction
++175% base health regeneration
++45 armor
++10 movement speed
++ 2 per 10 seconds
++125 health
++50% base health regeneration
++ 4 per 10 seconds
++10% life steal against monsters
++225% base mana regeneration while in the jungle
++60 ability power
++400 health
++35 attack damage
++20% cooldown reduction
++50% attack speed
++350 health
++350 mana
++8% movement speed
++25 ability haste
++600 health
++40 armor
++40 magic resistance
++70 ability power
++10% cooldown reduction
++7% movement speed
++70 ability power
++10% cooldown reduction
++7% movement speed
++30 attack damage
++20% attack speed
++4% movement speed
++60 attack damage
++10% cooldown reduction
++20 attack damage
++10% critical strike chance
++80 ability power
++10% cooldown reduction
++25 ability power
++54 armor
++100 ability power
++45 armor
++100 ability power
++45 armor
++25 attack damage
++20% attack speed
++12% life steal
++10% spell vamp
++75 attack damage
++10% cooldown reduction
++50 ability power
++10% cooldown reduction
++250 mana
++30 armor
++20% cooldown reduction
++250 health
++50 attack damage
++40% attack speed
++10% movement speed
++100 ability power
++10% cooldown reduction
++60 armor
++120 ability power
++125% base health regeneration
++55 armor
++55 magic resistance
