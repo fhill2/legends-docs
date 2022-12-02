@@ -90,7 +90,7 @@ caption {
 }
 
 body {
-  font-family: 'Arial';
+  font-family: 'Arial', 'Noto Color Emoji';
   font-size: 1.5rem;
   line-height: 150%;
 }
