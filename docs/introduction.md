@@ -1,6 +1,8 @@
 # League of Legends Damage Calculator/Optimizer
 
-Despite the huge popularity of the game, there is a notorious lack of tools and resources for players who would like to test and deepen their knowledge about the game. Although the game itself provides a practice tool for players who look to test out characters capabilities, the functionality of it is limited, restricted to one character (or “champions” as there are called in game) at the time, having to use external tools such as notepad or excel to keep track of results and a lack of control of multiple variables making the theory crafting and testing for the game inefficient and bothersome.
+Despite the huge popularity of the game, there is a notorious lack of tools and resources for players who would like to test and deepen their knowledge about the game. Although the game itself provides a practice tool for players who look to test out characters capabilities, the functionality of it is limited, restricted to one character (or “champions” as there are called in game) at the time, having to use external tools such as notepad or excel to keep track of results and a lack of control of multiple variables making the theory crafting and testing for the game inefficient and bothersome. 
+
+This sentence is testing an initial Pull Request. The original work is Pablo's, and Freddie is editing.
 
 ## The proposal
 
