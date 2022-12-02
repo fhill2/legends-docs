@@ -5,6 +5,7 @@ input-files:
 - meeting-agenda.md
 - market-research.md
 - user-requirements.md
+- backend.md
 
 # page consting of an h1 header - due to pandoc not supporting an option to title the References it auto generates
 - references.md
