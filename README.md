@@ -8,6 +8,11 @@ Then, we can reformat them into markdown and move them over to `md` folder so th
 
 ## Dependency Installation
 
+External Dependencies:
+
+prince - HTML -> PDF conversion
+pandoc - MD -> HTML conversion + extended markdown features
+
 #### using chocolatey package manager
 
 ```powershell
@@ -74,3 +79,46 @@ the documentation generator outputs HTML and PDF files (for the file being edite
 To add a markdown page to the generated report.html / report.pdf:
 
 add the name of the page to `docs/.gen_master.yml` `input-files`
+
+---
+
+How to submit PR for the first time:
+If we are uploading documents, we can commit straight to master
+
+We can also submit PRs that gives us an interface to show edits, and a review / conversation etc..
+
+Here is how that works:
+
+#### 1 Setup the Branch (only once)
+
+```bash
+git checkout -b <your-branch-name> # freddie-pr is my branch name
+git branch --set-upstream-to=origin/main <your-branch-name> # set to track remote main branch
+
+
+```
+
+#### 2 Everytime you want to make an edit / submit a PR
+
+```bash
+# make changes here
+git pull # ensure state of remote main = your branch state
+# or make changes here
+
+# commit the changes youve made
+git add .
+git commit -m ""
+
+git push origin <your-branch-name>
+
+# now github repo UI will show the Compare & Pull Request button
+```
+
+submit a PR the second+ time:
+
+#### Emoji Support
+
+CSS theme is using [Google Noto Color Emoji](https://fonts.google.com/noto/specimen/Noto+Color+Emoji/glyphs) font to display emojis
+fonts have to be installed on your system for emojis to show in the PDF output, they are not installed / setup with the installation of the project (couldnt get relative font paths to work with pandoc & external stylesheet)
+
+you can use [this page](https://emojipedia.org/google/) to copy paste emojis into the report
