@@ -13,6 +13,8 @@ add all project planning from meeting agenda
 
 insert deadline
 
+maybe leave questionnaire and user feedback out for other section - wait for next week to see other sections.
+
 ## Timeline - History - Reflection
 
 ### **Week 5-8**
@@ -37,17 +39,17 @@ Our team's decisions were to:
 
 - write an Introduction, Proposal, and produce a minimal functional prototype for the chosen project idea as soon as possible, so other team members could learn more about the project topic / field.
 
-- create the questionnaire and get it in front of participants as early as possible, as our decisions going forward would be dependant on this data. The prototype would also be included with the questionnaire, and our team could get early stage feedback on it too.
+- create a questionnaire to obtain user feedback, and get it in front of participants as early as possible, as our decisions going forward would be dependant on this data. The prototype would also be included with the questionnaire, and our team could get early stage feedback on it too.
 
 ### **Week 8**
 
 At the start of this stage of the project, our team highlighted some positive and negative aspects of the current project management process.
 
-❌ the prototype was not included with the questionnaire due to , however we did get reliable data for the questionnaire.
+❌ the prototype was not included with the questionnaire, however we did get reliable data for the questionnaire.
 
-✅ - a weekly meeting with all team members was enough to keep up with the planning and management of the work for each week.
+✅ a weekly meeting with all team members was enough to keep up with the planning and management of the work for each week.
 
-✅ - By partnering markdown with Github Wiki, we did not have to track which team member had the most recent version of a document, and could edit the same content during the same time.
+✅ By partnering markdown with Github Wiki, we did not have to track which team member had the most recent version of a document, and could edit the same content during the same time.
 
 :warning: The process of writing markdown took some time getting used to, Because of this, some vendor specific files were still being used.
 
@@ -91,7 +93,7 @@ We set a soft deadline for the start of Week 10, for each assigned team member's
 
 We set a deadline of 25 December for the midterm submission.
 
-### Week 9 - Midterm Submission
+### Week 9
 
 At week 9, our team was collaboratively editing and reviewing the documentation for the report / submission. Again, we reflected by highlighting positive and negative aspects of the project management process.
 
@@ -109,12 +111,10 @@ Below is an outline explaining how we will use Github's project management featu
 
 - Tasks each team member are required to fullfil can be shown by assigning an assignee to the Issue.
 
-- Tasks can be grouped for better organisation, by labelling Issues: frontend, backend, documentation...
+- Tasks can be grouped for better organisation, by labelling Issues: frontend, backend, documentation.
 
 - Github Projects provide an interface to manage the project at a high level, showing the upcoming deadlines and milestones. This UI interface is similar to a Kanban board.
 
+![**Figure X:** Github Projects View - Kanban board layout](assets/project-planning/kanban.png){ width=100% height=100% }
+
 - linking low level goals to high level goals, by using Github Milestones feature. Every issue can be assigning to a Milestone, indicating what needs to be completed before the next milestone begins. This is integrated with Github Projects view / Kanban board feature.
-
-![**Figure X:** asd](assets/project-planning/kanban.png){ width=100% height=100% }
-
-[^1]: Manubot contribution workflow
