@@ -201,6 +201,8 @@ table {
   border: 1px solid var(--color-border-heavy);
 
   width: 100%;
+  margin-top: 20px;
+  margin-bottom: 5px;
 
   /* Solid background to occlude table of contents */
   background-color: var(--background-color);
