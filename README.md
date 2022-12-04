@@ -56,6 +56,8 @@ create pandoc master:
 [x] - correct pdf page breaks
 [] - test repeated footnote anchors and `--file-scope`
 
+[] - black links for TOC - blue links for non TOC links showing in PDF.
+
 to fix:
 margin incorrect on pdf
 pdf not rendering footnotes
