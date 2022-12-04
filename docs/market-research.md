@@ -6,196 +6,205 @@ output:
 
 # Market Research
 
-add:
-You can also filter this information by Region. Here is the website : https://www.leagueofgraphs.com/rankings/rank-distribution
-Also I found this article with more generic stats that may be useful https://activeplayer.io/league-of-legends/
+### Introduction
 
-### Survey Data Processing
+As responses and feedback were being gathered from our own surveys, our team carried out market research to learn about the League playerbase and the average League player.
 
-The posted surveys were heavily compressed and hard to read once added to the pdf, therefore the graphs have been manually reconstructed in jupyter / matplotlib and exported. Because of this, all values shown on the Y axis of the bar charts (X axis for horizontal bar charts) are within 0-1% of the original data values.
+As the survey data originates from the [League Reddit forum](https://www.reddit.com/r/league/), the audience and users of the forum (subset) might not be the same demographic as the League of Legends playerbase (superset). Therefore the survey data is only a prediction of an average League player.
 
-### Survey Bias
+Bias is clearly evident and can be seen in the Reddit Survey data. In an attempt to eliminate bias, alternate datasets have been shown to validate the survey data, and are noted in the sub chapters below.
 
-Figure X shows hows this survey has bias towards experienced players, due to the participants all being members of the League of Legends Reddit forum. This is due to a time period whereby a player has started playing but hasn't discovered the reddit forum yet, meaning less beginner players will be included in these results.
+Our team will use this data to complement our own Survey data, and influence our decisions during the development of the app.
 
-Unfortunately Riot Games does not publish this data without it...
+## Demographics { style="page-break-before:always;"}
 
-![**Figure X:** When did you start playing League / using r/leagueoflegends?[^1]](assets/surveys-jupyter/11501/league-reddit.svg){ width=80% height=80% }
+![**Figure X:** What is your age?[^1]](assets/surveys-jupyter/11501/age.svg){ width=70% height=70% }
 
-Also, this survey does not take China into account, as a large playerbase.
+![**Figure X:** What is your gender?[^2]](assets/surveys-jupyter/11501/gender.svg){ width=70% height=70% }
 
-## General Demographics { style="page-break-before:always;"}
+![**Figure X:** What country are you from?[^3]](assets/surveys-jupyter/11501/region.svg){ width=70% height=70% }
 
-![**Figure X:** Age range of League of Legends playerbase[^2]](assets/surveys-jupyter/11501/age.svg){ width=70% height=70% }
+![**Figure X:** What is your native language?[^4]](assets/surveys-jupyter/11501/language.svg){ width=70% height=70% }
 
-![**Figure X:** What is your gender?[^3]](assets/surveys-jupyter/11501/gender.svg){ width=70% height=70% }
+![**Figure X:** What server do you mainly play on?[^5]](assets/surveys-jupyter/11501/servers.svg){ width=70% height=70% }
 
-![**Figure X:** What country are you from?[^4]](assets/surveys-jupyter/11501/region.svg){ width=70% height=70% }
+This demographic data will change how we develop and market the app.
 
-![**Figure X:** What is your native language?[^5]](assets/surveys-jupyter/11501/language.svg){ width=70% height=70% }
+For example, we now have an indication of:
 
-- guages what languages to support first for the app
+- what languages we should support first.
+- what regions around the world we can target to market the app after development.
 
-Note this chart is most likely affected by the reddit server mainly being an english speaking server.
-Asian countries will be using their own networks to communicate.
+Here are some alternate datasets to validate the survey data.
 
-![**Figure X:** What server do you mainly play on?[^6]](assets/surveys-jupyter/11501/servers.svg){ width=70% height=70% }
+**Region / Servers**: Number of players per server region in League of Legends[^6]. This shows EUW and NA Servers being the most popular servers. This is also shown in the survey data.
 
-## Player & User Skill { style="page-break-before:always;"}
+**Gender**: Statista data from J. Clement shows the League of Legends playerbase being 82% Male, 18% Female. Although this data is from 2018, it shows similar results to the survey data. [^7]
 
-This data on the player's skills:
-the ratio of beginner players to professional / experienced players.
+## Player Competency { style="page-break-before:always;"}
 
-- we dont need to provide game specific knowledge in our "walkthrough" feature of our app, as only x amount of players have 1% of experience.
+This data shows player competency, how skilled and competitive a player is in relation to other players.
 
-as shwon in Figure X when most league of legends players started playing 10 years ago, and new players have gradually decreased since then.
+League of Graphs dataset, pulled from an official Riot Games API, shows 58% of players reaching either Silver or Gold rank.
 
-Figure X shows most League of Legends players play only 1-2 games a week, with only 12% playing more than 5 games a day (2 hours playtime)
+| Rank          | Rank % |
+| ------------- | ------ |
+| Challenger    | 0.011% |
+| GrandMaster   | 0.026% |
+| Master        | 0.25%  |
+| Diamond I-IV  | 1.8%   |
+| Platinum I-IV | 10%    |
+| Gold I-IV     | 25%    |
+| Silver I-IV   | 33%    |
+| Bronze I-IV   | 24%    |
+| Iron I-IV     | 4%     |
 
-![**Figure X:** The amount of games played daily by each survey participant[^7]](assets/surveys-jupyter/6500/games-played-daily.svg){ width=70% height=70% }
+Table: **Figure X**: Data sourced from Riot Games showing the ranked percentage of the League of Legends playerbase
+
+Player competitiveness is important to quantify as it influences feature selection. For example, implementing features into our app that are based upon gaining a competitive advantaging over other players would be more beneficial to a userbase of competent players.
+
+Survey data for player's ranks[^8] was not shown here as League of Graphs is a more accurate source for this metric. Also, the survey data shows no correlation with the League of Graphs dataset, which shows 10% of league of Legends players reaching Platinum rank, yet the Survey data shows 20-25%.
+
+## Player Experience
+
+This data shows player game experience, how well a player knows or understands the game.
+
+The difference between experience and competence can be realised in the terminology used by players:
+
+| Terminology             | Description                       |
+| ----------------------- | --------------------------------- |
+| Casual                  | low competence                    |
+| Professional - MinMaxer | high experience and competence    |
+| Newbie - Noob           | low experience or low competence  |
+| Beginner                | low experience and low competence |
+
+Figure X shows most League of Legends players play 1-2 games daily, with 12% playing more than 5 games a day (around 2 hours playtime).
+
+![**Figure X:** The amount of games played daily by each survey participant[^9]](assets/surveys-jupyter/6500/games-played-daily.svg){ width=70% height=70% }
+
+Figure X shows most league of legends players started playing 10 years ago, and new players have gradually decreased since then. It also shows survey bias, as most players played the game before discovering the reddit forum. The average participant in these surveys has more game experience than an average League of Legends player.
+
+![**Figure X:** When did you start playing League / using r/leagueoflegends?[^10]](assets/surveys-jupyter/11501/league-reddit.svg){ width=80% height=80% }
+
+Guaging player experience can help our team identify what features are most important for our app. For example, including an explanation of game terminology in a "walkthrough" or "help" feature is less important as the playerbase is relatively experienced.
 
 ## Community { style="page-break-before:always;"}
 
-![**Figure X:** Do you mostly play League with friends?[^8]](assets/surveys-jupyter/11501/friends.svg){ width=70% height=70% }
+This data shows the amount of interaction players have with other players.
 
-Community influences:
-how effective a marketing strategy will be that focuses on people sharing with friends. (10% off recommend a friend).
-If none are sharing with friends, a promotion like this will be pointless.
+Figure X shows most players play with someone they know.
 
-should we prioritise building features that allow sharing into the app?
+![**Figure X:** Do you mostly play League with friends?[^11]](assets/surveys-jupyter/11501/friends.svg){ width=70% height=70% }
+
+Guaging the community and interaction of the playerbase influences decisions during and after the development the app.
+
+For example, if our userbase primarily do not play with friends:
+
+- building collaboration and sharing features into our app will be less effective than implementing other features.
+
+- marketing our app via a promotion whereby users share the app with friends will be less effective than other marketing strategies.
 
 ## Player Exclusivity { style="page-break-before:always;"}
 
-these metrics measure how dedicated a typical player is to league of legends.
-
-a fully dedicated player plays league of legends and no other games.
-
-(add more metrics here) -
+This data shows if players also play other games while playing League of Legends. A fully exclusive player only plays league of legends and no other games.
 
 Figure X shows almost 50% of League of Legends players do not play any other games from Riot.
 
-![**Figure X:** Do you mostly play League with friends?[^8]](assets/surveys-jupyter/11501/friends.svg){ width=70% height=70% }
+![**Figure X:** What other games from Riot do you play regularly?[^12]](assets/surveys-jupyter/11501/exclusivity-riot.svg){ width=70% height=70% }
 
-![**Figure X:** What other games from Riot do you play regularly?[^9]](assets/surveys-jupyter/11501/exclusivity-riot.svg){ width=70% height=70% }
+Figure Y shows 30% of players do not play any other non Riot games.
 
-If a player is exclusive to a game, it means once we have , they are more likely
+![**Figure X:** What other non-Riot games do you play regularly?[^13]](assets/surveys-jupyter/11501/exclusivity-noriot.svg){ width=70% height=70% }
 
-Figure Y shows 30% of players do not play any other non riot games.
-
-![**Figure X:** What other non-Riot games do you play regularly?[^10]](assets/surveys-jupyter/11501/exclusivity-noriot.svg){ width=70% height=70% }
-
-As there are a lot of players who also play other games.
+Guaging player exclusivity can predict the amount of knowledge users might have about other existing tools. For example, a product / tool provided for other games will have more influence on user's opinions of our product.
 
 ## Platform { style="page-break-before:always;"}
 
-Figure X shows 38% of reddit play on another console/platform than PC.
+This data shows the platform players play League of Legends on, Mobile, Console, or Desktop.
 
-![**Figure X:** What other consoles do you play on?[^11]](assets/surveys-jupyter/11501/platform.svg){ width=70% height=70% }
+Desktop Platforms, Windows and OSX, play the regular version of the game. Mobile and Console platforms play the "Wild Rift" version of the game.
 
-### Platform Considerations
+There is no cross play between desktop and mobile platforms. Players playing on Windows or OSX cannot play against players playing on other platforms.
 
-This means we will have to provide an interface that works well on these alternate platforms to cover all these possible scenarios:
+Figure X shows 38% of reddit play on another platform than PC.
+
+![**Figure X:** What other consoles do you play on?[^14]](assets/surveys-jupyter/11501/platform.svg){ width=70% height=70% }
+
+By measuring player platform use, we can realise the benefit to our users if support for the "Wild Rift" version of the game is implemented. Also, it shows the possibilities of a player using our app through a platform that is different to the platform they play the game on.
+
+Given this data, we will have to provide a UI interface that works well on these alternate platforms to cover all the possible scenarios below.
 
 For players playing on Playstation, Nintendo Switch, they might use our app through the web browser running on the console (this defaults to the desktop version of responsive websites, and so will be using the desktop interface layout).
 
 For players playing on Mobile, they will use our app with the mobile interface layout.
 
-For players playing on PC, they will use our app with the desktop interface layout...
+For players playing on PC, they will use our app with the desktop interface layout.
 
 ## Game Health { style="page-break-before:always;"}
 
-get historic player count metrics and profits
-
-Game Health determines if
-some games have drastically reduced in popularity over the last few years (WOW).
-
-As the amount of users of our application will be dependant on how many users are playing the game, looking at the projected future of the game is important.
-
-(We dont want to develop an app for a game that is about to be closed)
-
-These metrics quantify game health (get metricsfor this):
-
-- historic profits
+This data measures Game Health, the change in popularity of the game over time.
 
 #### How optimistic are you about the future of League of Legends?
 
-![**Figure X:** How optimistic are you about the future of League of Legends?[^12]](assets/surveys-jupyter/136/game-satisfaction-optimism.svg){ width=70% height=70% }
+Figure X shows there are more players who are neutral and optimistic, than pessimistic about the game's future.
 
-Despite not playing as much, people still enjoy it very much.
+![**Figure X:** How optimistic are you about the future of League of Legends?[^15]](assets/surveys-jupyter/136/game-satisfaction-optimism.svg){ width=70% height=70% }
 
-Figure X shows players, when players were asked how much they agreed with the statement "I enjoy playing League" on a scale from 1-10, two thirds answered with 7 or higher. Only 4% said 1. At the same time, players enjoy playing League now more than a few years ago.
+Figure X shows a large variation in responses when participants were asked if they enjoy playing League more than a few years ago. Most players currently enjoy playing League.
 
-Most users either enjoy it only slightly or a lot more, while the overall agreement is marginally positive with an average score of 5.2.
+![**Figure X:** I enjoy playing vs enjoying playing more than a few years ago?[^16]](assets/surveys-jupyter/11501/satisfaction.svg){ width=80% height=80% }
 
-![**Figure X:**I enjoy playing vs enjoying playing more than a few years ago?[^13]](assets/surveys-jupyter/11501/satisfaction.svg){ width=80% height=80% }
+Figure X shows player's opinions on the balance of the game. Most feel the game is relatively balanced.
 
-![**Figure X:**LoL players asked - How happy are you with the balancing of the game?[^14]](assets/surveys-jupyter/11501/satisfaction-balanced.svg){ width=70% height=70% }
+![**Figure X:** How happy are you with the balancing of the game?[^17]](assets/surveys-jupyter/11501/satisfaction-balanced.svg){ width=70% height=70% }
 
-## Advertising / Marketing Strategy { style="page-break-before:always;"}
+activeplayer.io[^18] further validates this survey data, showing a steadily increasing population from game launch to present.
 
-By researching into the
-This data can be used when first advertising and placing ads, and in SEO, after the app has been developed, to more precisely target
+Quantifying Game Health is useful as the amount of users using our app depends on the active game population. Development of an app to aid gameplay for a game that is steadily losing population would be a loss for the company and the stakeholders.
 
-For example, run facebook ads to bring in more users of the app to this targetted demographic.
-
-- show here how many people spend money on the game
-- are league of legends profits dropping, will the game go away soon.
-
-as most players play on NA servers, and 41% of players are located in America, it makes sense to focus future advertising efforts in NA.
+## Player Social Media Engagement
 
 Figure X shows League of Legends engagement across social media platforms.
 
-If running paid ads or campaigns on social media platforms. Twitter and Discord will be the best platforms to start.
+![**Figure X:** What social media platforms do you use to follow and discuss League?[^19]](assets/surveys-jupyter/11501/social-media.svg){ width=70% height=70% }
 
-![**Figure X:**What social media platforms do you use to follow and discuss League?[^15]](assets/surveys-jupyter/11501/social-media.svg){ width=70% height=70% }
+As there are some social media platforms that League players use to communicate, running marketing campaigns on these platforms will be effective. Twitter and Discord will be the best platforms to start the campaigns on.
 
 ## Monetisation Strategy { style="page-break-before:always;"}
 
-to recoup the costs of the development of the project, we can monetise the completed version of the app in 2 different ways:
+Figure X shows around 60% of players have spent more than 100$ since they have started playing League.
 
-paid recurring monthly subscription - subscription does not display ads
-free to use, displaying ads
+![**Figure X:** How much money have you approximately spent on League?[^20]](assets/surveys-jupyter/11501/player-money-investment.svg){ width=70% height=70% }
 
-show expected market traffic on similar league tool utility build websites
-show how much people spend
+This shows the profitability of free to play games such as League of Legends. If players are spending money on in-game purchases, they will be more inclined to spend money on our app, especially if our app allows the player to gain a competitive advantage against other players, something Riot Games in-game purchases do not permit.
 
-We will not be monetising the app, but we wanted to know if this was a viable option for the app...
-
-around 60% of players have spent more than 100
-
-If we charged, th
-
-This really shows the profitability of free to play games such as League of Legends.
-
-Also worth mentioning is that League of Legends.
-
-. So providing that actually provides a competitive advantage to
-
-![**Figure X:**How much money have you approximately spent on League?[^16]](assets/surveys-jupyter/11501/player-money-investment.svg){ width=70% height=70% }
+As League players are used to making purchases on the game, a monetisation strategy that allows access to our app via a payment (low cost, either one-off or monthly recurring) could be more effective than a monetisation strategy whereby the app is kept publicly available and ads are displayed.
 
 ## Conclusion
 
-### The average League of Legend Player
+By looking at survey data responses from the League Reddit forum, we can use this data to predict characteristics of an average League of Legends player.
 
-Below summarizes the average League of Legend player:
+The average League player:
 
-- male, young, single, employed and educated.
+- is male, between age 23-37, single, employed and educated, residing in Europe or North America, speaking English.
 
-- has been playing for 10 years or longer
+- is a casual player who has been playing for 10 years or longer, playing less than 2 hours per week, and has competed in the game up to a Gold or Silver Rank.
 
-- plays less than 2 hours per week
+- plays with their friends.
 
-Note, these summarisations have
+- plays other games as well as League.
 
-### Champion Popularity
+- plays on another platform in addition to Windows or OSX.
 
-The app will initially support calculations for 3 out of the 162 playable champions in the game, Kai’sa, Ezreal and Ahri. These are the most popular champions played according to a r/league survey^[17]. Support for the rest will be gradually implemented, but not initially supported.
+- is somewhat optimistic about the future of the game and believe the game is balance. They also currently enjoy playing it.
+
+- uses another Social Media or Communication platform to discuss league.
+
+- has spent 200$ - 500$ on League of Legends since the time they started playing.
 
 ## Data Sources
 
 #### Surveys
-
-All data surveys are from the [League Of Legends Reddit forums](https://www.reddit.com/r/league/).
 
 | Date           | Sample Size | Links                                                                                                                                                                                                                                                                          |
 | -------------- | ----------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
@@ -204,20 +213,29 @@ All data surveys are from the [League Of Legends Reddit forums](https://www.redd
 | September 2022 | 136         | [Reddit Post](https://www.reddit.com/r/leagueoflegends/comments/xpqvvk/results_of_league_of_legends_survey/) - [GDocs Results](https://docs.google.com/presentation/d/13W1MWgd7RT9RGkmwYr7_zsP1W2p1ParS/edit#slide=id.p1)                                                      |
 | June 2022      | 6500        | [Reddit](https://www.reddit.com/r/lux/comments/v9l0eh/help_me_please_with_a_school_project_40_seconds/) - [Reddit](https://www.reddit.com/r/leagueoflegends/comments/vc79xr/here_are_the_results_of_the_survey_i_asked_you_to/) - [Imgur Results](https://imgur.com/a/CpmLG7Y) |
 
-[^1]: When did you start playing League / using r/leagueoflegends? - [r/league Reddit Survey - 11501 Participants](https://imgur.com/a/faxtpHx)
-[^2]: How old are you? - [r/league Reddit Survey - 11501 Participants](https://imgur.com/a/faxtpHx)
-[^3]: What is your gender? - [r/league Reddit Survey - 11501 Participants](https://imgur.com/a/faxtpHx)
-[^4]: What country are you from? - [r/league Reddit Survey - 11501 Participants](https://imgur.com/a/faxtpHx)
-[^5]: What is your native language? - [r/league Reddit Survey - 11501 Participants](https://imgur.com/a/faxtpHx)
-[^6]: What server do you mainly play on? - [r/league Reddit Survey - 11501 Participants](https://imgur.com/a/faxtpHx)
-[^7]: Amount of games played - [r/league Reddit Survey - 11501 Participants](https://imgur.com/a/faxtpHx)
-[^8]: I mostly play League with friends - [r/league Reddit Survey - 11501 Participants](https://imgur.com/a/faxtpHx)
-[^9]: What other games from Riot do you play regularly? - [r/league Reddit Survey - 11501 Participants](https://imgur.com/a/faxtpHx)
-[^10]: What other non-Riot games do you play regularly? - [r/league Reddit Survey - 11501 Participants](https://imgur.com/a/faxtpHx)
-[^11]: What other consoles do you play on? - [r/league Reddit Survey - 11501 Participants](https://imgur.com/a/faxtpHx)
-[^12]: How optimistic are you about the future of League of Legends? - [r/league Reddit Survey - 136 Participants](https://imgur.com/a/faxtpHx)
-[^13]: I enjoy playing League / I enjoy playing League more than a few years ago - [r/league Reddit Survey - 11501 Participants](https://imgur.com/a/faxtpHx)
-[^14]: On a scale from 1 to 10: How happy are you with the balancing of the game? - [r/league Reddit Survey - 11501 Participants](https://imgur.com/a/faxtpHx)
-[^15]: What social media platforms do you use to follow and discuss League? - [r/league Reddit Survey - 11501 Participants](https://imgur.com/a/faxtpHx)
-[^16]: How much money have you approximately spent on League? - [r/league Reddit Survey - 11501 Participants](https://imgur.com/a/faxtpHx)
-[^17]: What is your main champion? - [r/league Reddit Survey - 11501 Participants](https://imgur.com/a/faxtpHx)
+### Survey Data Processing and Accuracy
+
+Most of the survey data was published as images on the Reddit forums.
+The results were heavily compressed and hard to read.
+Therefore the graphs have been manually reconstructed in a jupyter / matplotlib environment and exported as svg. Because of this, all values shown on the Y axis of the bar charts (X axis for horizontal bar charts) are within 0-1% of the original data values.
+
+[^1]: How old are you? - [r/league Reddit Survey - 11501 Participants](https://imgur.com/a/faxtpHx)
+[^2]: What is your gender? - [r/league Reddit Survey - 11501 Participants](https://imgur.com/a/faxtpHx)
+[^3]: What country are you from? - [r/league Reddit Survey - 11501 Participants](https://imgur.com/a/faxtpHx)
+[^4]: What is your native language? - [r/league Reddit Survey - 11501 Participants](https://imgur.com/a/faxtpHx)
+[^5]: What server do you mainly play on? - [r/league Reddit Survey - 11501 Participants](https://imgur.com/a/faxtpHx)
+[^6]: theglobalgaming.com - [Number of Players per Server Region in League of Legends](https://theglobalgaming.com/lol/player-count-region)
+[^7]: Statista - J. Clement - [Share of League of Legends fans in the United States in 2018, by gender](https://www.statista.com/statistics/1018232/league-of-legends-fans-by-gender/)
+[^8]: League of Graphs - [Rank Distribution](https://www.leagueofgraphs.com/rankings/rank-distribution)
+[^9]: Amount of games played - [r/league Reddit Survey - 11501 Participants](https://imgur.com/a/faxtpHx)
+[^10]: When did you start playing League / using r/leagueoflegends? - [r/league Reddit Survey - 11501 Participants](https://imgur.com/a/faxtpHx)
+[^11]: I mostly play League with friends - [r/league Reddit Survey - 11501 Participants](https://imgur.com/a/faxtpHx)
+[^12]: What other games from Riot do you play regularly? - [r/league Reddit Survey - 11501 Participants](https://imgur.com/a/faxtpHx)
+[^13]: What other non-Riot games do you play regularly? - [r/league Reddit Survey - 11501 Participants](https://imgur.com/a/faxtpHx)
+[^14]: What other consoles do you play on? - [r/league Reddit Survey - 11501 Participants](https://imgur.com/a/faxtpHx)
+[^15]: How optimistic are you about the future of League of Legends? - [r/league Reddit Survey - 136 Participants](https://imgur.com/a/faxtpHx)
+[^16]: I enjoy playing League / I enjoy playing League more than a few years ago - [r/league Reddit Survey - 11501 Participants](https://imgur.com/a/faxtpHx)
+[^17]: On a scale from 1 to 10: How happy are you with the balancing of the game? - [r/league Reddit Survey - 11501 Participants](https://imgur.com/a/faxtpHx)
+[^18]: activeplayer.io - [League of Legends Live Monthly Player Detailed Table](https://activeplayer.io/league-of-legends/)
+[^19]: What social media platforms do you use to follow and discuss League? - [r/league Reddit Survey - 11501 Participants](https://imgur.com/a/faxtpHx)
+[^20]: How much money have you approximately spent on League? - [r/league Reddit Survey - 11501 Participants](https://imgur.com/a/faxtpHx)
