@@ -1,0 +1,39 @@
+ 
+<style>
+table, td, p {
+    border: 2px solid grey;
+    width:50%
+}
+</style>
+<table style="width:512px">
+    <tr>
+        <td>Champion</td>
+        <td><%- champion.name %></td>
+    </tr>
+    <tr>
+        <td>Level</td>
+        <td><%- level %></td>
+    </tr>
+    <% for(var i=0;i<4;i++){ %>
+    <tr>
+        <td>Item <% i+1 %></td>
+        <td><%- items[i].name %></td>
+    </tr>
+    <% } %>
+    <tr>
+        <td>Ability Ranks</td>
+        <td><div style="display:flex">
+        <% for(var a=0;a<4;a++){ %>
+            <span style="flex:25%"><%- ability_rank[a] %></span>
+        <% } %>
+        </div></td>
+    </tr>
+    <tr>
+        <td>DPS</td>
+        <td><div style="display:flex">
+        <% for(var a=0;a<4;a++){ %>
+            <span style="flex:25%"><%- dps[a] %></span>
+        <% } %>
+        </div></td>
+    </tr>
+</table>
