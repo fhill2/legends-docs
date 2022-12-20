@@ -16,8 +16,8 @@ Team members present/absent: 5/0
 | Description      | Each team member presented themselves and their programming experience                                                                         |
 | Discussion       | The main programming language by all of the members was chosen - Javascript. The type of the app - Web app. The main tools - Git, Gantt Chart. |
 
-|                  |                                                                                                                                                                                                          |     |
-| ---------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --- |
+|                  |                                                                                                                                                                                                          |
+| ---------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Agenda item/Time | Ideas sharing - 1h 15min                                                                                                                                                                                 |
 | Description      | 3 members prepared their speech for possible project.                                                                                                                                                    |
 | Discussion       | Elena - immigration web app Freddie - 5 different ideas including map with tags from wiki, clone repository app. Pablo - optimizer web app for the game 'league of legends'. The team chose Pablo's idea |
@@ -29,9 +29,9 @@ This meeting managed to:
 2. Discuss the ideas for possible project.
 3. Choose the idea for the project.
 4. In the next meeting the group would allocate time to discussing the project in depth and define the timescale
-   of work in detail. Also the roles would be given according to the strengths of each member.
 
-## 19 Nov 2022
+## 19 Nov 2022 { style="page-break-before:always;"}
+
 
 Team members present/absent: 4/1
 
@@ -69,9 +69,12 @@ This meeting we managed to:
 2. Gather the questions for the survey.
 3. Realise which platforms we are going to use for our project documentation.
 4. In the next meeting the group would allocate time to define the timescale of work in detail. Also the roles
-   would be given according to the strengths of each member.
 
-## 26 Nov 2022
+
+
+
+## 26 Nov 2022 { style="page-break-before:always;"}
+
 
 Team members present/absent: 5/0
 
@@ -81,11 +84,11 @@ Team members present/absent: 5/0
 | Description      | Freddie gave a brief summary of vs code markdown extension and walked us through the github folders |
 
 |                  |                                                                                                                    |
-| ---------------- | ------------------------------------------------------------------------------------------------------------------ | --- |
+| ---------------- | ------------------------------------------------------------------------------------------------------------------ |
 | Agenda item/Time | Data from API - 20 min                                                                                             |     |
 | Description      | Tucker went through the data from API that our team wanted to use later and found some problems.                   |
 | Discussion       | The data is irrelevant as lots of things are not covered there in order to be able to do calculations for our app. |
-| Action Points    | Freddie - web scraping (by 3 Dec). Tucker - section about specifications (by 3 Dec)                                |
+| Action Points    | Freddie - web scraping (by 3 Dec). Tucker - section about specifications (by 3 Dec)                  |
 
 |                  |                                                                                             |
 | ---------------- | ------------------------------------------------------------------------------------------- |
@@ -109,60 +112,198 @@ This meeting we managed to:
 4. In the next meeting the group would allocate time to define the timescale of work in detail and look through
    the progress that was made by each team member.
 
-## 3 Dec 2022
 
-|                  |     |
-| ---------------- | --- |
-| Agenda item/Time |     |
-| Description      |     |
-| Discussion       |     |
-| Action Points    |     |
+## 3 Dec 2022 { style="page-break-before:always;"}
 
-|                  |     |
-| ---------------- | --- |
-| Agenda item/Time |     |
-| Description      |     |
-| Discussion       |     |
-| Action Points    |     |
 
-|                  |     |
-| ---------------- | --- |
-| Agenda item/Time |     |
-| Description      |     |
-| Discussion       |     |
-| Action Points    |     |
 
-|                  |     |
-| ---------------- | --- |
-| Agenda item/Time |     |
-| Description      |     |
-| Discussion       |     |
-| Action Points    |     |
+Team members present/absent: 5/0
 
-### Other Notes
+|                  |                                                                                             |
+| ---------------- | ------------------------------------------------------------------------------------------- |
+| Agenda item/Time | Objectives - 5 min|
+| Description      | The section from the report |
+| Discussion       | Isabella told us about issues that came up while doing this section, we decided to divide aims and objectives |
+| Action Points    | Isabella + Elena - by 10 Dec |
 
-My proposal for our next meeting (19th Nov):
-Pablo will walk us through the first prototype
-We will assign somebody to make a good prototype in any tool, for example, Figma
-We will brainstorm the questions for the questionnaire and assign someone to create the questionnaire and to send it.
-I will show what I wrote for the section “Scope” for our report.
-We will choose one more section from the report and will assign it to someone to make.
-Freddie will walk us through the main points on the documentation repo
+|                  |                                                                                             |
+| ---------------- | ------------------------------------------------------------------------------------------- |
+| Agenda item/Time | Planning and market research - 10 min |
+| Description      | The section from the report |
+| Discussion       | Freddie told us the current stage of these 2 sections. The market research was almost finished and planning section is in progress. |
+| Action Points    | Freddie - planning (by 17 Dec) and market research (by 10 Dec) |
 
-<!-->
+|                  |                                                                                             |
+| ---------------- | ------------------------------------------------------------------------------------------- |
+| Agenda item/Time | Specification and Assumption testing - 10min |
+| Description      | The sections from the report |
+| Discussion       | Tucker told us about possible programming languages that we would use. He will look deeper into it. We also decided that assumption testing will be included in other sections. |
+| Action Points    | Tucker - specification (by 17 Dec)|
 
-Example of meeting notes:
-This meeting managed to:
+|                  |                                                                                             |
+| ---------------- | ------------------------------------------------------------------------------------------- |
+| Agenda item/Time | Scope and analysis, outcomes - 5 min|
+| Description      | The sections from the report |
+| Discussion       | Elena told us that the scope section is almost finished and analysis and outcomes is in progress |
+| Action Points    | Elena - download the scope in the github in md format (by 10 Dec) and finish evaluation |
 
-1. Review what the team had done so far.
-2. Discuss the current situation and decide on the next steps
-3. Decide who is doing what.
-4. Set clear action points so that everyone knows what they’re doing by when and it was all within the space of
-   1 hour.
-5. In the next meeting the group would allocate time to discussing the market analyses, giving feedback, and
-   deciding whether more work was needed or if the team could move on to the next stage. Notice that the
-   team members were working to their strengths -- Sarah might be good at summarising and have good
-   written English, while the team members doing market analyses might know a bit about the market they will
-   be analysing. Speaking other languages is a particular bonus - it is much easier to analyse the Indonesian
-   market if you can understand local publications rather than relying on international information in English.
-   -->
+|                  |                                                                                             |
+| ---------------- | ------------------------------------------------------------------------------------------- |
+| Agenda item/Time | Requirements, approach, motivations - 10 min |
+| Description      | The sections from the report |
+| Discussion       | We decided to gather focus group and ask them more open ended questions for better requirements elicitation. Approach and motivations section is in progress. |
+| Action Points    | Isabella + Pablo - requirements elicitation (by 10 Dec). Isabella - approach and motivations (by 17 Dec)|
+
+|                  |                                                                                             |
+| ---------------- | ------------------------------------------------------------------------------------------- |
+| Agenda item/Time | Literature and Introduction and prototyping - 10 min|
+| Description      | The sections from the report |
+| Discussion       | We brainstormed what literature could be used, introduction section has already been written by Pablo and some low and mid prototypes are ready for focus group |
+| Action Points    | Pablo - send prototypes to focus group and get feedback (by 10 Dec) and finish literature section (by 10 Dec)|
+
+
+
+
+
+This meeting managed to: 
+
+1. Understand the current stage of each section
+
+2. Set the deadlines for each section
+
+3. Realise the need in focus group
+
+4. In the next meeting the group would look through the progress that was made by each team member and 
+discuss the challenges that we faced.
+
+## 13 Dec 2022 { style="page-break-before:always;"}
+
+
+Team members present/absent: 5/0
+
+|                  |                                                                                             |
+| ---------------- | ------------------------------------------------------------------------------------------- |
+| Agenda item/Time | Specification - 5 min    |
+| Description      | The section from the report    |
+| Discussion       | Discussed the technologies    |
+| Action Points    | Tucker - specification (by 20 Dec)    |
+
+|                  |                                                                                             |
+| ---------------- | ------------------------------------------------------------------------------------------- |
+| Agenda item/Time | Scope and analysis, outcomes - 5min    |
+| Description      | The sections from the report    |
+| Discussion       | Approved the current version of the scope section    |
+| Action Points    | Elena - finish analysis and outcomes (by 20 Dec)    |
+
+
+|                  |                                                                                             |
+| ---------------- | ------------------------------------------------------------------------------------------- |
+| Agenda item/Time | Requirements - 20 min    |
+| Description      | The section from the report    |
+| Discussion       | Discussed the results of the survey    |
+| Action Points    | Isabella - requirements elicitation (by 20 Dec), Isabella - approach and motivations (by 20 Dec)    |
+
+
+
+|                  |                                                                                             |
+| ---------------- | ------------------------------------------------------------------------------------------- |
+| Agenda item/Time | Literature and Introduction and prototyping - 5 min    |
+| Description      | The sections from the report    |
+| Discussion       | Discussed some challenges    |
+| Action Points    | Pablo - finish all sections (by 20 Dec)    |
+
+
+This meeting we managed to:
+
+1. Understand the current stage of each section
+
+2. Discuss each section and set the new deadlines
+
+3. In the next meeting the group would look through the progress that was made by each team member and 
+discuss the challenges that we faced.
+
+## 20 Dec 2022 { style="page-break-before:always;"}
+
+
+|                  |                                                                                             |
+| ---------------- | ------------------------------------------------------------------------------------------- |
+| Agenda item/Time | Specification - 5 min    |
+| Description      | The section from the report    |
+| Discussion       | Discussed the things that c an be added to the current version of this section - uml class diagram and accessibility    |
+| Action Points    | Tucker - finish the section (by 24 Dec)     |
+
+
+
+|                  |                                                                                             |
+| ---------------- | ------------------------------------------------------------------------------------------- |
+| Agenda item/Time | Analysis, outcomes - 5min |
+| Description      | The section from the report      |
+| Discussion       | Discussed the key factors for progress and success     |
+| Action Points    | Elena - finish that section (by 24 Dec)     |
+
+
+
+|                  |                                                                                             |
+| ---------------- | ------------------------------------------------------------------------------------------- |
+| Agenda item/Time | Objectives, Requirements and approach and motivations - 15 min |
+| Description      | The sections from the report     |
+| Discussion       | Approved the current version of objectives section. Discussed the things that can be added to the current version of requirements and approach and motivations section.     |
+| Action Points    | Isabella - finish 2 sections (by 24 Dec)     |
+
+
+
+|                  |                                                                                             |
+| ---------------- | ------------------------------------------------------------------------------------------- |
+| Agenda item/Time | Literature and Introduction and prototyping - 15 min|
+| Description      | The sections from the report     |
+| Discussion       | Approved the current version of prototyping section. Discussed literature and introduction part.     |
+| Action Points    | Pablo - finish the sections (by 24 Dec)     |
+
+
+
+This meeting we managed to:
+1. Understand the current stage of each section
+
+2. Set the deadlines for the first whole draft
+
+3. In the next meeting the group would look through the first draft of the midterm paper and discuss.
+
+
+
+
+## 27 Dec 2022 { style="page-break-before:always;"}
+
+Team members present/absent: 5/0
+
+|                  |                                                                                             |
+| ---------------- | ------------------------------------------------------------------------------------------- |
+| Agenda item/Time | |
+| Description      | |
+| Discussion       | |
+| Action Points    | |
+
+
+This meeting we managed to:
+
+
+## 3 Jan 2023 { style="page-break-before:always;"}
+
+Team members present/absent: 5/0
+
+|                  |                                                                                             |
+| ---------------- | ------------------------------------------------------------------------------------------- |
+| Agenda item/Time | |
+| Description      | |
+| Discussion       | |
+| Action Points    | |
+
+|                  |                                                                                             |
+| ---------------- | ------------------------------------------------------------------------------------------- |
+| Agenda item/Time | |
+| Description      | |
+| Discussion       | |
+| Action Points    | |
+
+
+This meeting we managed to:
+
