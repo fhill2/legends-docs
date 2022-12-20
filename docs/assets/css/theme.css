@@ -19,7 +19,8 @@
     white-space: pre-wrap;
   }
   @page {
-    size: A4 portrait; /* can use also 'landscape' for orientation */
+    size: 11in 11.6in;
+    /* size: A4; */
     margin: 30px 1cm 100px 1cm;
     @bottom-right {
       content: counter(page);
