@@ -1,8 +1,11 @@
 # pandoc --defaults _codebraid_preview.yml --pdf-engine weasyprint -o report.pdf
 input-files:
 - introduction.md
-- project-planning.md
 - market-research.md
+- aims-objectives-requirements.md
+- specification.md
+- prototyping.md
+- project-planning.md
 - appendix.md
 - meeting-agenda.md
 

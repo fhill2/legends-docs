@@ -1,5 +1,7 @@
 # Aims, Objectives, Requirements
 
+## Aims
+
 After carefully considering the idea for our proposal, our main aim is to create a tool that will help experienced League of Legends players in their strategy planning for level of damage under specific circumstances, as well as making the use of the system simple, understandable, and as straightforward as possible.
 
 Furthermore, our main aim is divided into smaller, more specific aims which coincide with the steps we decided to take to approach the project; at the same time, these aims are divided into particular objectives described as bullet points as follows:
