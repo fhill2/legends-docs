@@ -118,3 +118,62 @@ Below is an outline explaining how we will use Github's project management featu
 ![**Figure X:** Github Projects View - Kanban board layout](assets/project-planning/kanban.png){ width=100% height=100% }
 
 - linking low level goals to high level goals, by using Github Milestones feature. Every issue can be assigning to a Milestone, indicating what needs to be completed before the next milestone begins. This is integrated with Github Projects view / Kanban board feature.
+
+
+
+## Gantt Chart
+
+Our team used a Gantt chart to track the project's progress.
+
+After every team meeting, 1 team member was assigned to adjust the future weeks of the Gantt Chart based on how our team was completing the work.
+
+This Gantt chart was exported and added to this report a day before we submitted.
+
+### Iterations
+
+On Each Iteration, feedback was considered by the surveys and market research, and changes were made.
+Iterations were used to show our team's cycle of obtaining user feedback, and improving on our app based on it.
+
+
+
+
+
+### Buffers
+We set buffers. As some planned tasks were out of our control. For example, we could only estimate how long it would take for us to gain feedback from our surveys that satisified our needs to improve and iterate on aspects of the proejct.
+If these tasks ran past our alloted buffer, we had planned to accept the responses as they are, because not moving on would affects deadlines in the future.
+
+
+This is shown b
+A 3rd questionnaire was planned to obtain more precise information of the feedback. As our 1st Questionnaire ran past our deadline, we were not able to carry out this survey in time for the results to be included in our midterm submission, and rescheduled it for after.
+
+
+After these scenarios, we re adjusted the Gantt chart 
+
+The buffers included in the Gantt chart indicated sections that would be ok to run late ahead of schedule. By using these time segments, we could prioritise work that needed to be done before other work and push back work to do in the designated buffer time.
+
+
+### High Risk Areas / Workload
+
+We identified areas of high risk where we could
+Other work our team members from other modules were taken into consideration and we defined some high risk areas:
+- 1 week before christmas - all other module deadlines and we did not want to work as much over holidays.
+
+a 2nd high risk area was identified after our surveys / questionnaires ran behind. 
+
+identifying areas of high risk ahead of time and noting it on the Gantt chart made our team aware of the expected workload during this period and helped plan for it.
+
+### Summary - Reflection
+
+Our Gantt chart was not edited heavily and there were no large setbacks.
+
+We accounted this down to:
+- the buffer zones we planned ahead of time
+- Most work was completed on schedule in the time alloted in the Gantt Chart. Some tasks ran into the task's alloted buffer zones, and there were only a few times the Gantt chart was adjusted. 
+
+
+
+Each member of our team did an excellent job staying on top of the assignments.
+
+
+
+
