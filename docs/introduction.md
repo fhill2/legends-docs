@@ -16,6 +16,10 @@ League of Legends is a Multiplayer Online Battle Arena (MOBA) in which two teams
 
 ### Defining “dealing damage”.
 
+As we can see from this 2014 little comparison study, there are quite a significant amount of variables to consider. In this study, the focus is in comparing the DPS (Damage per second) of one specific champion maintaining all variables constant except one item in both case scenarios and approximating a “time to kill” target as a comparison value. This approach mainly comes short when considering the fact that DPS, and therefore “time to kill” can be misleading values. This happens due to the different playstyle available among the cast of over 160 characters in the game. While some champions are primarily focused on dealing high amounts of constant damage over time, some others are designed to deal a lot of damage in a very short time window and retreat, when considering this, choosing a time frame for which to calculate DPS for each champion would be unrealistic and could lead to some champions looking more powerful than others when in a real case scenario they are just different. As for the “time to kill” variable, we encounter a similar problem, with the variable being mostly related to the attacked target and different champions and items designed to deal more damage to more or less resistant targets. Due to these reasons, we as a team decided to focus on plain damage output for champions in the app. We believe this will provide the most unbiased result and leave the interpretation of the results to the users which should be familiar with game-specific matters such as the ones mentioned before. 
+
+As for now we will start bby introducing the different variables to consider for our calculator to properly work.
+
 Each champion in game has a set of base statistics, some of which increase passively during the games as the champions level up. This set of stats are called the champion “base stats''. Let's look at an example for one of League of Legends more iconic champions Ahri:
 
 ![Figure 0 - Ahri’s Base stats at level 0-18 - Source League of Legends wiki](assets/introduction/image7.png){ width=60% height=60% }
@@ -138,6 +142,8 @@ We understand that by not implementing these systems into the calculator we will
 ### Extra information
 
 Some extra links that could be helpful:
+
+· [BoRK or BT? An analysis for Vayne Players in League of Legends by Chuqiao Huang, Journal of interdiciplanry Science Topics Volume 3 2014, University of Leicester](https://books.google.cl/books?hl=es&lr=&id=FnUhBwAAQBAJ&oi=fnd&pg=PA30&dq=league+of+legends+Damage&ots=IOMIYee5M4&sig=licJ1NXRPn5GCgpllBpqHbuGXZg&redir_esc=y#v=onepage&q&f=false)
 
 Optimizers and calculators for reference:
 
