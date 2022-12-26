@@ -1,7 +1,8 @@
 {
   "dependencies": {
     "hasbin": "^1.2.3",
-    "live-server": "^1.2.2"
+    "live-server": "^1.2.2",
+    "yaml": "^2.2.0"
   },
   "scripts": {
     "dev": "node tools/server.js"
