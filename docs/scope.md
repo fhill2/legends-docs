@@ -1,3 +1,4 @@
+# Scope
 There are 162 champions in this game but we are going to focus only on 3
 of them - Kai'sa, Ezreal and Ahri as they are from the top 10 most
 popular champions according to the research. The input that users are

@@ -1,4 +1,4 @@
-# Meeting agenda
+##  Meeting agenda
 
 Course name: CM 2020
 
@@ -6,7 +6,7 @@ Tutor group number: 6
 
 Team number: 52
 
-## 12 Nov 2022
+### 12 Nov 2022
 
 Team members present/absent: 5/0
 
@@ -30,7 +30,7 @@ This meeting managed to:
 3. Choose the idea for the project.
 4. In the next meeting the group would allocate time to discussing the project in depth and define the timescale
 
-## 19 Nov 2022 { style="page-break-before:always;"}
+### 19 Nov 2022 { style="page-break-before:always;"}
 
 
 Team members present/absent: 4/1
@@ -73,7 +73,7 @@ This meeting we managed to:
 
 
 
-## 26 Nov 2022 { style="page-break-before:always;"}
+### 26 Nov 2022 { style="page-break-before:always;"}
 
 
 Team members present/absent: 5/0
@@ -113,7 +113,7 @@ This meeting we managed to:
    the progress that was made by each team member.
 
 
-## 3 Dec 2022 { style="page-break-before:always;"}
+### 3 Dec 2022 { style="page-break-before:always;"}
 
 
 
@@ -176,7 +176,7 @@ This meeting managed to:
 4. In the next meeting the group would look through the progress that was made by each team member and 
 discuss the challenges that we faced.
 
-## 13 Dec 2022 { style="page-break-before:always;"}
+### 13 Dec 2022 { style="page-break-before:always;"}
 
 
 Team members present/absent: 5/0
@@ -222,7 +222,7 @@ This meeting we managed to:
 3. In the next meeting the group would look through the progress that was made by each team member and 
 discuss the challenges that we faced.
 
-## 20 Dec 2022 { style="page-break-before:always;"}
+### 20 Dec 2022 { style="page-break-before:always;"}
 
 
 |                  |                                                                                             |
@@ -271,7 +271,7 @@ This meeting we managed to:
 
 
 
-## 27 Dec 2022 { style="page-break-before:always;"}
+### 27 Dec 2022 { style="page-break-before:always;"}
 
 Team members present/absent: 5/0
 
@@ -286,7 +286,7 @@ Team members present/absent: 5/0
 This meeting we managed to:
 
 
-## 3 Jan 2023 { style="page-break-before:always;"}
+### 3 Jan 2023 { style="page-break-before:always;"}
 
 Team members present/absent: 5/0
 

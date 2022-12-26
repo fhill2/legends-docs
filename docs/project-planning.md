@@ -17,7 +17,7 @@ maybe leave questionnaire and user feedback out for other section - wait for nex
 
 ## Timeline - History - Reflection
 
-### **Week 5-8**
+### Week 5-8
 
 The first two weeks were allocated to review different project management approaches and decide on a plan to adhere to up to the completion of the development of the project.
 
@@ -41,7 +41,7 @@ Our team's decisions were to:
 
 - create a questionnaire to obtain user feedback, and get it in front of participants as early as possible, as our decisions going forward would be dependant on this data. The prototype would also be included with the questionnaire, and our team could get early stage feedback on it too.
 
-### **Week 8**
+### Week 8
 
 At the start of this stage of the project, our team highlighted some positive and negative aspects of the current project management process.
 
