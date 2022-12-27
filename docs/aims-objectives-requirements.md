@@ -35,15 +35,29 @@ Furthermore, our main aim is divided into smaller, more specific aims which coin
 ## Requirements elicitation { style="page-break-before:always;"}
 
 
-Our first approach to gathering information to set the first iteration of requirements involved creating a questionnaire with several questions about people's general knowledge of League of Legends and other multiplayer online videogames; this questionnaire was directed at the general public, without particular focus on any target users just yet. The survey, which was created using the Google Forms platform, was sent to the University of London's Slack workspace to be filled out by other students of the BSc in Computer Science degree.
+Due   to   how   thoroughly   we   had   discussed   the   project   idea   from   the   beginning   of   our   team meetings, we already had a rough idea of the basic functionalities we wanted our application to have. This was due in part to one of our team members being a recurrent player of League of Legends.   As   such,   we   started   with   quite   a   good   base   of   requirement   ideas.   Nevertheless, because one of our goals is to create a tool for other players, we believed feedback for our list of requirements from outside sources would beat least partially required.
+
+Our initial expectations for the application’s requirements included:
+- being able to choose any champion (character) and any target (enemy) 
+- pick any equipment and items
+- display the damage calculations using the given above information
+- have a clean, understandable and intuitive user interface which will avoid users getting confused while using it as much as possible
+
+A   couple   of   additional   ideas   we   contemplated   are   the   customization   of   target   stats   and   the addition of more champions and equipment/items; these ideas will be considered further once the application’s development is at a more advanced stage.  
+
+Furthermore,   we   pondered   over   some   of   the   functionality   for   the   optimization   section   of   the
+project, which would mainly work as a way to calculate the maximum damage possible for any
+given circumstance. We will keep to the damage calculation section specifically for this report.
+
+
+Our   first   approach   to   gathering   information   involved   creating   a   questionnaire   with   several questions about people’s general knowledge of League of Legends and other online multiplayer videogames. This questionnaire was directed at the general public, without particular focus on any target users. The survey, which was created using the Google Forms platform, was sent to the University of London’s official Slack workspace to be filled out by other students of the BSc in Computer Science degree.
 
 ![**Figure X**: ?](assets/aims-objectives-requirements/image-001.png){ width=80% height=80% }
 
 
 ![**Figure X**: ?](assets/aims-objectives-requirements/image-002.png){width=80% height=80%}
 
-The goal of this first survey was to get a general idea of what people knew about the game and the existing tools to aid its users, as well as gathering information on other games of the same nature and any other similar tools. Originally, this would serve as a reference point, as we would use the information gathered to compare the strengths and weaknesses of these other tools in the context of the respective games they are created for, and how we could utilize some of that knowledge and translate it onto our own application.
-
+The goal of this first survey was to get a general idea of what people knew about the game and the existing tools to aid its users, as well as acquiring information on similar games and their respective tools of the same nature. This would serve as a reference point, as we would use the data to compare the strengths and weaknesses of existing tools in the context of the respective games they are created for, and figure out how we could use that knowledge and translate it onto our application.
 
 ![**Figure X**: ?](assets/aims-objectives-requirements/image-003.png)
 ![**Figure X**: ?](assets/aims-objectives-requirements/image-004.png)
@@ -55,13 +69,22 @@ We realized fairly quickly, however, that the results from this first survey wer
 
 ![**Figure X**: ?](assets/aims-objectives-requirements/image-006.png)
 
-Following our planning discussion beforehand, we decided to create a different questionnaire using some of the questions from the first one and added more League of Legends user-specific questions, such as asking for the current in-game rank, the level of interest for a calculator tool for this game in particular, and an open-ended question about the functionalities that actual users would be interested in seeing included in the application. This new survey was sent out to a chosen focus group of people who are regular players of the game (*where was the survey link sent to exactly?*)
+
+We   decided   to   create   a different   questionnaire   based on   the   first   one,   and   added more   experienced   user- specific   questions,   such   as asking   for   current   in-game rank, the level of interest for a calculator   tool,   and   an   open- ended   question   about   the functionalities   that   users  would  be  interested   in   seeing   included   in   the   application.   This new survey was sent out to a chosen focus group of people who are regular players of the game.
 
 
 
 ![**Figure X**: ?](assets/aims-objectives-requirements/image-007.png)
 
-This time, the open-ended responses were much more thorough, as shown in the following screenshot of barely one section of the questionnaire. With these results, it seemed like we could gather enough details to begin working on the basic requirements for the application. However, we noticed we had a slightly different problem this time; the experienced users feedback was much more specific and thorough than we had expected at first. Our reasoning for this outcome was that the open-ended questions were left *too* open, and as such, the users described functionalities that are much more particular in comparison to any similar websites and tools they had used before.
+
+This time, the open-ended responses were a lot more thorough. However, we noticed we had a slightly different problem; the experienced users’ feedback was overly detailed. Our reasoning for this outcome was that the open-ended questions were left too open, and as such, the users described functionalities far more particular than the simple ones we had in mind at the moment.
 
 
 ![**Figure X**: ?](assets/aims-objectives-requirements/image-008.png)
+
+Mulling over our options, we ultimately decided that while we appreciated all the data we had gathered,   the   detailed   feedback   we   got   could   not   realistically   be   reduced   enough   into achievable requirements at this stage. These ideas seemed to be based on the assumption that there was already a working model of our application that  could be further  enhanced, rather than helping us pin down the most basic functionality for an application still in its early stages. With the above in mind, we chose to keep to the initial list we had already constructed of more attainable   requirements.   We   could   still,   however,   consider   the   above   data   at   a   later   stage, where they might become more manageable in the scope of our project.
+
+
+## Approach and motivations
+
+The most significant goal of this application is to give League of Legends players a useful tool that can help them avoid the troubles that have been described when trying to calculate damage under particular circumstances. Because the origin of this idea came from a team member who is,   in   fact,   a   regular   player   of   the   game,   the   motivations   for   this   project   are   reflected   all throughout this report, as there has been careful consideration and thought behind each section of the application with the help of a direct source, who is fairly knowledgeable in the matter.
