@@ -1,4 +1,4 @@
-##  Meeting agenda
+##  Meeting agenda { style="page-break-before:always;"}
 
 Course name: CM 2020
 

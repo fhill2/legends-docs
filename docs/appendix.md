@@ -1,6 +1,6 @@
 # Appendix
 
-### Variables to consider.
+### Variables to consider
 
 In this following section, we are going to talk specifically about all the possible variables that may influence the damage calculation, starting from the most basic variables, which we consider fundamental to be considered by our calculator, to the most complex or niche variables which may affect the outcome of the calculator but either their influence is barely substantial enough to justify the number of resources needed to consider them and their presence in a real game is unpredictable and unreliable enough not to make them a stable variable in our calculations.
 

@@ -20,7 +20,7 @@ Our team's decisions were to:
 
 - store the source code files in a separate repository hosted on github.
 
-- meet on zoom once a week, and discuss the project in Slack during the time between meetings. Discussions and work carried out during meetings will be documented in a weekly Meeting Agenda report. (included in the Appendix).
+- meet on zoom once a week, and discuss the project in Slack during the time between meetings. Discussions and work carried out during meetings will be documented in a weekly [Meeting Agenda] report. (included in the Appendix).
 
 - write an Introduction, Proposal, and produce a minimal functional prototype for the chosen project idea as soon as possible, so other team members could learn more about the project topic / field.
 
@@ -78,7 +78,7 @@ We set a soft deadline for the start of Week 10, for each assigned team member's
 
 We set a deadline of 25 December for the midterm submission.
 
-### Week 9
+### Week 9 - Submission
 
 At week 9, our team was collaboratively editing and reviewing the documentation for the report / submission. Again, we reflected by highlighting positive and negative aspects of the project management process.
 
