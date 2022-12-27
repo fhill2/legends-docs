@@ -1,20 +1,5 @@
 # Project Planning
 
-TODO:
-
-gannt chart:
-show deadlines and assigning different team members
-show questionaire timeline -
-show collaboration part
-
-add to meeting agenda: discuss the project management process of the project.
-
-add all project planning from meeting agenda
-
-insert deadline
-
-maybe leave questionnaire and user feedback out for other section - wait for next week to see other sections.
-
 ## Timeline - History - Reflection
 
 ### Week 5-8
@@ -121,59 +106,42 @@ Below is an outline explaining how we will use Github's project management featu
 
 
 
-## Gantt Chart
+## Gantt Chart { style="page-break-before:always;"}
 
-Our team used a Gantt chart to track the project's progress.
 
-After every team meeting, 1 team member was assigned to adjust the future weeks of the Gantt Chart based on how our team was completing the work.
+Our team used a Gantt Chart provided by [teamgantt.com](https://teamgantt.com) to track the project's progress.
 
-This Gantt chart was exported and added to this report a day before we submitted.
+![Our Team's Gantt Chart](assets/project-planning/gantt.png){width=100% height=100%}
 
 ### Iterations
 
-On Each Iteration, feedback was considered by the surveys and market research, and changes were made.
-Iterations were used to show our team's cycle of obtaining user feedback, and improving on our app based on it.
+The iterations for sections shown in the Gantt Chart defines a period where we received feedback from surveys, market research, or our focus group and developed and refined the feedback into the project.
 
-
-
-
+By including these iteration cycles into the Gantt chart, we could show the project's progression more clearly.
 
 ### Buffers
-We set buffers. As some planned tasks were out of our control. For example, we could only estimate how long it would take for us to gain feedback from our surveys that satisified our needs to improve and iterate on aspects of the proejct.
-If these tasks ran past our alloted buffer, we had planned to accept the responses as they are, because not moving on would affects deadlines in the future.
+
+The Gantt Chart shows buffers that define a period of time after our scheduled work. If we did not finish the work by the buffer end date, the work we planned in the future would have to be adjusted to compensate.
+
+This was important when scheduling the time designated for obtainining responses for our surveys, as our team could only estimate how long it would take for us to gain feedback from them that satisified our needs to improve and iterate on aspects of the project. If we did not gather satisfactory feedback by the buffer end date, we planned to accept the responses as they are, as spending more time gathering responses would affect other deadlines we set in the future.
 
 
-This is shown b
-A 3rd questionnaire was planned to obtain more precise information of the feedback. As our 1st Questionnaire ran past our deadline, we were not able to carry out this survey in time for the results to be included in our midterm submission, and rescheduled it for after.
-
-
-After these scenarios, we re adjusted the Gantt chart 
-
-The buffers included in the Gantt chart indicated sections that would be ok to run late ahead of schedule. By using these time segments, we could prioritise work that needed to be done before other work and push back work to do in the designated buffer time.
-
+Most work was completed on schedule in the time alloted in the Gantt Chart. Some tasks ran into the task's alloted buffer zones, and there were only a few times the Gantt chart was adjusted. 
 
 ### High Risk Areas / Workload
 
-We identified areas of high risk where we could
-Other work our team members from other modules were taken into consideration and we defined some high risk areas:
-- 1 week before christmas - all other module deadlines and we did not want to work as much over holidays.
+Our team planned for weeks where the project demanded more resources, and noted these periods in the Gantt Chart. These planned work areas ensured all members of our team spent more of our resources at the same time, and managed our team's planned work expectations.
 
-a 2nd high risk area was identified after our surveys / questionnaires ran behind. 
+This section of the Gantt chart was adjusted throughout the project's development. 
 
-identifying areas of high risk ahead of time and noting it on the Gantt chart made our team aware of the expected workload during this period and helped plan for it.
+After our second user feedback iteration, a second high risk area was identified after our surveys / questionnaires ran behind and the Gantt Chart was edited to show this.
+
 
 ### Summary - Reflection
 
-Our Gantt chart was not edited heavily and there were no large setbacks.
+Our Gantt chart was not edited heavily since the first draft, and there were no large setbacks that affected our planned delivery or submission dates.
 
-We accounted this down to:
-- the buffer zones we planned ahead of time
-- Most work was completed on schedule in the time alloted in the Gantt Chart. Some tasks ran into the task's alloted buffer zones, and there were only a few times the Gantt chart was adjusted. 
-
-
-
-Each member of our team did an excellent job staying on top of the assignments.
-
+Iterations, Buffers, and High Risk Areas used through week 5 - 10 have been efficient strategies for planning our project and will be used to schedule and plan the work for the project in the future.
 
 
 
