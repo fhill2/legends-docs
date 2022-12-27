@@ -64,7 +64,7 @@ By switching from Github Flavoured Markdown to Pandoc Markdown Extended Syntax, 
 
 The output HTML from pandoc was converted to a PDF using [prince](https://www.princexml.com/)
 
-![**Figure X:** Code to automate the generation of the HTML and PDF versions of the markdown files](assets/project-planning/doc-build.png){ width=80% height=80% }
+![**Figure X:** Code to automate the generation of the HTML and PDF versions of the markdown files](assets/project-planning/doc-build.png){ width=55% height=55% }
 
 Due to the use of Pandoc Extended Markdown Syntax, the Github Web Markdown Viewer rendering GFM flavored markdown did not show a true representation of our work we were collaborating on. Therefore, it did not make sense to keep using this viewer.
 

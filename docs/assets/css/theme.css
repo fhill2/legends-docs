@@ -23,6 +23,7 @@
     /* size: A4; */
     margin: 30px 1cm 100px 1cm;
     @bottom-right {
+      font-size: 18px;
       content: counter(page);
     }
   }
@@ -153,8 +154,12 @@ nav#TOC ul {
 
 a {
   text-decoration: none;
-  color: black;
 }
+
+nav a {
+    color: black;
+}
+
 
 li > a {
   margin-left: 5px;
