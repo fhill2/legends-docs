@@ -1,7 +1,6 @@
-# Midterm Report for our team here
+# Midterm Deliverable for LoL Damage Calculator
 
 ## Authors
 
-Insert table of authors here
-
+Pablo Emanuel García Sachetti, Elena Son, Frederick Hill, Tucker Lebor, Victoria Isabella Espinoza García
 
