@@ -118,28 +118,6 @@ Figure Y shows 30% of players do not play any other non Riot games.
 
 Guaging player exclusivity can predict the amount of knowledge users might have about other existing tools. For example, a product / tool provided for other games will have more influence on user's opinions of our product.
 
-## Platform { style="page-break-before:always;"}
-
-This data shows the platform players play League of Legends on, Mobile, Console, or Desktop.
-
-Desktop Platforms, Windows and OSX, play the regular version of the game. Mobile and Console platforms play the "Wild Rift" version of the game.
-
-There is no cross play between desktop and mobile platforms. Players playing on Windows or OSX cannot play against players playing on other platforms.
-
-Figure X shows 38% of reddit play on another platform than PC.
-
-![**Figure X:** What other consoles do you play on?[^14]](assets/surveys-jupyter/11501/platform.svg){ width=70% height=70% }
-
-By measuring player platform use, we can realise the benefit to our users if support for the "Wild Rift" version of the game is implemented. Also, it shows the possibilities of a player using our app through a platform that is different to the platform they play the game on.
-
-Given this data, we will have to provide a UI interface that works well on these alternate platforms to cover all the possible scenarios below.
-
-For players playing on Playstation, Nintendo Switch, they might use our app through the web browser running on the console (this defaults to the desktop version of responsive websites, and so will be using the desktop interface layout).
-
-For players playing on Mobile, they will use our app with the mobile interface layout.
-
-For players playing on PC, they will use our app with the desktop interface layout.
-
 ## Game Health { style="page-break-before:always;"}
 
 This data measures Game Health, the change in popularity of the game over time.
@@ -194,11 +172,9 @@ The average League player:
 
 - plays other games as well as League.
 
-- plays on another platform in addition to Windows or OSX.
-
 - is somewhat optimistic about the future of the game and believe the game is balance. They also currently enjoy playing it.
 
-- uses another Social Media or Communication platform to discuss league.
+- uses  Social Media or Communication platform to discuss league.
 
 - has spent 200$ - 500$ on League of Legends since the time they started playing.
 
