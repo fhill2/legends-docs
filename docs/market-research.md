@@ -18,15 +18,15 @@ Our team will use this data to complement our own Survey data, and influence our
 
 ## Demographics { style="page-break-before:always;"}
 
-![**Figure X:** What is your age?[^1]](assets/surveys-jupyter/11501/age.svg){ width=70% height=70% }
+![**Figure 1:** What is your age?[^1]](assets/surveys-jupyter/11501/age.svg){ width=70% height=70% }
 
-![**Figure X:** What is your gender?[^2]](assets/surveys-jupyter/11501/gender.svg){ width=70% height=70% }
+![**Figure 2:** What is your gender?[^2]](assets/surveys-jupyter/11501/gender.svg){ width=70% height=70% }
 
-![**Figure X:** What country are you from?[^3]](assets/surveys-jupyter/11501/region.svg){ width=70% height=70% }
+![**Figure 3:** What country are you from?[^3]](assets/surveys-jupyter/11501/region.svg){ width=70% height=70% }
 
-![**Figure X:** What is your native language?[^4]](assets/surveys-jupyter/11501/language.svg){ width=70% height=70% }
+![**Figure 4:** What is your native language?[^4]](assets/surveys-jupyter/11501/language.svg){ width=70% height=70% }
 
-![**Figure X:** What server do you mainly play on?[^5]](assets/surveys-jupyter/11501/servers.svg){ width=70% height=70% }
+![**Figure 5:** What server do you mainly play on?[^5]](assets/surveys-jupyter/11501/servers.svg){ width=70% height=70% }
 
 This demographic data will change how we develop and market the app.
 
@@ -78,13 +78,13 @@ The difference between experience and competence can be realised in the terminol
 | Newbie - Noob           | low experience or low competence  |
 | Beginner                | low experience and low competence |
 
-Figure X shows most League of Legends players play 1-2 games daily, with 12% playing more than 5 games a day (around 2 hours playtime).
+Figure 6 shows most League of Legends players play 1-2 games daily, with 12% playing more than 5 games a day (around 2 hours playtime).
 
-![**Figure X:** The amount of games played daily by each survey participant[^9]](assets/surveys-jupyter/6500/games-played-daily.svg){ width=70% height=70% }
+![**Figure 6:** The amount of games played daily by each survey participant[^9]](assets/surveys-jupyter/6500/games-played-daily.svg){ width=70% height=70% }
 
-Figure X shows most league of legends players started playing 10 years ago, and new players have gradually decreased since then. It also shows survey bias, as most players played the game before discovering the reddit forum. The average participant in these surveys has more game experience than an average League of Legends player.
+Figure 7 shows most league of legends players started playing 10 years ago, and new players have gradually decreased since then. It also shows survey bias, as most players played the game before discovering the reddit forum. The average participant in these surveys has more game experience than an average League of Legends player.
 
-![**Figure X:** When did you start playing League / using r/leagueoflegends?[^10]](assets/surveys-jupyter/11501/league-reddit.svg){ width=80% height=80% }
+![**Figure 7:** When did you start playing League / using r/leagueoflegends?[^10]](assets/surveys-jupyter/11501/league-reddit.svg){ width=80% height=80% }
 
 Guaging player experience can help our team identify what features are most important for our app. For example, including an explanation of game terminology in a "walkthrough" or "help" feature is less important as the playerbase is relatively experienced.
 
@@ -92,9 +92,9 @@ Guaging player experience can help our team identify what features are most impo
 
 This data shows the amount of interaction players have with other players.
 
-Figure X shows most players play with someone they know.
+Figure 8 shows most players play with someone they know.
 
-![**Figure X:** Do you mostly play League with friends?[^11]](assets/surveys-jupyter/11501/friends.svg){ width=70% height=70% }
+![**Figure 8:** Do you mostly play League with friends?[^11]](assets/surveys-jupyter/11501/friends.svg){ width=70% height=70% }
 
 Guaging the community and interaction of the playerbase influences decisions during and after the development the app.
 
@@ -108,13 +108,13 @@ For example, if our userbase primarily do not play with friends:
 
 This data shows if players also play other games while playing League of Legends. A fully exclusive player only plays league of legends and no other games.
 
-Figure X shows almost 50% of League of Legends players do not play any other games from Riot.
+Figure 9 shows almost 50% of League of Legends players do not play any other games from Riot.
 
-![**Figure X:** What other games from Riot do you play regularly?[^12]](assets/surveys-jupyter/11501/exclusivity-riot.svg){ width=70% height=70% }
+![**Figure 9:** What other games from Riot do you play regularly?[^12]](assets/surveys-jupyter/11501/exclusivity-riot.svg){ width=70% height=70% }
 
-Figure Y shows 30% of players do not play any other non Riot games.
+Figure 10 shows 30% of players do not play any other non Riot games.
 
-![**Figure X:** What other non-Riot games do you play regularly?[^13]](assets/surveys-jupyter/11501/exclusivity-noriot.svg){ width=70% height=70% }
+![**Figure 10:** What other non-Riot games do you play regularly?[^13]](assets/surveys-jupyter/11501/exclusivity-noriot.svg){ width=70% height=70% }
 
 Guaging player exclusivity can predict the amount of knowledge users might have about other existing tools. For example, a product / tool provided for other games will have more influence on user's opinions of our product.
 
@@ -122,19 +122,17 @@ Guaging player exclusivity can predict the amount of knowledge users might have 
 
 This data measures Game Health, the change in popularity of the game over time.
 
-#### How optimistic are you about the future of League of Legends?
+Figure 11 shows there are more players who are neutral and optimistic, than pessimistic about the game's future.
 
-Figure X shows there are more players who are neutral and optimistic, than pessimistic about the game's future.
+![**Figure 11:** How optimistic are you about the future of League of Legends?[^15]](assets/surveys-jupyter/136/game-satisfaction-optimism.svg){ width=70% height=70% }
 
-![**Figure X:** How optimistic are you about the future of League of Legends?[^15]](assets/surveys-jupyter/136/game-satisfaction-optimism.svg){ width=70% height=70% }
+Figure 12 shows a large variation in responses when participants were asked if they enjoy playing League more than a few years ago. Most players currently enjoy playing League.
 
-Figure X shows a large variation in responses when participants were asked if they enjoy playing League more than a few years ago. Most players currently enjoy playing League.
+![**Figure 12:** I enjoy playing vs enjoying playing more than a few years ago?[^16]](assets/surveys-jupyter/11501/satisfaction.svg){ width=80% height=80% }
 
-![**Figure X:** I enjoy playing vs enjoying playing more than a few years ago?[^16]](assets/surveys-jupyter/11501/satisfaction.svg){ width=80% height=80% }
+Figure 13 shows player's opinions on the balance of the game. Most feel the game is relatively balanced.
 
-Figure X shows player's opinions on the balance of the game. Most feel the game is relatively balanced.
-
-![**Figure X:** How happy are you with the balancing of the game?[^17]](assets/surveys-jupyter/11501/satisfaction-balanced.svg){ width=70% height=70% }
+![**Figure 13:** How happy are you with the balancing of the game?[^17]](assets/surveys-jupyter/11501/satisfaction-balanced.svg){ width=70% height=70% }
 
 activeplayer.io[^18] further validates this survey data, showing a steadily increasing population from game launch to present.
 
@@ -142,17 +140,17 @@ Quantifying Game Health is useful as the amount of users using our app depends o
 
 ## Player Social Media Engagement
 
-Figure X shows League of Legends engagement across social media platforms.
+Figure 14 shows League of Legends engagement across social media platforms.
 
-![**Figure X:** What social media platforms do you use to follow and discuss League?[^19]](assets/surveys-jupyter/11501/social-media.svg){ width=70% height=70% }
+![**Figure 14:** What social media platforms do you use to follow and discuss League?[^19]](assets/surveys-jupyter/11501/social-media.svg){ width=70% height=70% }
 
 As there are some social media platforms that League players use to communicate, running marketing campaigns on these platforms will be effective. Twitter and Discord will be the best platforms to start the campaigns on.
 
 ## Monetisation Strategy { style="page-break-before:always;"}
 
-Figure X shows around 60% of players have spent more than 100$ since they have started playing League.
+Figure 15 shows around 60% of players have spent more than 100$ since they have started playing League.
 
-![**Figure X:** How much money have you approximately spent on League?[^20]](assets/surveys-jupyter/11501/player-money-investment.svg){ width=70% height=70% }
+![**Figure 15:** How much money have you approximately spent on League?[^20]](assets/surveys-jupyter/11501/player-money-investment.svg){ width=70% height=70% }
 
 This shows the profitability of free to play games such as League of Legends. If players are spending money on in-game purchases, they will be more inclined to spend money on our app, especially if our app allows the player to gain a competitive advantage against other players, something Riot Games in-game purchases do not permit.
 

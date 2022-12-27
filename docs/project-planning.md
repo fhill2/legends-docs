@@ -42,13 +42,13 @@ At the start of this stage of the project, our team highlighted some positive an
 
 To provide pre and post edit collaboration tools, our team planned to implement a simplified version of the [Manubot contribution workflow](https://greenelab.github.io/meta-review/) to collaborate on the report. This contribution workflow is centred around using GitHub’s Pull Request review interface to allow any team member to comment on any other member's changes, globally or at specific lines, by asking questions or requesting modifications. A Pull Request is opened for every change.
 
-![**Figure X:** Showing the original Manubot contribution workflow](assets/project-planning/manubot-review.svg){ width=60% height=60% }
+![**Figure 1:** Showing the original Manubot contribution workflow](assets/project-planning/manubot-review.svg){ width=60% height=60% }
 
 In addition to this, we would collaborate using a [shared repository model](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/getting-started/about-collaborative-development-models#shared-repository-model). Forks were not used to initiate pull requests, and our team collaborated in a single shared repository. All Pull Requests were from branches within the same repository.
 
-![**Figure X:** Test Pull Request showing Discussions](assets/project-planning/pr-1.png){ width=70% height=70% }
+![**Figure 2:** Test Pull Request showing Discussions](assets/project-planning/pr-1.png){ width=70% height=70% }
 
-![**Figure X:** Test Pull Request showing Files Changed / Diff View](assets/project-planning/pr-2.png){ width=70% height=70% }
+![**Figure 3:** Test Pull Request showing Files Changed / Diff View](assets/project-planning/pr-2.png){ width=70% height=70% }
 
 ❌ Github wiki did not integrate well with current documentation tooling.
 
@@ -64,7 +64,7 @@ By switching from Github Flavoured Markdown to Pandoc Markdown Extended Syntax, 
 
 The output HTML from pandoc was converted to a PDF using [prince](https://www.princexml.com/)
 
-![**Figure X:** Code to automate the generation of the HTML and PDF versions of the markdown files](assets/project-planning/doc-build.png){ width=55% height=55% }
+![**Figure 4:** Code to automate the generation of the HTML and PDF versions of the markdown files](assets/project-planning/doc-build.png){ width=55% height=55% }
 
 Due to the use of Pandoc Extended Markdown Syntax, the Github Web Markdown Viewer rendering GFM flavored markdown did not show a true representation of our work we were collaborating on. Therefore, it did not make sense to keep using this viewer.
 
@@ -100,7 +100,7 @@ Below is an outline explaining how we will use Github's project management featu
 
 - Github Projects provide an interface to manage the project at a high level, showing the upcoming deadlines and milestones. This UI interface is similar to a Kanban board.
 
-![**Figure X:** Github Projects View - Kanban board layout](assets/project-planning/kanban.png){ width=100% height=100% }
+![**Figure 5:** Github Projects View - Kanban board layout](assets/project-planning/kanban.png){ width=100% height=100% }
 
 - linking low level goals to high level goals, by using Github Milestones feature. Every issue can be assigning to a Milestone, indicating what needs to be completed before the next milestone begins. This is integrated with Github Projects view / Kanban board feature.
 
@@ -111,7 +111,7 @@ Below is an outline explaining how we will use Github's project management featu
 
 Our team used a Gantt Chart provided by [teamgantt.com](https://teamgantt.com) to track the project's progress.
 
-![Our Team's Gantt Chart](assets/project-planning/gantt.png){width=100% height=100%}
+![**Figure 6:** Our Team's Gantt Chart](assets/project-planning/gantt.png){width=100% height=100%}
 
 ### Iterations
 
