@@ -6,7 +6,6 @@ input-files:
 - scope.md
 - specification.md
 - market-research.md
-- approach-motivations.md
 - prototyping.md
 - analysis-outcomes.md # conclusion
 - appendix.md
