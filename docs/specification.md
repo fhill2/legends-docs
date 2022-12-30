@@ -2,7 +2,7 @@
 
 ### NodeJS
 
-There are two primary ways in which websites are built: as static web pages or as a web server. We will be using a web server as this provides more flexibility over a static page. For instance, it will be possible to implement a feature that embeds the configuration of the calculator in the URL, allowing for easy sharing of builds between players; this would not be possible with a static page. The most popular framework for building web servers is NodeJS[^1]. NodeJS also provides other libraries and tools as packages (via NPM), which makes project configuration much easier. For these reasons, NodeJS and NPM will form the backbone of our project.
+There are two primary ways in which websites are built: as static web pages or as a web server. We will be using a web server as this provides more flexibility over a static page. For instance, it will be possible to implement a feature that embeds the configuration of the calculator in the URL, allowing for easy sharing of builds between players; this would not be possible with a static page. The most popular framework for building web servers is NodeJS[^21]. NodeJS also provides other libraries and tools as packages (via NPM), which makes project configuration much easier. For these reasons, NodeJS and NPM will form the backbone of our project.
 
 ### Typescript
 
@@ -18,7 +18,7 @@ The Embedded Javascript templating library (EJS) will also be used. It allows fo
 
 ### Data Source
 
-There are multiple potential sources of data for this project. The official source of data on in-game item and character properties is provided by Riot Games in “Data Dragon”, a collection of JSON files which can be downloaded from their website. However, these files are known to be incomplete and inaccurate in almost all cases. This is a problem that others have faced before, some of whom have created their own data by scanning the game’s installation files directly; this is called Community Dragon. This data is not easily usable though, as much of it has been obfuscated. The format of the data also varies significantly from champion to champion, meaning a custom implementation would be needed for most. The source we have settled on using is the League of Legends Wiki[^2]. More specifically we plan on scraping data from the wiki and using some minimal post-processing to bring it to a more usable format. This works much better, since the data has been entered and verified manually by volunteers and is thus much more accurate and consistent than either Data Dragon or Community Dragon. This data will be stored on the server as plain JSON files. A database system is not necessary, since the volume of data is small and will not change.
+There are multiple potential sources of data for this project. The official source of data on in-game item and character properties is provided by Riot Games in “Data Dragon”[^23], a collection of JSON files which can be downloaded from their website. However, these files are known to be incomplete and inaccurate in almost all cases. This is a problem that others have faced before, some of whom have created their own data by scanning the game’s installation files directly; this is called Community Dragon[^24]. This data is not easily usable though, as much of it has been obfuscated. The format of the data also varies significantly from champion to champion, meaning a custom implementation would be needed for most. The source we have settled on using is the League of Legends Wiki[^22]. More specifically we plan on scraping data from the wiki and using some minimal post-processing to bring it to a more usable format. This works much better, since the data has been entered and verified manually by volunteers and is thus much more accurate and consistent than either Data Dragon or Community Dragon. This data will be stored on the server as plain JSON files. A database system is not necessary, since the volume of data is small and will not change.
 
 ### Accessibility/Usability
 
@@ -28,5 +28,7 @@ Additional requirements for the site are standard. Color coding should keep thos
 
 ![](assets/specification/UMLdiagram.png){width=90%}
 
-[^1]: https://www.statista.com/statistics/1124699/worldwide-developer-survey-most-used-frameworks-web/
-[^2]: https://leagueoflegends.fandom.com/wiki/League_of_Legends_Wiki
+[^21]: https://www.statista.com/statistics/1124699/worldwide-developer-survey-most-used-frameworks-web/
+[^22]: https://leagueoflegends.fandom.com/wiki/League_of_Legends_Wiki
+[^23]: https://developer.riotgames.com/docs/lol#data-dragon
+[^24]: https://www.communitydragon.org/
