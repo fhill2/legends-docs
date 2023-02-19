@@ -1,0 +1,23 @@
+# theme.css = css applied by vscode default theme inside vscode
+# used so standalone export looks trhe same as browser
+css: assets/css/theme.css
+
+
+# https://garrettgman.github.io/rmarkdown/authoring_pandoc_markdown.html#images
+
+# implicit_figures -> render alt text of an embedded image as a caption / figure text <p> tag below the image
+# link_attributes -> ![](){ width=50% height=50%}
+from: markdown+implicit_figures+link_attributes+emoji
+to: html
+
+
+# filters: 
+# - ../tools/emoji_filter.js
+
+
+# tells pandoc to generate the header, otherwise css does not get applied to html document
+standalone: true
+
+
+# using wkhtmltopdf for page numbers in toc
+# pdf-engine: 'wkhtmltopdf'

@@ -1,7 +1,7 @@
 
-![](assets/header/lol-logo.png){width=40% height=40% }
+![](assets/midterm/header/lol-logo.png){width=40% height=40% }
 
-# Midterm Deliverable for LoL Damage Calculator { style="page-break-before:avoid;"}
+# Final Deliverable for LoL Damage Calculator { style="page-break-before:avoid;"}
 
 
 

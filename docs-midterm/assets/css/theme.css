@@ -1,0 +1,239 @@
+:root {
+
+  --figcaption-code-font-size: 13px;
+  --line-height: 26px;
+  --color-text-secondary: #637282;
+  --color-table-heading: #f3f3fb;
+  --color-border-heavy: #ccccd4;
+  --figcaption-gap: 6px;
+  --captioned-figure-gap: 10px;
+  --figcaption-line-height: 21px;
+  --figcaption-font-size: 1.4rem;
+}
+
+
+/* https://dev.to/bowmanjd/python-pdf-generation-from-html-with-weasyprint-538h */
+
+@media print {
+  pre {
+    white-space: pre-wrap;
+  }
+  @page {
+    size: 11in 11.6in;
+    /* size: A4; */
+    margin: 30px 1cm 100px 1cm;
+    @bottom-right {
+      font-size: 18px;
+      content: counter(page);
+    }
+  }
+}
+
+
+html {
+  /* 62.5% font size trick */
+font-size: 62.5%;
+}
+
+/* https://www.jotform.com/blog/css-perfect-print-stylesheet-98272 */
+/* Defining all page breaks */
+a {
+    page-break-inside:avoid
+}
+blockquote {
+    page-break-inside: avoid;
+}
+
+h1, h2, h3, h4, h5, h6 { 
+  page-break-after:avoid; 
+  page-break-inside:avoid 
+}
+
+img { page-break-inside:avoid; 
+     page-break-after:avoid; }
+table, pre { page-break-inside:avoid }
+ul, ol, dl  { page-break-before:avoid }
+
+
+
+h1 {
+  page-break-before:always;
+}
+
+/* end all page breaks */
+
+
+
+/* Use to create ful width images */
+/* img { */
+/*   width: 100%; */
+/*   display: block; */
+/* } */
+
+
+
+
+figure {
+  text-align: center;
+}
+
+/* figcaption = image captions, caption = table captions */
+figcaption, caption {
+  caption-side: bottom;
+  font-size: var(--figcaption-font-size);
+  line-height: var(--figcaption-line-height);
+  font-style: italic;
+  text-align: center;
+}
+
+caption {
+  margin-top: 7px;
+  margin-bottom: 5px;
+}
+
+body {
+  font-family: 'Arial', 'Noto Color Emoji';
+  font-size: 1.5rem;
+  line-height: 150%;
+}
+
+
+@media screen {
+  body {
+    margin: auto;
+    width: 960px;
+  }
+}
+
+
+h1 {
+  font-size: 3.0rem;
+}
+h2 {
+  font-size: 2.5rem;
+}
+h3 {
+  font-size: 2.1rem;
+}
+h4 {
+  font-size: 1.9rem;
+}
+
+
+
+/* ----- Table of contents ---------------------------------------------  */
+
+.date.before-toc {
+  padding-bottom: var(--line-height);
+}
+
+nav#TOC {
+    page-break-after: always;
+    page-break-before: always;
+}
+
+
+nav#TOC a::after {
+      content: leader('') target-counter(attr(href), page);
+  }
+
+
+/* targets sub headings of the table of contents */
+nav#TOC li > ul  {
+  font-weight: normal;
+  line-height: 150%;
+}
+
+
+
+nav#TOC ul {
+  font-weight: bold;
+  line-height: 200%;
+  /* margin: 15 15 15 15; */
+}
+
+a {
+  text-decoration: none;
+}
+
+nav a {
+    color: black;
+}
+
+
+li > a {
+  margin-left: 5px;
+}
+/* a { */
+/*   color: red; */
+/* } */
+
+/* nav#TOC { */
+/*   margin-bottom: var(--line-height); */
+/*   border-left: 1px solid var(--color-text-secondary); */
+/*   padding-left: 1.5rem; */
+/* } */
+/**/
+/* nav#TOC input { */
+/*   display: none; */
+/* } */
+/**/
+nav#TOC label {
+  /* color: var(--color-link); */
+  color: red;
+  cursor: pointer;
+}
+
+nav#TOC > input:checked + ul {
+  display: block;
+}
+/**/
+/* @media print { */
+/*   nav#TOC > input + ul { */
+/*     display: block; */
+/*   } */
+/* } */
+/**/
+/* ----- Tables -------------------------------------------------------- */
+table {
+  -webkit-font-feature-settings: "tnum" 1;
+  font-feature-settings: "tnum" 1;
+
+  font-size: var(--table-font-size);
+  line-height: var(--table-line-height);
+
+  border-spacing: 0;
+  border-collapse: collapse;
+  border: 1px solid var(--color-border-heavy);
+
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 5px;
+
+  /* Solid background to occlude table of contents */
+  background-color: var(--background-color);
+}
+
+@media print {
+  table {
+    background-color: initial;
+  }
+}
+
+table pre code {
+  font-size: inherit;
+}
+
+.wide table {
+  /* Put this in front of the table of contents */
+  transform: translateZ(0px);
+}
+
+table td, table th {
+  border: 1px solid var(--color-border-heavy);
+  padding: 5px 8px;
+  min-width: 100px;
+}
+table th {
+  background-color: var(--color-table-heading);
+}
