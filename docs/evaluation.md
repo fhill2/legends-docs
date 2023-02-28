@@ -1,7 +1,7 @@
 # Evaluation
 
 
-# Data
+## Data
 
 *Implementing a data gathering process was taking too much resources*
 
@@ -34,8 +34,10 @@ Or we could start from their own scraped implementation, clean up the code that 
 
 Our team decided
 
+## Backend
 
-# Frontend
+
+## Frontend
 
 *Tailwind did not integrate easily with create-react-app*
 
@@ -47,7 +49,7 @@ The team wanted to share types to initialise the React frontend, and the Express
 As `create-react-app` does not allow files existing outside the `src` directory to be imported, we created a custom build script in Python that symlinks the shared files to both `client` and `server` `src` folders.
 
 
-# Deployment 
+## Deployment 
 
 
 *create-react-app caused deployment docker image*
