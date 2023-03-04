@@ -3,7 +3,13 @@ input-files:
 - background.md
 - planning.md
 - research.md
-- system-development.md
+- development.md # only a header
+- dev-data.md
+- dev-design.md
+- dev-frontend.md
+- dev-backend.md
+- dev-deployment.md
+- dev-testing.md
 - evaluation.md
 - conclusion-summary.md
 - appendix.md

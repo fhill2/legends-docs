@@ -41,6 +41,14 @@ Our team decided
 
 *Tailwind did not integrate easily with create-react-app*
 
+*implementing state in a single object*
+State was managed inside a single object, and consideration was given implementing state this way. For any child components using the parent state, React determines if they should re-render by shallow comparing the contents of the current state with the new state being set. This means that editing the data inside a nested object would not trigger a re render of the child components.
+
+Instead of breaking each nested object in
+
+mention base64 variable here and why it was used.
+
+sending the state as bas64 also ensured we could add import/export in the future.
 
 *sharing types and data across server and client backend*
 
