@@ -1,17 +1,70 @@
 ## Frontend
 
-The frontend of our application refers to the
-
 ### React
 
 React is a free and open-source front-end JavaScript library for building user interfaces based on components.[^7]
-It was used to create the Presentation Layer of our 
+
+Our team decided to develop the frontend using React as the application required constant pages updates after the initial page load. 
+Templating engines did not provide the control we needed to implement all of the application's features.
 
 As React is only concerned with the user interface and rendering components to the DOM[^8], additional libraries were used. [react-query](https://github.com/TanStack/query) was used for state management. [floating-ui](https://floating-ui.com/) was used to create the champion and item selectors.
 
-The initial setup of the repository was accelerated by starting from a clone of [Vite-React-Express Boilerplate](https://github.com/joeynguyen/vite-react-express-boilerplate). This provided us a foundation to build our application on.  The use of the boilerplate in our project was permissible due to its MIT license.
 
-The implementation of the frontend was centered around the Scenario endpoint.
+#### Repository Structure
+
+The initial setup of the repository was accelerated by starting from a clone of [Vite-React-Express Boilerplate](https://github.com/joeynguyen/vite-react-express-boilerplate). This provided us a foundation to start building our application.  The use of the boilerplate in our project was permissible due to its MIT license. 
+
+![Screenshot of the repository's file structure](assets/development/frontend-repo-structure.png)
+
+Below is a summary of all directories in the repository. Files were managed together when they fit a similar purpose.
+
+| Directory/File       | Description |
+| --------------- | ------------ |
+|src/server.mjs    | server entry point |
+|src/lib/           | server modules |
+| src/app/main.jsx | client entry point |
+| src/app/*.jsx    | client modules |    
+| src/app/components/*.jsx | client modules |
+| /*.config.js | vite, tailwind, postcss config |
+| public/       | statically served assets |
+| src/app/assets/ | Vite bundled assets |
+| data/ | server and client data files | 
+
+Table: summary of directories in the application's repository
+
+
+#### Modules - Components
+If a component could provide functionality in more than a single part of the user interface, it was encapsulated into and exported from a module.
+
+Instead of artificially separating technologies by putting markup and logic in separate files, React separates concerns[^9] with components. This approach was followed and considered while creating the components of the application. 
+Here is a summary of how the application's logic was distributed between components.
+Below lists every React component used in the application, what they are intented to display, and their logic.
+
+| Component                      | Functionality / Display                                                      | Logic                                   |                               |
+| -------------------------------- | ---------------------------------------------------- | ------------------- | 
+| components/Ability.jsx           | a single champion ability                            | update ability rank
+| components/Champion.jsx          |  container / view - shows ally/enemy champion,stats,items,level | update any champion attribute - champion,items,level |
+| components/Input.jsx             | display and select a single item / champion          | update item/champion
+| components/IntegerIncDec.jsx     | champion level selector with inc dec buttons         | update champion level
+| components/SelectSquares.jsx     | ability rank squares                                 | update ability rank
+| components/Stats.jsx             | champion stats                                       | display a subset of stats
+
+Table: Explanation of each custom React component functionality, what it displays, and the contained logic.
+
+**Utility Component**
+
+The React component, located at **src/app/shared.jsx** contains utility and wrapper components to be imported anywhere else in the application. 
+React provides the ability to pass components into other components. This technique is used in the application to apply borders to components, while also keeping a single copy of the styling for the border. `Border` `ShadowBorder` components in this file implement this.
+
+`ImgWithDefault` component is also included that wraps an <img> element, and provides a custom `onError` callback handler if the src attribute path cannot be found.
+
+This prevented code reuse, and made maintaining the application easier.
+
+**Component Layout**
+
+![Frontend Layout - a single color represents the same React component](assets/development/frontend-uml-layout.png){width=100% height=100%}
+
+
 
 #### State Mangement
 
@@ -37,40 +90,34 @@ This flow of data is similar when a new item is selected using the item selector
 
 ![Frontend Components - Arrows represents data flow](assets/development/frontend-uml-data-flow.png){width=100% height=100%}
 
-#### Structure
-If a component could provide functionality in more than a single part of the user interface, it was encapsulated into and exported from a module.
 
-**shared.jsx** - contains utility and wrapper components to be imported anywhere else in the application. 
-React provides the ability to pass components into other components. This technique is used in the application to apply borders to components, while also keeping a single copy of the styling for the border. `Border` `ShadowBorder` components in this file implement this.
+### Tailwind CSS
 
-`ImgWithDefault` component is also included that wraps an <img> element, and provides a custom `onError` callback handler if the src attribute path cannot be found.
+Tailwind CSS is a library that creates a list of utility CSS classes that can be used to style each element. Instead of creating classes around components, classes are built around a specific style element.^[11]
 
+React encapsulates logic and HTML, rendered using JSX, into a component. With the addition of Tailwind, classes can be written inline on elements rendered by the component, providing further encapsulation.
 
-Instead of artificially separating technologies by putting markup and logic in separate files, React separates concerns[^9] with components. This approach was followed and considered while creating the components of the application. Here is a summary of how the application's logic was distributed between components.
+**Theming**
 
-**components/Ability.jsx** - contains logic to edit ability rank selectors and JSX to 
-**components/Champion.jsx**
-**components/Input.jsx**
-**components/IntegerIncDec.jsx**
-**components/SelectSquares.jsx**
-**components/Stats.jsx**
+Tailwind provides the ability to define a custom color palette, so they can be used as classes on elements. Custom colors from the initial design research were added to the project's tailwind configuration so the application could be styled and themed using inline styles, minimizing the amount of code existing outside each component.
+
+![tailwind.config.js - Theme Colors](assets/development/frontend-tailwind-colors.png){width=100% height=100%}
 
 
+### Vite - Rollup 
 
-This prevented code reuse, and made maintainng the application easier.. The diagram below shows how the frontend was modularised, with 1 color per React component.
+Vite provides a full development server and an optimized build command using Rollup. It is a competitor to create-react-app.[^10]
+It was added to the project at an early stage during development, to ensure the application was being bundled correctly for production use.
+Vite is configured by editing `vite.config.js` at project root. Changes were made to the default configuration, and are listed below. 
 
+**Static Assets**
+Any static assets imported into the application return a resolved public URL when the application is served. This was adequate for assets with a static path and imported/loaded on application start, such as default champion icons, and the background image. Vite also serves any assets located in the `public` directory under the project root, and using it provided a simpler approach for dynamically loading assets compared to utilizing the ECMAScript module syntax for dynamic asset loading. React
 
-![Frontend Layout - A single color represents the same React component](assets/development/frontend-uml-layout.png){width=100% height=100%}
+[Thumbnails were displayed in the champion / item popup by dynamically loading them from the public folder](assets/frontend-item-popup.png)
 
-
-### Tailwind
-
-Tailwind was chosen because.. Tailwind stays close to CSS..
-
-
-
-
-### Vite
+**Data Paths**
+Any modules under the `external` array of the rollup configuration are treated as external peer dependencies, and are not bundled with the application.
+Data files for the server were declared in this array so Rollup excluded them from the bundling process.
 
 
 
@@ -79,3 +126,7 @@ Tailwind was chosen because.. Tailwind stays close to CSS..
 [^8] [Wikipedia - React](https://en.wikipedia.org/wiki/React_(JavaScript_library))
 
 [^9] [reactjs.org - introducing jsx](https://reactjs.org/docs/introducing-jsx.html)
+
+[^10] [CSS Tricks - Comparing the New Generation of Build Tools](https://css-tricks.com/comparing-the-new-generation-of-build-tools/#aa-vite)
+
+[^11] [Wikipedia - Tailwind CSS](https://en.wikipedia.org/wiki/Tailwind_CSS)

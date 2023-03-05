@@ -4,22 +4,14 @@ As our application development cycle involved obtaining user feedback, our team 
 
 Our team researched how the application could be delivered to our users without them having to download the source code, as this would reduce the amount of users willing to test and give feedback on our application. Ideally, the process of updating the deployment should be fully automated, requiring no manualy intervention from our team.
 
-
-
 ### Railway
 
-[Railway](https://railway.app/) is a deployment provider,
+[Railway](https://railway.app/) is a deployment platform where you can provision infrastructure, develop with that infrastructure locally, and then deploy to the cloud. Railway can be set to reference a github repository, and it will move the source code of the repository into a docker container to deploy it. A public facing URL is generated that allows access to the application when visited. The URLs can also be removed as easily. This provided a way to control access to our application, as at this time, we did not want our application permanently public facing. 
 
-Railway is "the cloud that takes the complexity out of shipping software". It is 
+Railway also handles the updates of the application automatically as it integrates with Github Continuous Integration. When commits are pushed to the remote repository, the Github CI Railway plugin would re-deploy our application again. This ensured our testers received the application's latest changes.
 
-Railway was chosen as a deployment provider because it is:
-- very easy to setup. The setup process consisted of pointing the .... to a github repo.
-- had usage based pricing. The traffic to the app was exceptionally low, and the deployment was free.
-- open source.
-- fully automated, requiring no manual intervention. Once Railway has been given permission to read the contents of a GitHub repo, Railway will read the current state of the repo, build, deploy the application, and provide a URL for the application to send to our users/testers. This deployment process happens anytime the repository receives new commits.
+Railway offers a consumption-based pricing model for your projects. You don't get charged for resources you don't use, instead, Railway charges by the minute for each vCPU and memory resource your service uses.[^14] Railway provides 5$ in credits every month on their free plan. As the traffic to our application was very low, there was no cost to use their services for testing.
 
 
-When commits were pushed to the remote repository on github, the github Continuous Integration would deploy our application, and provide a link for the 
-
-Railway is a deployment provider, with features similar to Heroku.
-
+[^13] [Railway - Getting Started](https://docs.railway.app/getting-started)
+[^14] [Railway - Pricing](https://docs.railway.app/reference/pricing)

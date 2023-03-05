@@ -34,7 +34,7 @@ Our team used multiple tools to ease the project's development.
 
 **Git**
 
-Git is a distributed version control system that tracks changes in any set of computer files, usually used for coordinating work among programmers collaboratively developing source code during software development.[^1]
+Git is a distributed version control system that tracks changes in any set of computer files, usually used for coordinating work among programmers collaboratively developing source code during software development.^[1]
 
 Git has been the most valuable tool for our team. It was used to contribute to the same source code, and ensure files shared between contributors were kept in sync.
 
@@ -43,15 +43,17 @@ Any changes that required review from another team member, such as edits to anot
 
 All other changes were commited to the master branch. Our team found this simple workflow effective as the state of the application's release version was not necessary. After the application's release, our team planned to consider workflows such as GitFlow or master/develop/hotfix branches to develop the application.
 
+Our team kept all the application's source code within a single repository as the codebase was small, and provided better integration with Github's Project Management features. As the code was not separated into different repositories, all issues on Github were in the same place. Edits to both backend and frontend parts of the codebase could be contained within a single commit, and all work to the project were kept under a single log / history.
+
 **Slack**
 
-Slack is an instant messaging program. Users can communicate with voice calls, video calls, text messaging, media, and files in private chats or as part of communities called workspaces.[^2]
+Slack is an instant messaging program. Users can communicate with voice calls, video calls, text messaging, media, and files in private chats or as part of communities called workspaces.^[2]
 
 Slack provided tools and options for our team to communicate effectively, For example, if a team member wanted to reach out, the other team member had the option to be alerted immediately (if they did not mute notifications) in their Desktop client. In contrast to Github, whereby the recipient reads the message whenever he visits the website.
 
 **Zoom - Jitsi**
 
-Zoom is a proprietary videotelephony software program.[^3] Jitsi is a collection of free and open-source multiplatform voice (VoIP), video conferencing and instant messaging applications for the web.[^4]
+Zoom is a proprietary videotelephony software program.^[3] Jitsi is a collection of free and open-source multiplatform voice (VoIP), video conferencing and instant messaging applications for the web.^[4]
 
 Team meetings were scheduled every week for the frontend and backend development. Some team members made both meetings every week, others only 1 meeting. This was dependant on the tasks that needed to be completed.
 
