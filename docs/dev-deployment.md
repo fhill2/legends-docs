@@ -6,7 +6,7 @@ Our team researched how the application could be delivered to our users without 
 
 ### Railway
 
-[Railway](https://railway.app/) is a deployment platform where you can provision infrastructure, develop with that infrastructure locally, and then deploy to the cloud. Railway can be set to reference a github repository, and it will move the source code of the repository into a docker container to deploy it. A public facing URL is generated that allows access to the application when visited. The URLs can also be removed as easily. This provided a way to control access to our application, as at this time, we did not want our application permanently public facing. 
+[Railway](https://railway.app/) is a deployment platform that allows our team to provision infrastructure, develop with that infrastructure locally, and then deploy it to the cloud. Railway can be set to reference a github repository, and it will move the source code of the repository into a docker container to deploy it. A public facing URL is generated that allows access to the application when visited. The URLs can also be revoked easily. This provided a way to control access to our application as we did not want our application permanently public facing during the testing and development periods.
 
 Railway also handles the updates of the application automatically as it integrates with Github Continuous Integration. When commits are pushed to the remote repository, the Github CI Railway plugin would re-deploy our application again. This ensured our testers received the application's latest changes.
 
