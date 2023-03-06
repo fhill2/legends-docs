@@ -1,4 +1,5 @@
-## Frontend
+## Frontend { style="page-break-before:always;"}
+
 
 ### React
 
@@ -14,7 +15,7 @@ As React is only concerned with the user interface and rendering components to t
 
 The initial setup of the repository was accelerated by starting from a clone of [Vite-React-Express Boilerplate](https://github.com/joeynguyen/vite-react-express-boilerplate). This provided us a foundation to start building our application.  The use of the boilerplate in our project was permissible due to its MIT license. 
 
-![Screenshot of the repository's file structure](assets/development/frontend-repo-structure.png)
+![Screenshot of the repository's file structure](assets/development/frontend-repo-structure.png){ width=20% height=20%}
 
 Below is a summary of all directories in the repository. Files were managed together when they fit a similar purpose.
 
