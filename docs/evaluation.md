@@ -49,3 +49,8 @@ Vite was chosen as an alternative, as it is lightweight and minimal, and migrati
 By using Vite, the project did not need a custom build script as types could be shared within the project. The removal of the custom build script fixed the errors when building a docker image of the application for deployment.
 
 Resources could have been saved, and these problems avoided, if more research on the compatability of the chosen tools was carried out before development.
+
+**Post Development**
+
+During development, our team paid attention to the tasks that needed to be completed for post development to start. For example, before the application's release, a deployment provider was setup, and data retrieval was fully automated. These tasks were completed earlier than necessary so our team would have less workload during the initial weeks of the application's release.
+

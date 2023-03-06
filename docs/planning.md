@@ -1,7 +1,7 @@
 # Project Planning
 
 
-## Initial 
+## Initial Setup
 
 Before work on the application started, our team created a new git repository to hold the source code for the project, along with a Kanban board and Gantt chart for the weeks up to the final submission. Tools were researched and chosen to develop the project with. Our team also decided on changes to make to our existing workflow and collaboration techniques, and are listed below in the following chapters.
 
