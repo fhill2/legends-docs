@@ -10,11 +10,11 @@ Surprisingly, data published from the same company as the game was the least acc
 
 There were 3 datasets found with parts of the data accurate enough to be used in our app.
 
-1. [Data Dragon](https://riot-api-libraries.readtheldocs.io/en/latest/ddragon.html), or ddragon for short, is a set of static data files that provides images and info about champions, runes, and items. This includes info to translate champion IDs to names.[^1]
+1. [Data Dragon](https://riot-api-libraries.readtheldocs.io/en/latest/ddragon.html), or ddragon for short, is a set of static data files that provides images and info about champions, runes, and items. This includes info to translate champion IDs to names.[^ddragon1]
 
-The data in ddragon is inaccurate, especially champion spell data and item stats.[^1]
+The data in ddragon is inaccurate, especially champion spell data and item stats.[^ddragon2]
 
-2. Community Dragon, (also referred to as cdragon) is an open-source organization which provides tools for scraping data from riot's content delivery network, as well as provide services around hosting scraped data.[^2]
+2. Community Dragon, (also referred to as cdragon) is an open-source organization which provides tools for scraping data from riot's content delivery network, as well as provide services around hosting scraped data.[^cdragon1]
 
 
 3. LoL Wiki Data - [League of Legends Wiki](https://leagueoflegends.fandom.com/wiki/League_of_Legends_Wiki) is a community driven platform hosted by [Fandom](https://about.fandom.com/about). 
@@ -49,8 +49,9 @@ Our team also researched other tools, such as the scrapers that already exist in
 - List others here
 
 
-[^3]: [Data Dragon - readthedocs.io](https://riot-api-libraries.readthedocs.io/en/latest/ddragon.html)
-[^4]: [Community Dragon Documentation](DragonDocumentation)
+[^ddragon1]: [Data Dragon - readthedocs.io](https://riot-api-libraries.readthedocs.io/en/latest/ddragon.html)
+[^ddragon2]: [Data Dragon - readthedocs.io](https://riot-api-libraries.readthedocs.io/en/latest/ddragon.html)
+[^cdragon1]: [Community Dragon Documentation](DragonDocumentation)
 
 
 

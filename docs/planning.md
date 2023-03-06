@@ -26,9 +26,9 @@ Our team used multiple tools to ease the project's development.
 
 **Git**
 
-Git is a distributed version control system that tracks changes in any set of computer files, usually used for coordinating work among programmers collaboratively developing source code during software development.^[1]
+Git is a distributed version control system that tracks changes in any set of computer files, usually used for coordinating work among programmers collaboratively developing source code during software development.[^git1]
 
-Git has been the most valuable tool for our team. It was used to contribute to the same source code, apply version control to our project, and ensure files shared between contributors were kept in sync. Git follows a distributed workflow, whereby every developer can both contribute code to other repositories and maintain a public repository on which others can base their work and which they can contribute to.^[2] This provided multiple benefits to our team, such as having read access to everyone else's repository or branches, and write access to the master. 
+Git has been the most valuable tool for our team. It was used to contribute to the same source code, apply version control to our project, and ensure files shared between contributors were kept in sync. Git follows a distributed workflow, whereby every developer can both contribute code to other repositories and maintain a public repository on which others can base their work and which they can contribute to.[^git2] This provided multiple benefits to our team, such as having read access to everyone else's repository or branches, and write access to the master. 
 
 Any changes that required review from another team member, such as edits to another contributor's work, was either commit to a different branch than the master branch, or submitted as a PR to the master branch. This allowed time for others to review the change before it was merged.
 
@@ -38,13 +38,13 @@ The application's source code existed inside a single repository as the codebase
 
 **Slack**
 
-Slack is an instant messaging program. Users can communicate with voice calls, video calls, text messaging, media, and files in private chats or as part of communities called workspaces.^[3]
+Slack is an instant messaging program. Users can communicate with voice calls, video calls, text messaging, media, and files in private chats or as part of communities called workspaces.[^slack1]
 
 Slack provided tools and options for our team to communicate effectively, For example, if a team member wanted to reach out, the other team member had the option to be alerted immediately (if they did not mute notifications) in their Desktop client. This improved time between responses.
 
 **Zoom - Jitsi**
 
-Zoom is a proprietary videotelephony software program.^[4] Jitsi is a collection of free and open-source multiplatform voice (VoIP), video conferencing and instant messaging applications for the web.^[5]
+Zoom is a proprietary videotelephony software program.[^zoom1] Jitsi is a collection of free and open-source multiplatform voice (VoIP), video conferencing and instant messaging applications for the web.[^jitsi1]
 
 Team meetings were scheduled every week for the frontend and backend development. Some team members made 1 or 2 meetings every week depending on the tasks assigned for thoses weeks.
 
@@ -114,8 +114,9 @@ To compensate for lost time, our team planned to:
 
 
 
-[^1] - [Wikipedia - Git](https://en.wikipedia.org/wiki/Git)
-[^2] - [Wikipedia - Slack](https://en.wikipedia.org/wiki/Slack_(software))
-[^3] - [Wikipedia - Zoom](https://en.wikipedia.org/wiki/Zoom_(software))
+[^git1]: [Wikipedia - Git](https://en.wikipedia.org/wiki/Git)
+[^git2]: [Git - Distributed Workflow - SCM book](https://git-scm.com/book/en/v2/Distributed-Git-Distributed-Workflows)
+[^slack1]: [Wikipedia - Slack](https://en.wikipedia.org/wiki/Slack_(software))
+[^zoom1]: [Wikipedia - Zoom](https://en.wikipedia.org/wiki/Zoom_(software))
 
-[^4] - [Wikipedia - Jitsi](https://en.wikipedia.org/wiki/Jitsi)
+[^jitsi1]: [Wikipedia - Jitsi](https://en.wikipedia.org/wiki/Jitsi)

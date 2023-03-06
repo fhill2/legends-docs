@@ -2,12 +2,12 @@
 
 ### React
 
-React is a free and open-source front-end JavaScript library for building user interfaces based on components.[^7]
+React is a free and open-source front-end JavaScript library for building user interfaces based on components.[^react1]
 
 Our team decided to develop the frontend using React as the application required constant page updates after initial page load. 
 Templating engines were considered but did not provide the control we needed to implement all of the application's features.
 
-As React is only concerned with the user interface and rendering components to the DOM[^8], additional libraries were used. [react-query](https://github.com/TanStack/query) was used for state management. [floating-ui](https://floating-ui.com/) was used to create the champion and item selectors.
+As React is only concerned with the user interface and rendering components to the DOM[^react2], additional libraries were used. [react-query](https://github.com/TanStack/query) was used for state management. [floating-ui](https://floating-ui.com/) was used to create the champion and item selectors.
 
 
 #### Repository Structure
@@ -36,7 +36,7 @@ Table: summary of directories in the application's repository
 #### Modules - Components
 If a component could provide functionality in more than a single part of the user interface, it was encapsulated into and exported from a module.
 
-Instead of artificially separating technologies by putting markup and logic in separate files, React separates concerns[^9] with components. This approach was followed while creating the components of the application. 
+Instead of artificially separating technologies by putting markup and logic in separate files, React separates concerns[^react3] with components. This approach was followed while creating the components of the application. 
 Below lists every React component used in the application, what they are intented to display, and their logic.
 
 | Component                      | Functionality / Display                                                      | Logic                                   |                               |
@@ -90,7 +90,8 @@ This flow of data is similar when a new item is selected using the item selector
 
 ### Tailwind CSS
 
-Tailwind CSS is a library that creates a list of utility CSS classes that can be used to style each element. Instead of creating classes around components, classes are built around a specific style element.^[11]
+Tailwind CSS is a library that creates a list of utility CSS classes that can be used to style each element. Instead of creating classes around components, classes are built around a specific style element.[^tailwind1]
+
 
 React encapsulates logic and HTML, rendered using JSX, into a component. With the addition of Tailwind, classes were written inline on elements to style the HTML elements rendered by the component, providing further encapsulation.
 
@@ -103,7 +104,7 @@ Tailwind provides the ability to define a custom color palette, so they can be u
 
 ### Vite - Rollup 
 
-Vite provides a full development server and an optimized build command using Rollup. It is an alternative to create-react-app.[^10]
+Vite provides a full development server and an optimized build command using Rollup. It is an alternative to create-react-app.[^vite1]
 It was added to the project during development to ensure the application was being bundled correctly for production use.
 Vite is configured by editing `vite.config.js` at the project root. Changes were made to the default configuration, and are listed below. 
 
@@ -119,12 +120,13 @@ Data files for the server were declared in this array so Rollup excluded them fr
 
 
 
-[^7] [Wikipedia - React](https://en.wikipedia.org/wiki/React_(JavaScript_library))
+[^react1]: [Wikipedia - React](https://en.wikipedia.org/wiki/React_(JavaScript_library))
 
-[^8] [Wikipedia - React](https://en.wikipedia.org/wiki/React_(JavaScript_library))
+[^react2]: [Wikipedia - React](https://en.wikipedia.org/wiki/React_(JavaScript_library))
 
-[^9] [reactjs.org - introducing jsx](https://reactjs.org/docs/introducing-jsx.html)
+[^react3]: [reactjs.org - introducing jsx](https://reactjs.org/docs/introducing-jsx.html)
 
-[^10] [CSS Tricks - Comparing the New Generation of Build Tools](https://css-tricks.com/comparing-the-new-generation-of-build-tools/#aa-vite)
+[^tailwind1]: [Wikipedia - Tailwind CSS](https://en.wikipedia.org/wiki/Tailwind_CSS)
 
-[^11] [Wikipedia - Tailwind CSS](https://en.wikipedia.org/wiki/Tailwind_CSS)
+[^vite1]: [CSS Tricks - Comparing the New Generation of Build Tools](https://css-tricks.com/comparing-the-new-generation-of-build-tools/#aa-vite)
+
