@@ -11,6 +11,9 @@ Our team could have avoided the delays by more accurately predicting the time th
 
 ## Backend
 
+The primary difficulty found on the backend was the damage calculations. More specifically, bringing the complex and exception-filled rules of the game into a usable form. To get a handle on this, we started by breaking the calculation into (seemingly) manageable components. However, each time we moved on from a component, we would find that the next component needed to be taken into account in the previous one. For instance, abilities require information about how the effects of items were applied, not just the result of that effect. This lead to excessive redesigning and refactoring, which could have been avoided by not attempting to break the problem into pieces that we did not yet understand.
+
+However, a slower, more methodical approach would not have benefitted us either. A stricter, much more limited end goal would have likely made development easier. Instead of finding outputs over a period of time, finding instantaneous, naive results would have been more practical. We also should have put more focus on the auxiliary utility of the site, ie through shareable links. This would have been a more effective way of increasing the utility of the site than by increasing the accuracy of the calculations. Other features, such as showing popular builds from other players, may have been beyond the scope of the original design, but could have ultimately been a better use of time. If we were to continue development, it would be best to rethink our priorities on which features to include in the final result.
 
 ## Frontend
 
