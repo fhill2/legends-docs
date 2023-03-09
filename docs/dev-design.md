@@ -7,7 +7,7 @@ When making decisions regarding styling for the app, the main objective was   to
 
 First off we started from our wireframe, prototype A2, which received more positive feedback in our initial questionnaire regarding layout that we did for our midterm delivery.
 
-![Image 1: Prototype A2](assets/testing/image-006.png){width=100% height=100% }
+![Image 1: Prototype A2](assets/testing/image-006.png){width=100% height=100% #fig:wireframe }
 
 From there, we first took a look at the League of Legends game client and logo to get a general idea for the color palette as well as more specific styling elements like font, borders, padding, background, etc.
 
