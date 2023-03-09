@@ -21,3 +21,7 @@ Our team learned from the challenges faced during the application's development,
 
 
 ## Overall
+
+Although positively received by the users, the app in its current state presents some limitations and is still not 100% accurate regarding the damage outputs in comparison to a real game scenario. This is due to us not implementing every variable that is involved in the output calculations (reference to appendix in mid-term submission). Even though, in most scenarios, we believe that the difference would not be big enough to undermine the value our calculator provides. There are currently two main avenues to keep on developing the app: First, to implement items passive effects to provide users with a more accurate reflection of a real in-game possible scenario for them to make more informed decisions regarding their item build. Lastly, our current version of the app only supports calculations for 4 out of 162 champions in the game. The addition of more champions into the app with our current model for damage calculation is more a matter of time rather than difficulty which comes down mainly to having to implement every ability individually for each champion. 
+
+As for an overall conclusion, our team is content having managed to produce a working damage calculator based on the second version of the app that we planned [before the midterm submission deadline][Image 2: Prototype A2]. This MVP includes all the functionalities described in the Introduction section as well as a positively received user interface design based on the feedback from our test users.
