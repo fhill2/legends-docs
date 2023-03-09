@@ -9,7 +9,6 @@ input-files:
 - dev-frontend.md
 - dev-backend.md
 - dev-deployment.md
-- dev-testing.md
 - evaluation.md
 - conclusion-summary.md
 - appendix.md
