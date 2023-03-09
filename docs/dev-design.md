@@ -1,17 +1,47 @@
 ## Design & Styling
 
 ### Initial Design
-Show styling references here, and decision to create the UI similar to the in game UI, as there would be a level of familiarity.
-
-- league of legends wiki
-- lol damage calculator
-- in game UI
 
 
-![in game client](assets/design/references/game.png){width=100% height=100%}
-![lol-damage-calculator](assets/design/references/lol-damage-calculator.png){ width=100% height=100%}
-![wiki-1](assets/design/references/wiki-1.png){ width=50% height=50%}
-![wiki-2](assets/design/references/wiki-2.png){ width=70% height=70%}
+When making decisions regarding styling for the app, the main objective was   to achieve a layout which results intuitive for our average expected user without the need for any instructions or tutorials besides each button or selector label in the app. This is to say the user should be able to comprehend every button, selector and display in the app by just looking at them when using the app for the first time. Although such task may sound extremely difficult, to accomplish the objective we relied in the knowledge that our target user for the app is an individual fairly familiarized with the game League of Legends. By knowing this, we focused on styling the app with the intend to keep similar UI elements to the one in game in order to transmit familiarity to the use and by doing so making it easier for it to use and understand.
+
+First off we started from our wireframe which received more positive feedback in our initial questionnaire regarding layout that we did for our midterm delivery:
+
+![Figure X: Starting wireframe before styling](assets/pablo-design/image000.png){ width=100% height=100%}
+
+
+From there, we first took a look at the League of Legends game client and logo to get a general idea for the color palette as well as more specific styling elements like font, borders, padding, background, etc.
+
+
+
+![Figure X: League of Legends game client 1](assets/pablo-design/image001.png){ width=100% height=100%}
+
+![Figure X: League of Legends game client 2](assets/pablo-design/image002.png){ width=100% height=100%}
+
+![Figure X: League of Legends game client 3](assets/pablo-design/image003.png){ width=100% height=100%}
+
+![Figure X: League of Legends logo](assets/pablo-design/image004.png){ width=100% height=100%}
+
+We can see a clear use of background images, differences in brightness for distinguishing sections in the UI, and a distinct color palette together with other elements that were implemented in our current version of the app.
+
+![Figure X Color palette used for reference, link : https://coolors.co/palette/050f16-058097-263b3d-0e212a-bc8a32](assets/pablo-design/image005.png){ width=100% height=100%}
+
+Although the main styling decisions came from the game client, for the abilities display section we decided to take inspiration from the [League of Legends fandom wiki page](https://leagueoflegends.fandom.com/wiki/K%27Sante/LoL) and the [League of Legends damage calculator from ChooChooShoe](https://choochooshoe.github.io/c/Ahri/vs/Taric). Most of the abilities display styling inspiration came from the wiki since players will be more familiarized with the wiki rather than the ChooChooShoe’s calculator which has not received an update in a long time as well as being similar to the in-game abilities description but with detail.
+
+
+![Figure X League of Legends fandom wiki abilities display from https://leagueoflegends.fandom.com/wiki/Ahri/LoL.](assets/pablo-design/image006.png){ width=100% height=100%}
+
+
+
+![Figure X Ability display form ChooChooShoe's calculator](assets/pablo-design/image007.png){ width=100% height=100%}
+
+
+![Figure X: In-game ability display](assets/pablo-design/image008.png){ width=100% height=100%}
+
+Combining all the previously mentioned elements together with the extra assets gathered that were mentioned in previous sections we arrived at the current styling for the MVP version of the League of Legends damage calculator app: 
+
+
+![Figure X: Fragment of current version of the application](assets/pablo-design/image009.png){ width=100% height=100%}
 
 ### First Iteration - Testing (UI Evaluation)
 
