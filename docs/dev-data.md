@@ -1,4 +1,4 @@
-## Data { style="page-break-before:always;"}
+## Data
 
 
 Data used in our application had to most accurately reflect the data used in the game. Any time the game's data updates, our application needed to update. Therefore, it was necessary for the application's data updates to be fully automated, without any need for manual intervention.

@@ -1,8 +1,4 @@
-# Research
-
-
-## Data Research
-
+# Data Research
 
 Our team started research by listing every dataset we could find that had data accurate enough to be used in the damage calculations. As our app calculated damage output for each league of legends champion, the data involved in the calculations had to match the game's output.
 
@@ -39,15 +35,6 @@ Table: Application's data and sources
 Shown by the table above, it was evident our team needed a solution to retrieve data from the League of Legends Wiki, and Community Dragon datasets, as they contain data that are not available in the other datasets.
 
 Our team also researched other tools, such as the scrapers that already exist in the Community Dragon. It was concluded that modifying this scraper to suit the project would require more resources compared to implementing our own scraper for the League of Legends wiki.
-
-## Damage Calculation Research
-- write about what research we did to find out how to do the damage calculations. maybe some algorithms shown.
-
-
-## Reference Projects
-- Lol Damage Calculator
-- List others here
-
 
 [^ddragon1]: [Data Dragon - readthedocs.io](https://riot-api-libraries.readthedocs.io/en/latest/ddragon.html)
 [^ddragon2]: [Data Dragon - readthedocs.io](https://riot-api-libraries.readthedocs.io/en/latest/ddragon.html)

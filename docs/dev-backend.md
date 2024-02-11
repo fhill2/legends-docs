@@ -1,8 +1,5 @@
 ## Backend { style="page-break-before:always;"}
 
- 
-### UML
-
 ### API
 
 The API is implemented in the server module, which is responsible for all communication between the client and the server. The API endpoints are all accessed by an HTTP GET request with a URL that begins with '/api/'. The first two endpoints are '/api/champions/:champion' and '/api/items/:item'; these retrieve the data for a single champion or item respectively. The final part of the URL is replaced with the name of a champion or item. If the server has data on a champion/item with that name, it returns that data. Otherwise, the appropriate HTTP error is sent (404, since the requested data does not exist).
